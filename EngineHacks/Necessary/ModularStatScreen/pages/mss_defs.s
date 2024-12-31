@@ -751,7 +751,7 @@
   mov     r1, r4
   blh     BgMap_ApplyTsa
   ldr     r0, =#0x8205A24     @map of text labels and positions
-  blh     DrawStatscreenTextMap
+  @blh     DrawStatscreenTextMap
   ldr     r6, =StatScreenStruct
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
@@ -833,6 +833,37 @@
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
   mov     r0, r6
+  
+  @atk
+  mov     r0, #0x5A
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
+  
+  @hit
+  mov     r0, #0x60
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 15
+  
+  @crit
+  mov     r0, #0x66
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 17
+  
+  @AS
+  mov     r0, #0x5E
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 13
+  
+  @avo
+  mov     r0, #0x62
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 15
+  
+  @crit avo
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 17
+  /* 
   add     r0, #0x5A         @load battle atk
   mov     r1, #0x0
   ldsh    r2, [r0, r1]
@@ -864,8 +895,11 @@
   mov     r1, #0x2
   blh     DrawDecNumber
   b       SS_DrawItemBox_RangeText
+  */
   
+
   SS_DrawItemBox_Unarmed:
+ /*
   ldr     r4, =#0x200407C
   mov     r0, r4
   mov     r1, #0x2
@@ -925,6 +959,16 @@
   add     r4, #0x1
   cmp     r4, #0x7
   ble     loc_0x8087660
+  */
+  
+  draw_textID_at 14, 13, textID=0x04F3, colour=Yellow @atk
+  draw_textID_at 22, 13, textID=0x0504, colour=Yellow @AS
+  draw_textID_at 14, 15, textID=0x04F4, colour=Yellow @hit
+  draw_textID_at 22, 15, textID=0x04F5, colour=Yellow @avo
+  draw_textID_at 14, 17, textID=0x0501, colour=Yellow @crit
+  draw_textID_at 22, 17, textID=0x518, colour=Yellow @crit avo
+  
+  
   
 .endm
 

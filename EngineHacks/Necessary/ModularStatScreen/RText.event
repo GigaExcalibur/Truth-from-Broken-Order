@@ -352,6 +352,31 @@
 
 #ifndef ONLY_SHOW_USED_RANKS
 
+ST_SwordRank:
+RMenu(0, ST_LanceRank, ST_Name3, ST_AxeRank, 0x68, 0x18, 0x561)
+
+ST_LanceRank:
+RMenu(ST_SwordRank, ST_AnimaRank, ST_Name3, ST_BowRank, 0x68, 0x28, 0x562)
+
+ST_AxeRank:
+RMenu(0, ST_BowRank, ST_SwordRank, 0, 0xA8, 0x18, 0x563)
+
+ST_BowRank:
+RMenu(ST_AxeRank, ST_DarkRank, ST_LanceRank, 0, 0xA8, 0x28, 0x564)
+
+ST_AnimaRank:
+RMenu(ST_LanceRank, ST_LightRank, ST_Name3, ST_DarkRank, 0x68, 0x38, 0x565)
+
+ST_LightRank:
+RMenu(ST_AnimaRank, 0, ST_Name3, ST_StaffRank, 0x68, 0x48, 0x566)
+
+ST_DarkRank:
+RMenu(ST_BowRank, ST_StaffRank, ST_AnimaRank, 0, 0xA8, 0x38, 0x567)
+
+ST_StaffRank:
+RMenu(ST_DarkRank, 0, ST_LightRank, 0, 0xA8, 0x48, 0x568)
+
+/*
   ST_WRank1:
   RMenu(0,ST_WRank2,ST_Name3,ST_WRank3,0x68,0x18,0,WRankGetter)
 
@@ -363,6 +388,7 @@
 
   ST_WRank4:
   RMenu(ST_WRank3,ST_Supports,ST_WRank2,0,0xA8,0x28,3,WRankGetter)
+  */
 
 #else // ONLY_SHOW_USED_RANKS
 
@@ -381,23 +407,23 @@
 #endif // ONLY_SHOW_USED_RANKS
 
   ST_Supports:
-  RMenu_Cond(ST_WRank2,ST_Name3,ST_Name3,0,0x80,0x40,0x569,SupportsConditional) 
+  RMenu_Cond(ST_LightRank,ST_Name3,ST_Name3,0,0x80,0x40,0x569,SupportsConditional) 
 
 
   ST_Name3:
-  RMenu(0,ST_Class3,0,ST_Supports,0x18,0x50,0,NameDescGetter)
+  RMenu(0,ST_Class3,0,ST_LightRank,0x18,0x50,0,NameDescGetter)
 
   ST_Class3:
-  RMenu(ST_Name3,ST_Level3,0,ST_Supports,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name3,ST_Level3,0,ST_LightRank,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level3:
   RMenu(ST_Class3,ST_HP3,0,ST_Exp3,0x6,0x78,0x542)
 
   ST_Exp3:
-  RMenu(ST_Class3,ST_HP3,ST_Level3,ST_Supports,0x26,0x78,0x543)
+  RMenu(ST_Class3,ST_HP3,ST_Level3,ST_LightRank,0x26,0x78,0x543)
 
   ST_HP3:
-  RMenu(ST_Level3,0,0,ST_Supports,0x6,0x88,0x544)
+  RMenu(ST_Level3,0,0,ST_LightRank,0x6,0x88,0x544)
 
 
 /*  === PAGE 4 ===  */

@@ -40,6 +40,11 @@ Mov[X]
 #0x4F9 Trvl_Name
 Trvl[X]
 
+#0x518 CritAvo_Name
+C.Avo[X]
+
+#0x4F5 Avo_Name
+Avo[X]
 
 #0x3B SS_TalkText
 Talk[X]
