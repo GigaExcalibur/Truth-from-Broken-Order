@@ -122,5 +122,8 @@ a skill when used.[X]
 
 #include "unitinfo_text.txt"
 
+## Alexigant_Name
+Alexigant[X]
+
 ## Jurispotence_Name
 Jurispotence[X]

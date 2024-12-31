@@ -1,8 +1,51 @@
+#0x4FE Str_Name
+Str[X]
+
+#0x4FF Int_Name
+Int[X]
+
+#0x4EC Dex_Name
+Dex[X]
+
+#0x4ED Spd_Name
+Spd[X]
+
+#0x4EE Lck_Name
+Lck[X]
+
+#0x4EF Def_Name
+Def[X]
+
+#0x4F0 Res_Name
+Res[X]
+
+#0x4E9 HP_Name
+HP[X]
+
+#0x4F7 Bld_Name
+Bld[X]
+
+#0x4F8 Aid_Name
+Aid[X]
+
+#0x4F1 Afn_Name
+Afn[X]
+
+#0x4FA Hlth_Name
+Hlth[X]
+
+#0x4F6 Mov_Name
+Mov[X]
+
+#0x4F9 Trvl_Name
+Trvl[X]
+
+
 #0x3B SS_TalkText
 Talk[X]
 
 ## SS_SkillsText
-Skills[X]
+Skill[X]
 
 ## SS_TalkRText
 Character with whom this unit[N]
