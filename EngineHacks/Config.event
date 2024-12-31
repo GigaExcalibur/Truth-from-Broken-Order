@@ -14,7 +14,7 @@
 #define AS_DOUBLING_THRESHOLD 4
 
 // If true, dropped items will retain their durability.
-#define DROPPED_ITEM_DURABILITY True
+#define DROPPED_ITEM_DURABILITY False
 
 // ===================================
 // = HACK INSTALLATION CONFIGURATION =
@@ -27,11 +27,11 @@
 // If uncommented, a full str/split will be implemented without replacing any stats
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+#define USE_STRMAG_SPLIT
 
 // If uncommented, the statscreen will have a moving background similar to FE6 and FE7.
 // Customization of graphical assets is possible in Necessary/ModularStatScreen/Background/Graphics/Graphics.event.
-// #define SCROLLING_STATSCREEN_BACKGROUND
+#define SCROLLING_STATSCREEN_BACKGROUND
 
 //If uncommented, will enable Battle Stats with Animations Off.
 #define BATTLE_STATS
@@ -130,7 +130,7 @@
 
 // If uncommented, Escape-Arrive will be implemented.
 // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-// #define ESCAPE_ARRIVE
+#define ESCAPE_ARRIVE
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
@@ -184,10 +184,10 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
 // This will automatically enable Narrow Font.
-#define ENABLE_PERSONAL_INFO
+//#define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
-#define ONLY_SHOW_USED_RANKS
+//#define ONLY_SHOW_USED_RANKS
 
 // If uncommented, the second page of the stat screen will display data of map-based ballista in the inventory.
 #define QOL_STAT_SCREEN_BALLISTA
@@ -203,7 +203,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 //#define INSTALL_AoE
 
 // If uncommented, Unlock staves will work on chests.
-// #define UNLOCK_WORKS_ON_CHESTS
+#define UNLOCK_WORKS_ON_CHESTS
 
 // If uncommented, damage numbers will display over participants' heads during battle animations.
 // #define BATTLE_ANIMATION_NUMBERS
@@ -246,13 +246,13 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define ENABLE_GBA_LETHALITY
 
 // if set to false, only the skill will work, if set to true both the skill and the ability will work
-#define ENABLE_LEGACY_CANTO False
+#define ENABLE_LEGACY_CANTO True
 
 // if commented, enemies with Steal+ will steal as normal in vanilla (ie, the skill will be pretty much useless
 #define ENABLE_AI_STEAL_PLUS
 
 // if commented, Steal will no longer be a skill, but a character ability, and Steal+ will require having regular steal
-#define ENABLE_STEAL_SKILL
+//#define ENABLE_STEAL_SKILL
 
 // If commented, debuffs are allowed to take stats below zero
 #define DEBUFFS_MIN_ZERO
@@ -277,7 +277,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define DISABLE_CHARGE
 
 //If commented, Triangle Attack will use a skill check instead of a bitflag.
-//#define VANILLA_TRIANGLE_ATTACK
+#define VANILLA_TRIANGLE_ATTACK
 
 //If uncommented, RNG will remain consistent, but enemies will be unable to use Galeforce.
 //The current implementation of Galeforce causes RNG to change when reloading a suspend save.
@@ -361,7 +361,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PRESS_SELECT_TO_VIEW_GROWTHS
 
 //If true, the stat colors for player units will reflect their growth in the stat.
-#define USE_STAT_COLORS True
+#define USE_STAT_COLORS False
 
 //When leveling up, the game rerolls (up to 5 times) until you gain at least this many points
 #define MIN_STAT_GAIN 1 // vanilla is 1 
@@ -400,7 +400,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define STACKABLE_GROWTH_BOOSTS True
 
 //Amount for Metis Tome to boost growths by
-#define METIS_TOME_BOOST 5
+#define METIS_TOME_BOOST 10
 
 //If true, growths will be calculated as (char growth + class growth).
 #define USE_CHAR_AND_CLASS_GROWTHS False
