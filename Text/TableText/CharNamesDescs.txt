@@ -1,0 +1,55 @@
+## Alexigant_Name
+Alexigant[X]
+
+## Alexigant_Desc
+Life spent entangled in the systems[N]
+that smothered their House, now to[N]
+employ the selfsame in restoration.[X]
+
+## Dreston_Name
+Dreston[X]
+
+## Dreston_Desc
+Gazed at his lance the same way you[N]
+would your morning breakfast. The[N]
+day didn't start until it was in hand.[X]
+
+## Wreston_Name
+Wreston[X]
+
+## Wreston_Desc
+Gazed at her lance the same way you[N]
+would your evening dessert. The day[N]
+couldn't end until it was in hand.[X]
+
+## Yarik_Name
+Yarik[X]
+
+## Yarik_Desc
+Young, by some defintion; far too[N]
+young to have thoughts consumed[N]
+with making fleeting life eternal.[X]
+
+## Cilvianne_Name
+Cilvianne[X]
+
+## Cilvianne_Desc
+Her hands constantly fidgeted, her[N]
+eyes incessantly scanning the sky[N]
+for some manner of escape route.[X]
+
+## Eunonina_Name
+Eunonina[X]
+
+## Eunonina_Desc
+Each new year was the year everyone[N]
+would respect her age. Damn shame[N]
+everyone else got older each year too.[X]
+
+## Unknown_Name
+Unknown[X]
+
+## Unknown_Desc
+Order demands understanding. The[N]
+secrets of the unknown must be laid[N]
+bare, then prosecuted into truth.[X]

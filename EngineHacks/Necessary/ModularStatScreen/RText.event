@@ -309,8 +309,27 @@
   RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,0,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory5: 
-  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_Rng,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
-
+  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_Atk,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
+  
+  ST_Atk:
+  RMenu(ST_Inventory5, ST_Hit, ST_Class2, ST_AS, 0x68, 0x68, 0x55C)
+  
+  ST_Hit:
+  RMenu(ST_Atk, ST_Crit, ST_Exp2, ST_Avo, 0x68, 0x78, 0x55D)
+  
+  ST_Crit:
+  RMenu(ST_Hit, 0, ST_HP2, ST_CritAvo, 0x68, 0x88, 0x55F)
+  
+  ST_AS:
+  RMenu(ST_Inventory5, ST_Avo, ST_Atk, 0, 0xAE, 0x68, 0x55E)
+  
+  ST_Avo:
+  RMenu(ST_AS, ST_CritAvo, ST_Hit, 0, 0xAE, 0x78, 0x560)
+  
+  ST_CritAvo:
+  RMenu(ST_Avo, 0, ST_Crit, 0, 0xAE, 0x88, 0x518)
+  
+/*
   ST_Atk: 
   RMenu(ST_Inventory5,ST_Hit,ST_Exp2,ST_Crit,0x76,0x78,0x55C)
 
@@ -325,7 +344,7 @@
 
   ST_Avo: 
   RMenu(ST_Crit,0,ST_Hit,0,0xAE,0x88,0x560)
-
+*/
   
   ST_Name2: 
   RMenu(0,ST_Class2,0,ST_Inventory4,0x18,0x50,0,NameDescGetter)
@@ -337,10 +356,10 @@
   RMenu(ST_Class2,ST_HP2,0,ST_Exp2,0x6,0x78,0x542)
 
   ST_Exp2: 
-  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Atk,0x26,0x78,0x543)
+  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Hit,0x26,0x78,0x543)
 
   ST_HP2: 
-  RMenu(ST_Level2,0,0,ST_Hit,0x6,0x88,0x544)
+  RMenu(ST_Level2,0,0,ST_Crit,0x6,0x88,0x544)
 
 
 
@@ -368,13 +387,22 @@ ST_AnimaRank:
 RMenu(ST_LanceRank, ST_LightRank, ST_Name3, ST_DarkRank, 0x68, 0x38, 0x565)
 
 ST_LightRank:
-RMenu(ST_AnimaRank, 0, ST_Name3, ST_StaffRank, 0x68, 0x48, 0x566)
+RMenu(ST_AnimaRank, ST_Battles, ST_Name3, ST_StaffRank, 0x68, 0x48, 0x566)
 
 ST_DarkRank:
 RMenu(ST_BowRank, ST_StaffRank, ST_AnimaRank, 0, 0xA8, 0x38, 0x567)
 
 ST_StaffRank:
-RMenu(ST_DarkRank, 0, ST_LightRank, 0, 0xA8, 0x48, 0x568)
+RMenu(ST_DarkRank, ST_Losses, ST_LightRank, 0, 0xA8, 0x48, 0x568)
+
+ST_Battles:
+RMenu(ST_LightRank, 0, ST_Name3, ST_Wins, 0x80, 0x58, Battles_RText)
+
+ST_Wins:
+RMenu(ST_LightRank, 0, ST_Battles, ST_Losses, 0xA0, 0x58, Wins_RText)
+
+ST_Losses:
+RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
 
 /*
   ST_WRank1:

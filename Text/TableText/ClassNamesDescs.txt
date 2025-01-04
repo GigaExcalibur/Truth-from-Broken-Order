@@ -1,0 +1,69 @@
+## Jurispotence_Name
+Jurispotence[X]
+
+## Jurispotence_Desc
+If Law is truth and truth is the[N]
+word of God, then what is the[N]
+justiciar if not divine messenger?[X]
+
+## Guardsman_Name
+Guardsman[X]
+
+## Guardsman_Desc
+Guardsman Desc[X]
+
+## Secretary_Name
+Secretary[X]
+
+## Secretary_Desc
+Extraneous filings and affadavits[N]
+are a scourge on orderliness. So one[N]
+must be able to cut through them.[X]
+
+## Dispatcher_Name
+Dispatcher[X]
+
+## Dispatcher_Desc
+Information is worth its weight in[N]
+gold a thousandfold. Yet do its[N]
+carriers feel the load they bear?[X]
+
+## Accountant_Name
+Accountant[X]
+
+## Accountant_Desc
+Mathematics is rigorous in veritity.[N]
+Every transaction, every account,[N]
+consistent down to the last cent.[X]
+
+## Retainer_Name
+Retainer[X]
+
+## Retainer_Desc
+To employ a man is to take his work.[N]
+To retain a man is to take his life,[N]
+and for him to give it in its totality.[X]
+
+## Graverobber_Name
+Graverobber[X]
+
+## Graverobber_Desc
+Any ephiphany demands no small[N]
+amount of petty theft, work best[N]
+for those incapable of grander sin.[X]
+
+## Goon_Name
+Goon[X]
+
+## Goon_Desc
+Even lawless gangs need a pecking[N]
+order, some crude rule of strength.[N]
+Seems this one's a weaker chain.[X]
+
+## Assassin_Name
+Assassin[X]
+
+## Assassin_Desc
+Rank and allegiance falling aside to[N]
+purpose, they slithered through the[N]
+halls, blade singly poised to kill.[X]

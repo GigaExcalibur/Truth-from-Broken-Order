@@ -165,3 +165,16 @@ Unit's essence radiates light.[N]
 Unit's essence emanates animus.[N]
 +0.5 Atk, 0.5 Def, 2.5 Avo, and[N]
 2.5 Crit Avo per support rank.[X]
+
+## Battles_RText
+Each battle survived is one more[N]
+meal to share, one more drink to[N]
+toast, and one more day to hope.[X]
+
+## Wins_RText
+One cannot recall the faces of[N]
+every foe they slew. Their sum[N]
+must weigh in their stead.[X]
+
+## Losses_RText
+Gods help us if this increments.[X]
