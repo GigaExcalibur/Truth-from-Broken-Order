@@ -1840,3 +1840,8 @@ than one weapon type.[X]
 ## SD_FactionSlayer
 "Faction" Slayer: Deal 2x calculated[N]
 damage to specific opponents.[X]
+
+## SD_Righteousness
+Righteousness: Gain 2nd turn on using[N]
+a staff at least one rank below yours.[N]
+0 Mov and +1 bow range on 2nd turn.[X]

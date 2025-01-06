@@ -327,7 +327,7 @@
   RMenu(ST_AS, ST_CritAvo, ST_Hit, 0, 0xAE, 0x78, 0x560)
   
   ST_CritAvo:
-  RMenu(ST_Avo, 0, ST_Crit, 0, 0xAE, 0x88, 0x518)
+  RMenu(ST_Avo, 0, ST_Crit, 0, 0xAE, 0x88, 0x4E4)
   
 /*
   ST_Atk: 

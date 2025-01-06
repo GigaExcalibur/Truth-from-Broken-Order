@@ -1,0 +1,23 @@
+// player units
+// prologue
+#define Alexigant 	0x01 // jurispotence (bow/staff)
+#define Dreston		0x02 // guardsman (lance/axe)
+#define Wreston		0x03 // guardsman (lance/axe)
+#define Yarik		0x04 // secretary (sword)
+
+// chapter one
+#define Eunonina	0x05 // accountant (anima/staff)
+#define Cilvianne	0x06 // dispatcher (sword)
+#define Hollaje		0x07 // retainer (lance)
+#define Vanlino		0x08 // pointman (sword/dark)
+#define Nulera		0x09 // backwatcher (axe/staff)
+#define Xifersyn	0x0A // host (axe/dark)
+
+// chapter two
+
+// enemy units
+// prologue
+#define Assassin_Unit	0x46 // name for both the mooks and the boss
+
+// chapter one
+#define Nightbane		0x47

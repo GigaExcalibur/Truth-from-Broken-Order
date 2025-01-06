@@ -46,6 +46,18 @@ Each new year was the year everyone[N]
 would respect her age. Damn shame[N]
 everyone else got older each year too.[X]
 
+## Hollaje_Name
+Hollaje[X]
+
+## Vanlino_Name
+Vanlino[X]
+
+## Nulera_Name
+Nulera[X]
+
+## Xifersyn_Name
+Xifersyn[X]
+
 ## Unknown_Name
 Unknown[X]
 
@@ -53,3 +65,6 @@ Unknown[X]
 Order demands understanding. The[N]
 secrets of the unknown must be laid[N]
 bare, then prosecuted into truth.[X]
+
+## Nightbane_Name
+Nightbane[X]

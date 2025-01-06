@@ -40,8 +40,13 @@ Mov[X]
 #0x4F9 Trvl_Name
 Trvl[X]
 
-#0x518 CritAvo_Name
-C.Avo[X]
+#0x518 Dod_Name
+Dod[X]
+
+#0x4E4 Dod_RText
+Even when an enemy strikes true,[N]
+fortune may yet still smile and[N]
+stave off more grievous injury.[X]
 
 #0x4F5 Avo_Name
 Avo[X]
