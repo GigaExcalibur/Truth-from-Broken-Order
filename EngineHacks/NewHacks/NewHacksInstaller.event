@@ -1,1 +1,3 @@
 #include "InlineChanges/InlineChangesInstaller.event"
+
+#include "MMB\Installers\MMBInstallerCatball_1.event"
