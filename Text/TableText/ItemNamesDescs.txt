@@ -1,0 +1,8 @@
+## BleedinEdge_Name
+Bleedin' Edge[X]
+
+## ProsaicGlow_Name
+Demonic Glow[X]
+
+## GleamingBow_Name
+Gleaming Bow[X]

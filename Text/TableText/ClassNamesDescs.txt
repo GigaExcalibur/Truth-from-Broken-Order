@@ -66,4 +66,4 @@ Assassin[X]
 ## Assassin_Desc
 Rank and allegiance falling aside to[N]
 purpose, they slithered through the[N]
-halls, blade singly poised to kill.[X]
+halls, blades singly poised to kill.[X]
