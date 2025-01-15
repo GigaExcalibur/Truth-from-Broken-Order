@@ -2,9 +2,9 @@
 Jurispotence[X]
 
 ## Jurispotence_Desc
-If Law is truth and truth is the[N]
-word of God, then what is the[N]
-justiciar if not divine messenger?[X]
+[OQ]...as Law is Truth and Truth is the word[N]
+of God, what is the jurispotence if not[N]
+some manner of divine messenger...[CQ][X]
 
 ## Guardsman_Name
 Guardsman[X]
@@ -67,3 +67,15 @@ Assassin[X]
 Rank and allegiance falling aside to[N]
 purpose, they slithered through the[N]
 halls, blades singly poised to kill.[X]
+
+## PegasusRider
+Pegasus Rider[X]
+
+## Archmagister_Name
+Archmagister[X]
+
+## Grandmarshal_Name
+Chiefmarshal[X]
+
+## SoleDelegate_Name
+Delegate[X]

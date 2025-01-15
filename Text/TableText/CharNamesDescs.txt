@@ -2,52 +2,57 @@
 Alexigant[X]
 
 ## Alexigant_Desc
-Life spent entangled in the systems[N]
+[OQ]...life spent entangled in the systems[N]
 that smothered their House, now to[N]
-employ the selfsame in restoration.[X]
+employ the selfsame in restoration...[CQ][X]
 
 ## Dreston_Name
 Dreston[X]
 
 ## Dreston_Desc
-Gazed at his lance the same way you[N]
-would your morning breakfast. The[N]
-day didn't start until it was in hand.[X]
+[OQ]...gazed at his lance the same way you[N]
+would your morning breakfast: an[N]
+integral start to any day of work...[CQ][X]
 
 ## Wreston_Name
 Wreston[X]
 
 ## Wreston_Desc
-Gazed at her lance the same way you[N]
-would your evening dessert. The day[N]
-couldn't end until it was in hand.[X]
+[OQ]...gazed at her lance the same way you[N]
+would your evening dessert: an[N]
+indulgence to close any day of work...[CQ][X]
 
 ## Yarik_Name
 Yarik[X]
 
 ## Yarik_Desc
-Young, by some defintion; far too[N]
-young to have thoughts consumed[N]
-with making fleeting life eternal.[X]
+[OQ]...young, by many's answer - too young[N]
+for thoughts to be consumed with the[N]
+task of making fleeting life eternal...[CQ][X]
 
 ## Cilvianne_Name
 Cilvianne[X]
 
 ## Cilvianne_Desc
-Her hands constantly fidgeted, her[N]
-eyes incessantly scanning the sky[N]
-for some manner of escape route.[X]
+[OQ]...hands constantly fidgeted, eyes[N]
+stole brief glances skyward scanning[N]
+for any manner of escape route...[CQ][X]
 
 ## Eunonina_Name
 Eunonina[X]
 
 ## Eunonina_Desc
-Each new year was the year everyone[N]
-would respect her age. Damn shame[N]
-everyone else got older each year too.[X]
+[OQ]...said this would be the year everyone[N]
+would respect her age... didn't seem to[N]
+know everyone else aged each year too...[CQ][X]
 
 ## Hollaje_Name
 Hollaje[X]
+
+## Hollaje_Desc
+[OQ]...fingers blistered gripping his lance[N]
+too tightly... to wit, said 'will only[N]
+rest when my body is laid to such'...[CQ][X]
 
 ## Vanlino_Name
 Vanlino[X]
@@ -68,3 +73,12 @@ bare, then prosecuted into truth.[X]
 
 ## Nightbane_Name
 Nightbane[X]
+
+## Katarsis_Name
+Katarsis[X]
+
+## Orijeld_Name
+Orijeld[X]
+
+## Jeanaire_Name
+Jeanaire[X]

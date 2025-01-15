@@ -5,7 +5,7 @@ SkillIcons:
 //Icon graphics are uncompressed
 #define SkillIcon(skillID) "128*skillID+SkillIcons"
 
-ORG SkillIcon(RighteousnessID)
+ORG SkillIcon(RighteousnessAlexigantID)
 #incbin "SkillIcons/Aptitude.dmp"
 
 /*

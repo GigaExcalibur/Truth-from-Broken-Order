@@ -38,5 +38,6 @@ POP
 #include "WeaponUsabilitySkills/WeaponUsabilitySkills.event"
 #include "WTASkills/WTASkills.event"
 #include "GrowthSkills/GrowthSkills.event"
+#include "NewSkills/NewSkillsInstaller.event"
 
 #include "charge_table.event"

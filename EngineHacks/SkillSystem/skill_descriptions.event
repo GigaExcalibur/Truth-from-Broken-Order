@@ -438,4 +438,4 @@ SkillDescription(ArmsMasterID, SD_ArmsMaster)
 SkillDescription(FactionSlayerID, SD_FactionSlayer)
 
 // new stuff
-SkillDescription(RighteousnessID, SD_Righteousness)
+SkillDescription(RighteousnessAlexigantID, SD_Righteousness)

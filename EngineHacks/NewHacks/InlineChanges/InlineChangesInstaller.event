@@ -1,1 +1,2 @@
 #include "BWLStuff.event"
+#include "ClassNameWidth.event"

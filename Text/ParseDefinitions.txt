@@ -19,6 +19,9 @@
 [OpenQuote] = [0xC2][0x93]
 [CloseQuote] = [0xC2][0x94]
 
+[OQ] = [OpenQuote]
+[CQ] = [CloseQuote]
+
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
 [MidLeft] = [OpenMidLeft]
@@ -27,6 +30,15 @@
 [MidRight] = [OpenMidRight]
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
+
+[FFL] = [FarFarLeft]
+[FL] = [FarLeft]
+[ML] = [MidLeft]
+[L] = [Left]
+[R] = [Right]
+[MR] = [MidRight]
+[FR] = [FarRight]
+[FFR] = [FarFarRight]
 
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
@@ -49,6 +61,7 @@
 [.......v] = [FarFarRight]
 
 [CurrentPortrait] = [0xFF][0xFF]
+[LoadCurrent] = [LoadFace][CurrentPortrait]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]
