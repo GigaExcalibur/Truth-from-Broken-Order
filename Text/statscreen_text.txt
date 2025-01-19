@@ -43,10 +43,98 @@ Trvl[X]
 #0x518 Dod_Name
 Dod[X]
 
+# 0x055C
+[OQ]...measure of combat is the volume[N]
+of blood spilled, weighted by the choice[N]
+of weapon and potency of defense...[CQ][X]
+
+# 0x055D
+[OQ]...only the dextrous succeed, focus[N]
+and skill guiding the sword-arm to its[N]
+target, as opposed to a wild tantrum...[CQ][X]
+
+# 0x055E
+[CQ]...combat happens in rhythms and[N]
+cycles, the winning key found in doubling[N]
+your strikes and halving your foe's...[CQ][X]
+
+# 0x055F
+[OQ]...can exploit the smallest gaps in[N]
+a foe's defense, a single strike now[N]
+suddenly more deadly threefold...[CQ][X]
+
+# 0x0560
+[OQ]...let none equate mercurialness to[N]
+cowardice, for each attack dodged is[N]
+one survived, yet mayhap unreliable...[CQ][X]
+
 #0x4E4 Dod_RText
-Even when an enemy strikes true,[N]
-fortune may yet still smile and[N]
-stave off more grievous injury.[X]
+[OQ]...in times an opposing blow finds its[N]
+mark, one can only trust in good fortune[N]
+that the wound is not more grievous...[CQ][X]
+
+# 0x0550
+[OQ]...great kindness to shelter a comrade,[N]
+at an equally great risk to oneself...[CQ][X]
+
+# 0x0552
+[OQ]...grown complacent enough to forget[N]
+how integral to victory good health is...[CQ][X]
+
+# 0x0542
+Unit level. The unit becomes[NL]
+stronger as it gains levels.[X]
+
+# 0x0543
+Experience points gained. Gain[NL]
+100 points to earn a new level.[.][X]
+
+# 0x0544
+Unit hit points. The unit loses[.][NL]
+consciousness if this reaches 0.[X]
+
+# 0x0545
+Weapon name and type.[.][X]
+
+# 0x0546
+Strength. The higher the number,[NL]
+the more damage you inflict.[X]
+
+# 0x0547
+Magical power. Magical[NL]
+power is akin to strength.[X]
+
+# 0x0548
+Fighting skill. A higher[NL]
+number improves the unit's hit %.[.][X]
+
+# 0x0549
+Speed. This affects both[NL]
+evasion and attacks.[X]
+
+# 0x054A
+Luck. This affects many[.][NL]
+different things.[.][X]
+
+# 0x054B
+Defensive skill. Reduces[NL]
+damage from weapons.[X]
+
+# 0x054C
+Magical resistance. Reduces[.][NL]
+damage from magic attacks.[X]
+
+# 0x054D
+Movement. The normal distance[.][NL]
+you can cross in 1 turn.[X]
+
+# 0x054E
+Constitution, or physical size.[.][NL]
+Affects rescues.[X]
+
+# 0x054F
+Max rescuing constitution. Units[NL]
+with lower Cons can be rescued.[.][X]
 
 #0x4F5 Avo_Name
 Avo[X]
@@ -58,19 +146,19 @@ Talk[X]
 Skill[X]
 
 ## SS_TalkRText
-Character with whom this unit[N]
-may talk on the battlefield.[X]
+[OQ]...finding such moments of levity in[N]
+battle was a struggle unto itself...[CQ][X]
 
 ## SS_SkillsRText
-Special abilities that can do[N]
-many different things.[X]
+[OQ]...possessed of such a quirk of[N]
+personality that may be leveraged...[CQ][X]
 
 ## SS_SkillsDefaultRText
 No skill description found.[X]
 
 ## PersonalDataDesc1
-Press Select to toggle[N]
-between stats and growths.[X]
+[OQ]...to understand not merely base[N]
+capability, but the potential to grow...[CQ][X]
 
 ## PersonalDataDesc2
 This unit's personal[N]
@@ -172,14 +260,14 @@ Unit's essence emanates animus.[N]
 2.5 Crit Avo per support rank.[X]
 
 ## Battles_RText
-Each battle survived is one more[N]
+[OQ]...each battle survived is one more[N]
 meal to share, one more drink to[N]
-toast, and one more day to hope.[X]
+toast, and one more day to hope...[CQ][X]
 
 ## Wins_RText
-One cannot recall the faces of[N]
-every foe they slew. Their sum[N]
-must weigh in their stead.[X]
+[OQ]...cannot remember the names nor[N]
+faces of each foe slain... their sum[N]
+total must weigh in their stead...[CQ][X]
 
 ## Losses_RText
-Gods help us if this increments.[X]
+[OQ]...God help us if this increments...[CQ][X]

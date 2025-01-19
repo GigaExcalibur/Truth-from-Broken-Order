@@ -224,7 +224,7 @@
     RMenu(PersonalDataRText,ST_Trv,ST_Skill1,0,0xA6,0x18,SS_TalkRText)
 	
   ST_Cond:
-    RMenu(ST_Skills,ST_Str,ST_Name,ST_Talk,0x66,0x28,0x552,StatusDescGetter)
+    RMenu(ST_Skills,ST_Str,ST_Name,ST_Trv,0x66,0x28,0x552,StatusDescGetter)
 	
  ST_Trv:
 	RMenu(ST_Talk, ST_Def, ST_Cond, 0, 0xA6, 0x28, 0x550)
