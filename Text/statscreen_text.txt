@@ -54,7 +54,7 @@ and skill guiding the sword-arm to its[N]
 target, as opposed to a wild tantrum...[CQ][X]
 
 # 0x055E
-[CQ]...combat happens in rhythms and[N]
+[OQ]...combat happens in rhythms and[N]
 cycles, the winning key found in doubling[N]
 your strikes and halving your foe's...[CQ][X]
 
@@ -82,39 +82,39 @@ at an equally great risk to oneself...[CQ][X]
 how integral to victory good health is...[CQ][X]
 
 # 0x0542
-Unit level. The unit becomes[NL]
-stronger as it gains levels.[X]
+[OQ]...distills the entirety of one's abilities[N]
+into a single, meaningless number...[CQ][X]
 
 # 0x0543
-Experience points gained. Gain[NL]
-100 points to earn a new level.[.][X]
+[OQ]...the best teacher, only in seeking[N]
+out ever stronger foes does one grow...[CQ][X]
 
 # 0x0544
-Unit hit points. The unit loses[.][NL]
-consciousness if this reaches 0.[X]
+[OQ]...comes in thresholds, and every man[N]
+will have their breaking point for pain...[CQ][X]
 
 # 0x0545
 Weapon name and type.[.][X]
 
 # 0x0546
-Strength. The higher the number,[NL]
-the more damage you inflict.[X]
+[OQ]...inevitably turns into a contest of[N]
+brute force when all else fades away...[CQ][X]
 
 # 0x0547
-Magical power. Magical[NL]
-power is akin to strength.[X]
+[OQ]...understanding was a triviality;[N]
+comprehending, another task entirely...[CQ][X]
 
 # 0x0548
-Fighting skill. A higher[NL]
-number improves the unit's hit %.[.][X]
+[OQ]...theory and muscle memory blend[N]
+together, pinpoint mastery of skill...[CQ][X]
 
 # 0x0549
-Speed. This affects both[NL]
-evasion and attacks.[X]
+[OQ]...[N]
+...[CQ][X]
 
 # 0x054A
-Luck. This affects many[.][NL]
-different things.[.][X]
+[OQ]...let none discount the role dumb luck[N]
+plays in the survival of every man...[CQ][X]
 
 # 0x054B
 Defensive skill. Reduces[NL]
@@ -125,8 +125,8 @@ Magical resistance. Reduces[.][NL]
 damage from magic attacks.[X]
 
 # 0x054D
-Movement. The normal distance[.][NL]
-you can cross in 1 turn.[X]
+[OQ]...tactical outcomes oft decided[N]
+by which side gets there first...[CQ][X]
 
 # 0x054E
 Constitution, or physical size.[.][NL]

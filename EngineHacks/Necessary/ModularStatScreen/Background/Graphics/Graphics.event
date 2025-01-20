@@ -1,8 +1,37 @@
+/*
 // Scrolling background.
 ALIGN 4; SSS_MuralGfx:
 #incbin "Relief.dmp"
 ALIGN 4; SSS_MuralPal:
 #incbin "Relief_pal.dmp"
+*/
+
+ALIGN 4; SSS_MuralGfx:
+#incbin "StatScreenBackground.dmp"
+ALIGN 4; SSS_MuralPal:
+#incbin "StatScreenBackground_pal.dmp"
+
+ALIGN 4; RedCurtainNormal:
+#incbin "StatScreenBackground.dmp"
+ALIGN 4; RedCurtainNormalPal:
+#incbin "StatScreenBackground_pal.dmp"
+
+PUSH
+// prep screen, soundroom screen
+ORG 0x86C44
+POIN RedCurtainNormal
+
+ORG 0x86C40
+POIN RedCurtainNormalPal
+/*
+// chapter screen
+ORG 0x2008C
+POIN SSS_MuralGfx
+
+ORG 0x20088
+POIN SSS_MuralPal
+*/
+POP
 
 // Page on the right.
   // Tiles. Indexed by window option.
