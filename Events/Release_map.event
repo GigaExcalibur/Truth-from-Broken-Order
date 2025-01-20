@@ -158,6 +158,7 @@ ALIGN 4
 BeginningScene:
 ENUT 0x1 //no more boss quotes
 ENUT 0x2 //no more death quotes
+ENUT 0xB4
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 EnemyUnits2
