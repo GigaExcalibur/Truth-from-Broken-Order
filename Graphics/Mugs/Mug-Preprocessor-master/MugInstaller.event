@@ -1,0 +1,14 @@
+ALIGN 4
+AlexigantMugLabel:
+#incbin "Alexigant_mug.dmp"
+#incbin "Alexigant_frames.dmp"
+#incbin "Alexigant_palette.dmp"
+#incbin "Alexigant_minimug.dmp"
+
+ALIGN 4
+EunoninaMugLabel:
+#incbin "Eunonina_mug.dmp"
+#incbin "Eunonina_frames.dmp"
+#incbin "Eunonina_palette.dmp"
+#incbin "Eunonina_minimug.dmp"
+
