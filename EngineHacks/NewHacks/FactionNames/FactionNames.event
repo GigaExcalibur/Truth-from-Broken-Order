@@ -1,0 +1,26 @@
+#define FactionClassNameEntry(id, myrm, swordmaster, merc, hero, soldier, halberdier, pirate, berserker, fighter, warrior, archer, sniper, thief, rogue, knight, general, juggernaut, baron, mage, sage, monk, sibyl, shaman, druid, blademaiden, priest, warmonk, bishop, cavalier, paladin, cataphract, outrider, harrier, valkyrie, pegknight, falcoknight, wyvernrider, wyvernlord, maligknight, bombardier)  "PUSH; ORG FactionClassNameTable + (id*2*GenericClassCount); SHORT myrm swordmaster merc merc hero hero soldier halberdier pirate berserker fighter warrior archer archer sniper sniper thief rogue knight general juggernaut baron mage sage monk sibyl shaman shaman druid druid blademaiden priest warmonk bishop cavalier cavalier paladin paladin cataphract outrider harrier valkyrie pegknight falcoknight wyvernrider wyvernlord maligknight bombardier; POP"
+#define FactionClassDescEntry(id, myrm, swordmaster, merc, hero, soldier, halberdier, pirate, berserker, fighter, warrior, archer, sniper, thief, rogue, knight, general, juggernaut, baron, mage, sage, monk, sibyl, shaman, druid, blademaiden, priest, warmonk, bishop, cavalier, paladin, cataphract, outrider, harrier, valkyrie, pegknight, falcoknight, wyvernrider, wyvernlord, maligknight, bombardier)  "PUSH; ORG FactionClassDescTable + (id*2*GenericClassCount); SHORT myrm swordmaster merc merc hero hero soldier halberdier pirate berserker fighter warrior archer archer sniper sniper thief rogue knight general juggernaut baron mage sage monk sibyl shaman shaman druid druid blademaiden priest warmonk bishop cavalier cavalier paladin paladin cataphract outrider harrier valkyrie pegknight falcoknight wyvernrider wyvernlord maligknight bombardier; POP"
+
+#define GenericClassCount 0x30
+
+ALIGN 4
+GenericClassCount_Link:
+WORD GenericClassCount
+
+ALIGN 4
+FactionClassNameTable:
+FILL 255*2*GenericClassCount
+
+ALIGN 4
+FactionClassDescTable:
+FILL 255*2*GenericClassCount
+
+// Hoo baby
+FactionClassNameEntry(Assassin_Unit, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name, Mutterer_Name)
+FactionClassNameEntry(Nightbane, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name, Herald_Name)
+
+// HOO BABY
+FactionClassDescEntry(Assassin_Unit, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc, Mutterer_Desc)
+FactionClassDescEntry(Nightbane, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc, Herald_Desc)
+
+#include "FactionNames.lyn.event"

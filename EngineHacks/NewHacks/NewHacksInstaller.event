@@ -1,5 +1,9 @@
 #include "InlineChanges/InlineChangesInstaller.event"
 
-#include "MMB\Installers\MMBInstallerCatball_1.event"
+#include "MMB\Installers\MMBInstallerCatball_1.event" // zane
 
 #include "DrawItemName/DrawItemNameInstaller.event"
+
+#include "StatScreenBlink/SSBlink.event" // nat
+
+#include "FactionNames/FactionNames.event"

@@ -103,7 +103,7 @@
     RMenu(0,ST_Class,0,ST_Luck,0x18,0x50,0x0,NameDescGetter)
 
   ST_Class:
-    RMenu(ST_Name,ST_Level,0,ST_Res,0x6,0x68,0x6E8,ClassDescGetter)
+    RMenu(ST_Name,ST_Level,0,ST_Res,0x6,0x68,0x6E8,FactionClassDescGetter)
 
   ST_Level:
     RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
@@ -202,7 +202,7 @@
     RMenu(0,ST_Class,0,ST_Mag,0x18,0x50,0x0,NameDescGetter)
 
   ST_Class:
-    RMenu(ST_Name,ST_Level,0,ST_Skl,0x6,0x68,0x6E8,ClassDescGetter)
+    RMenu(ST_Name,ST_Level,0,ST_Skl,0x6,0x68,0x6E8,FactionClassDescGetter)
 
   ST_Level:
     RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
@@ -350,7 +350,7 @@
   RMenu(0,ST_Class2,0,ST_Inventory4,0x18,0x50,0,NameDescGetter)
 
   ST_Class2: 
-  RMenu(ST_Name2,ST_Level2,0,ST_Atk,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name2,ST_Level2,0,ST_Atk,0x6,0x68,0x6E8,FactionClassDescGetter)
 
   ST_Level2: 
   RMenu(ST_Class2,ST_HP2,0,ST_Exp2,0x6,0x78,0x542)
@@ -442,7 +442,7 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
   RMenu(0,ST_Class3,0,ST_LightRank,0x18,0x50,0,NameDescGetter)
 
   ST_Class3:
-  RMenu(ST_Name3,ST_Level3,0,ST_LightRank,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name3,ST_Level3,0,ST_LightRank,0x6,0x68,0x6E8,FactionClassDescGetter)
 
   ST_Level3:
   RMenu(ST_Class3,ST_HP3,0,ST_Exp3,0x6,0x78,0x542)
@@ -467,9 +467,9 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
 
   ST_Class4:
 	#ifdef GAIDEN_MAGIC
-	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,ClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,FactionClassDescGetter)
 	#else
-	  RMenu(ST_Name4,ST_Level4,0,0,0x6,0x68,0x6E8,ClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,0,0x6,0x68,0x6E8,FactionClassDescGetter)
 	#endif
 
   ST_Level4:
@@ -518,9 +518,9 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
     
   ST_Class4:
 	#ifdef GAIDEN_MAGIC
-	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,ClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,FactionClassDescGetter)
 	#else
-	  RMenu(ST_Name4,ST_Level4,0,ST_Donate,0x6,0x68,0x6E8,ClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Donate,0x6,0x68,0x6E8,FactionClassDescGetter)
 	#endif
 
   ST_Level4:
