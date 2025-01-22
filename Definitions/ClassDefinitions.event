@@ -1,0 +1,95 @@
+// undefs
+#undef Myrmidon
+#undef Swordmaster
+#undef Mercenary_F
+#undef Hero_F
+#undef Soldier
+#undef Pirate
+#undef Berserker
+#undef Fighter
+#undef Warrior
+#undef Archer_F
+#undef Sniper_F
+#undef Thief
+#undef Rogue
+#undef Knight
+#undef General
+#undef Mage
+#undef Sage
+#undef Monk
+#undef Shaman_F
+#undef Druid_F
+#undef Priest
+#undef Bishop
+#undef Cavalier_F
+#undef Paladin_F
+#undef GreatKnight
+#undef Ranger
+#undef MageKnight
+#undef Valkyrie
+#undef PegasusKnight
+#undef WyvernRider
+#undef WyvernLord
+
+// generic classes (0x01 to 0x30 to avoid gorgon eggs)
+// only mercs, archers, shamans, cavs have gender variants. all others match gender of playable
+// physical infantry
+#define Myrmidon 		0x01
+#define Swordmaster 	0x02
+#define Mercenary_M		0x03
+#define Mercenary_F		0x04
+#define Hero_M			0x05
+#define Hero_F			0x06
+#define Soldier			0x07
+#define Halberdier		0x08
+#define Pirate			0x09
+#define Berserker		0x0A
+#define Fighter			0x0B
+#define Warrior			0x0C
+#define Archer_M		0x0D
+#define Archer_F		0x0E
+#define Sniper_M		0x0F
+#define Sniper_F		0x10
+#define Thief			0x11
+#define Rogue			0x12
+
+// armors
+#define Knight			0x13
+#define	General			0x14
+#define Juggernaut		0x15
+#define Baron			0x16
+
+// magical infantry
+#define Mage			0x17
+#define Sage			0x18
+#define Monk			0x19
+#define Sibyl			0x1A
+#define Shaman_M		0x1B
+#define Shaman_F		0x1C
+#define Druid_M			0x1D
+#define Druid_F			0x1E
+#define Blademaiden		0x1F
+#define Priest			0x20
+#define WarMonk			0x21
+#define Bishop			0x22
+
+// cavalry
+#define Cavalier_M		0x23
+#define Cavalier_F		0x24
+#define Paladin_M		0x25
+#define Paladin_F		0x26
+#define GreatKnight		0x27
+#define Ranger			0x28
+#define MageKnight		0x29
+#define Valkyrie		0x2A
+
+// fliers
+#define PegasusKnight	0x2B
+#define Falcoknight		0x2C
+#define WyvernRider		0x2D
+#define WyvernLord		0x2E
+#define MaligKnight		0x2F
+#define Bombardier		0x30
+
+// uniques (skirting around hardcoded stuff)
+#define Jurispotence	0x3F
