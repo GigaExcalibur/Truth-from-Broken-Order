@@ -16,9 +16,9 @@ Guardsman Desc[X]
 Secretary[X]
 
 ## Secretary_Desc
-Extraneous filings and affadavits[N]
-are a scourge on orderliness. So one[N]
-must be able to cut through them.[X]
+[OQ]...set him to work cutting through[N]
+the unnecessary court documents[N]
+strewn about the office...[CQ][X]
 
 ## Dispatcher_Name
 Dispatcher[X]
@@ -28,13 +28,29 @@ Information is worth its weight in[N]
 gold a thousandfold. Yet do its[N]
 carriers feel the load they bear?[X]
 
+## Mutterer_Name
+Mutterer[X]
+
+## Mutterer_Desc
+[OQ]...literate few among the bandits,[N]
+obscenities interspersed between[N]
+rudimentary spell incantations...[CQ][X]
+
+## Herald_Name
+Herald[X]
+
+## Herald_Desc
+[OQ]...notices of tax hikes and citizen[N]
+conscription made the profession of[N]
+conveyor suddenly less desirable...[CQ][X]
+
 ## Accountant_Name
 Accountant[X]
 
 ## Accountant_Desc
-Mathematics is rigorous in veritity.[N]
-Every transaction, every account,[N]
-consistent down to the last cent.[X]
+[OQ]...rigorous in its veridity; every[N]
+transaction and account must be[N]
+consistent down to the last cent...[CQ][X]
 
 ## Retainer_Name
 Retainer[X]
@@ -64,9 +80,9 @@ Seems this one's a weaker chain.[X]
 Assassin[X]
 
 ## Assassin_Desc
-Rank and allegiance falling aside to[N]
-purpose, they slithered through the[N]
-halls, blades singly poised to kill.[X]
+[OQ]...rank fell aside to purpose.[N]
+They slithered through the halls,[N]
+blades single poised to kill...[CQ][X]
 
 ## PegasusRider
 Pegasus Rider[X]
