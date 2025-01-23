@@ -89,7 +89,8 @@ gSaveBlockTypeSizeLookup:
 		MESSAGE EMS with strmag and Stair
 		#include "SrcModules/SaveUnitExpandedStrmagStairs.lyn.event" // Str/Mag and Stairs both require saving shenanigans.
 	#else
-		#include "SrcModules/SaveUnitExpandedStrmag.lyn.event" // Only Str/Mag split.
+		//#include "SrcModules/SaveUnitExpandedStrmag.lyn.event" // Only Str/Mag split.
+		#include "SrcModules/SaveUnitExpandedStrmag_lvlcap_increase.lyn.event"
 	#endif // STAIRS_ASM
 #else
 	#ifdef STAIRS_ASM
@@ -143,9 +144,10 @@ gGameSaveChunks:
 	DeclSaveChunk($0680, $0AA8, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
 
 	// Expanded Convoy (still 100 items, but saved durability)
-	DeclSaveChunk($1128, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems, EMS_CHUNK_CONVOYITEMS)
+	// TWO HUNDRED FIFTY FUCKING ITEMS
+	DeclSaveChunk($1128, 250*2, saveConvoy, loadConvoy, EMS_CHUNK_CONVOYITEMS)
 	
-	// $11F0
+	// $131C
 	
 	// free up to $1344
 
@@ -201,10 +203,10 @@ gSuspendSaveChunks:
 	DeclSaveChunk($282D, $0019, $0A3150+1, $0A3198+1)
 
 	// $25AA
-	DeclSaveChunk($2846, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems)  // Convoy Items
+	DeclSaveChunk($2846, 250*2, saveConvoy, loadConvoy)  // Convoy Items
 	
-	// ends at $290E
-	// free up to $2E78 ($56A free bytes)
+	// ends at $2A3A
+	// free up to $2E78 ($630 free bytes)
 
 	DeclSaveChunk(0, 0, 0, MSu_LoadClaimFlagsFromParentSave) // Load Bonus Claim flags from parent save
 

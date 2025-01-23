@@ -1,0 +1,103 @@
+#define MaxConvoyMinus 249
+#define MaxConvoy 250
+
+#define NEW_CONVOY_ARRAY_ADDR 0x0203B200
+
+PUSH
+
+// Change loop/etc bounds
+
+ORG 0x0173BC
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x01DFB2
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x01E05A
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x01E0EC
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x031528
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x03154C
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x031576
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x0315BC
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x03160C
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x09828E
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x098312
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x09A550
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x09A56A
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x09D676
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x09D73E
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x09D768
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x09DD10
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x09E902
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x0A324A
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x0A32D2
+BYTE MaxConvoyMinus  // previously 0x63
+
+ORG 0x0B1114
+BYTE MaxConvoy  // previously 0x64
+
+ORG 0x0B4738
+BYTE MaxConvoyMinus  // previously 0x63
+
+// Change RAM pointers
+
+ORG 0x31504
+WORD NEW_CONVOY_ARRAY_ADDR
+
+ORG 0x31524
+WORD NEW_CONVOY_ARRAY_ADDR
+WORD 0x1000000 + MaxConvoy
+
+ORG 0x31590
+WORD NEW_CONVOY_ARRAY_ADDR
+
+ORG 0x315B4
+WORD NEW_CONVOY_ARRAY_ADDR
+
+ORG 0x315E0
+WORD NEW_CONVOY_ARRAY_ADDR
+
+ORG 0x31604
+WORD NEW_CONVOY_ARRAY_ADDR
+
+POP
+
+ALIGN 4
+newConvoyArray:
+POIN NEW_CONVOY_ARRAY_ADDR
+
+#include "ExpandedConvoy.lyn.event"

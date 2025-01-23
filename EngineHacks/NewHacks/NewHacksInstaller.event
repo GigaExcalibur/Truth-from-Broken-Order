@@ -7,3 +7,7 @@
 #include "StatScreenBlink/SSBlink.event" // nat
 
 #include "FactionNames/FactionNames.event"
+
+#include "SetUnitStatus/SetUnitStatus.event" // ditto
+
+#include "ExpandedConvoy/ExpandedConvoy.event" // cam
