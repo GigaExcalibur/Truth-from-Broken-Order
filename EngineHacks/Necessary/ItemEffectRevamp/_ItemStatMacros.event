@@ -4,9 +4,9 @@
 	
 	#ifdef _FE8_
 	//Item routines
-		#ifndef ItemTable
+		//#ifndef ItemTable
 		//	#define ItemTable 0x809B10 //Item Data Table Offset
-		#endif
+		//#endif
 		#ifndef Item_GetID
 			#define Item_GetID 0x174EC
 		#endif

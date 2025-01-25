@@ -1,9 +1,9 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,RighteousnessAlexigantID
-Seth,SaviorID
-Gilliam,RallyDefID
-Franz,SealStrID
+0x01 Alexigant,RighteousnessAlexigantID
+0x02 Dreston,SaviorID
+0x03 Wreston,RallyDefID
+0x04 Yarik,ExperiencedExampleID
 Moulder,RallyResID
 Vanessa,SpurSpdID
 Ross,ParagonID

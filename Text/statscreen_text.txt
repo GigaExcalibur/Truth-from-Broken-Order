@@ -82,11 +82,11 @@ at an equally great risk to oneself...[CQ][X]
 how integral to victory good health is...[CQ][X]
 
 # 0x0542
-[OQ]...distills the entirety of one's abilities[N]
+[OQ]...distills the extent of one's abilities[N]
 into a single, meaningless number...[CQ][X]
 
 # 0x0543
-[OQ]...the best teacher, only in seeking[N]
+[OQ]...the best teacher, as only in seeking[N]
 out ever stronger foes does one grow...[CQ][X]
 
 # 0x0544
@@ -271,3 +271,82 @@ total must weigh in their stead...[CQ][X]
 
 ## Losses_RText
 [OQ]...God help us if this increments...[CQ][X]
+
+## DeploymentPrepName
+Deployment[X]
+
+## DeploymentPrepDesc
+[OQ]...easier to command an[N]
+elite handpicked squad[N]
+than a massive force;[N]
+the rest would stay to[N]
+guard the encampment...[CQ][X]
+
+
+## ArmamentsPrepName
+Equipment[X]
+
+## ArmamentsPrepDesc
+[OQ]...fastest way to turn[N]
+gold into power. No one[N]
+would die for want of[N]
+a sharper blade or a[N]
+stronger healing staff...[CQ][X]
+
+## GuidePrepName
+Compendium[X]
+
+## GuidePrepDesc
+[OQ]...kept careful records[N]
+of all relevant evidence[N]
+and persons necessary[N]
+to uncover the truth...[CQ][X]
+
+## BaseConvoCommandName
+Encampment[X]
+
+## BaseConvoCommandDesc
+[OQ]...kept the officer[N]
+tent's flap open to[N]
+receive visitors and[N]
+catch the chatter of[N]
+those milling outside...[CQ][X]
+
+## BaseConvoCommandGoneDesc
+[OQ]...enough time lost to[N]
+idle gossip, not when[N]
+there was still a task[N]
+to perform and a long[N]
+journey to undertake...[CQ][X]
+
+## BaseConvoSelectConvoText
+Select conversation to view.[X]
+
+## DefaultBaseConvoName
+Test Encampment Convo[X]
+
+## DefaultBaseConvoContent
+[ML][LoadAlexigant]
+[ML]Hello![A] This is a test of the[N]
+encampment conversation system.[AN]
+Do not be alarmed.[A][X]
+
+## ArrangementPrepName
+Arrangement[X]
+
+## ArrangementPrepDesc
+[OQ]...begun before any[N]
+drew steel. Victory[N]
+was decided the very[N]
+instant when one side[N]
+strategized better...[CQ][X]
+
+## DocumentPrepName
+Document[X]
+
+## DocumentPrepDesc
+[OQ]...no stock in oral[N]
+testimony. It is by this[N]
+written word which[N]
+confirms my actions[N]
+herein are Truth...[CQ][X]

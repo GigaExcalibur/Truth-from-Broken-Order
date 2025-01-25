@@ -610,7 +610,7 @@ After each set of module options are definitions that you can use to adjust the 
 	// Coordinates are for the rightmost digit
 
 	// AS Number
-	#define MMBASX 137
+	#define MMBASX 138
 	#define MMBASY 24
 
 	// ATK Number
@@ -618,7 +618,7 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBATKY 24
 
 	// AVO Number
-	#define MMBAVOX 137
+	#define MMBAVOX 138
 	#define MMBAVOY 40
 
 	// CHR Number
@@ -634,7 +634,7 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBDEFY 32
 
 	// DOD Number
-	#define MMBDODX 137
+	#define MMBDODX 138
 	#define MMBDODY 48
 
 	// EXP number
@@ -650,7 +650,7 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBLevelY 24
 
 	// RES number
-	#define MMBRESX 137
+	#define MMBRESX 138
 	#define MMBRESY 32
 
 	// RTG number

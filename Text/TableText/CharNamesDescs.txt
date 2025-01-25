@@ -10,16 +10,16 @@ employ the selfsame in restoration...[CQ][X]
 Dreston[X]
 
 ## Dreston_Desc
-[OQ]...gazed at his lance the same way you[N]
-would your morning breakfast: an[N]
+[OQ]...gazed at his lance the same way[N]
+you would your morning breakfast: an[N]
 integral start to any day of work...[CQ][X]
 
 ## Wreston_Name
 Wreston[X]
 
 ## Wreston_Desc
-[OQ]...gazed at her lance the same way you[N]
-would your evening dessert: an[N]
+[OQ]...gazed at her lance the same way[N]
+you would your evening dessert: an[N]
 indulgence to close any day of work...[CQ][X]
 
 ## Yarik_Name
