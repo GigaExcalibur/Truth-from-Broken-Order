@@ -6,9 +6,30 @@ AlexigantMugLabel:
 #incbin "Alexigant_minimug.dmp"
 
 ALIGN 4
+DrestonMugLabel:
+#incbin "Dreston_mug.dmp"
+#incbin "Dreston_frames.dmp"
+#incbin "Dreston_palette.dmp"
+#incbin "Dreston_minimug.dmp"
+
+ALIGN 4
 EunoninaMugLabel:
 #incbin "Eunonina_mug.dmp"
 #incbin "Eunonina_frames.dmp"
 #incbin "Eunonina_palette.dmp"
 #incbin "Eunonina_minimug.dmp"
+
+ALIGN 4
+WrestonMugLabel:
+#incbin "Wreston_mug.dmp"
+#incbin "Wreston_frames.dmp"
+#incbin "Wreston_palette.dmp"
+#incbin "Wreston_minimug.dmp"
+
+ALIGN 4
+YarikMugLabel:
+#incbin "Yarik_mug.dmp"
+#incbin "Yarik_frames.dmp"
+#incbin "Yarik_palette.dmp"
+#incbin "Yarik_minimug.dmp"
 

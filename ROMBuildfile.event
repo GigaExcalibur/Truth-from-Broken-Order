@@ -11,6 +11,7 @@
     #include "Text/InstallTextData.event"
     MESSAGE Used text space ends at currentOffset
 	
+	//Graphics before tables for portrait/animation definitions
 	#include "Graphics/GraphicsInstaller.event"
 	MESSAGE Used gaphics space ends at currentOffset
 
