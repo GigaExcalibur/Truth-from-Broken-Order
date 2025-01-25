@@ -1,0 +1,31 @@
+#define WRankHit 5
+#define WRankAvo 3
+#define SRankMt 2
+#define SRankCrit 15
+
+PUSH
+// old S rank hit bonus now 0
+ORG 0x2AD7E
+BYTE 0
+// old S rank crit bonus now 0
+ORG 0x2AD86
+BYTE 0
+POP
+
+ALIGN 4
+WRankHit_Link:
+BYTE WRankHit
+
+ALIGN 4
+WRankAvo_Link:
+BYTE WRankAvo
+
+ALIGN 4
+SRankMt_Link:
+BYTE SRankMt
+
+ALIGN 4
+SRankCrit_Link:
+BYTE SRankCrit
+
+#include "WRankBonuses.lyn.event"

@@ -1,13 +1,19 @@
-#include "InlineChanges/InlineChangesInstaller.event"
+#include "InlineChanges/InlineChangesInstaller.event" // many
 
 #include "MMB\Installers\MMBInstallerCatball_1.event" // zane
 
-#include "DrawItemName/DrawItemNameInstaller.event"
+#include "DrawItemName/DrawItemNameInstaller.event" // me!
 
 #include "StatScreenBlink/SSBlink.event" // nat
 
-#include "FactionNames/FactionNames.event"
+#include "FactionNames/FactionNames.event" // me!
 
 #include "SetUnitStatus/SetUnitStatus.event" // ditto
 
 #include "ExpandedConvoy/ExpandedConvoy.event" // cam
+
+#include "WRankBonuses/WRankBonuses.event" // me!
+
+#include "CBaseConvos/BaseConvos.event" // snek
+
+#include "GiveExp/give_exp_Install.event" // 7743, vesly
