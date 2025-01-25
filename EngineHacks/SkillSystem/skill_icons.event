@@ -8,6 +8,9 @@ SkillIcons:
 ORG SkillIcon(RighteousnessAlexigantID)
 #incbin "SkillIcons/Aptitude.dmp"
 
+ORG SkillIcon(ExperiencedExampleID)
+#incbin "SkillIcons/Paragon.dmp"
+
 /*
 ORG SkillIcon(AcrobatID)
 #incbin "SkillIcons/Acrobat.dmp"

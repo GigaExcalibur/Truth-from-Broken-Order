@@ -1,3 +1,5 @@
 // Righteousness: Galeforce on staff usage. 0 mov and +1 bowrange on 2nd turn.
 #define RighteousnessAlexigantID 1
 
+// 
+#define ExperiencedExampleID 2

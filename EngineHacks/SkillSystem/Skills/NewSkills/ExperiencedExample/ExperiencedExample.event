@@ -1,0 +1,20 @@
+#define ExperiencedExampleExp 10
+#define GiveExp(unit, exp) "SVAL s1 unit; SVAL s4 exp; ASMC give_exp_Install|1"
+
+ALIGN 4
+ExperiencedExampleEvent:
+SVAL s4 ExperiencedExampleExp
+SDEQUEUE s1
+ASMC give_exp_Install|1
+NoFade
+ENDA
+
+ALIGN 4
+ExperiencedExampleID_Link:
+WORD ExperiencedExampleID
+
+ALIGN 4
+ExperiencedExampleExp_Link:
+WORD ExperiencedExampleExp
+
+#include "ExperiencedExample.lyn.event"
