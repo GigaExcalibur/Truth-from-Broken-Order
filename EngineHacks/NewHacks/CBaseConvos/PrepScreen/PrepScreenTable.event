@@ -1,0 +1,15 @@
+#define _C2EA_Prep_Screen_Table(arg000,arg001,arg002,arg003,arg004,arg005,arg006) "SHORT arg000 arg001 ;WORD arg002 arg003 ;SHORT arg004 arg005 ;WORD arg006 "
+
+#define GuideEffect 0x080226E5
+PUSH
+POP
+ALIGN 4
+PrepScreenTable:
+_C2EA_Prep_Screen_Table(0,DeploymentPrepName,0x00,0x00,DeploymentPrepDesc,0x57D,0x080951B9) // pick units
+_C2EA_Prep_Screen_Table(1,ArmamentsPrepName,0x00,0x00,ArmamentsPrepDesc,ArmamentsPrepDesc,0x080951CD) // items
+_C2EA_Prep_Screen_Table(4,BaseConvoCommandName,0x00,BaseConvoUsability|IsPointer,BaseConvoCommandDesc,BaseConvoCommandGoneDesc,0x080951E1) // base convos
+// oh god
+//_C2EA_Prep_Screen_Table(3,GuidePrepName, 0x0, 0x0, GuidePrepDesc, 0x57D, GuideEffect)
+_C2EA_Prep_Screen_Table(7,ArrangementPrepName,0x00,0x00,ArrangementPrepDesc,0x57D,0x080952C1) // check map
+_C2EA_Prep_Screen_Table(2,DocumentPrepName,0x00,0x00,DocumentPrepDesc,0x57D,0x08095211) // save 
+_C2EA_Prep_Screen_Table(0,0x00,0x00,0x00,0x00,0x00,0x00) // terminator
