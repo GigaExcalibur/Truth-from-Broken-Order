@@ -1,3 +1,5 @@
+// undefs
+
 // swords
 #define IronSword 		0x01
 #define SlimSword 		0x02
@@ -60,45 +62,51 @@
 // bows
 #define FirFlatbow		0x2A
 #define ElmFlatbow		0x2B
-#define YewFlatbow		0x2C
+#define OakFlatbow		0x2C
 #define AshLongbow		0x2D
 
 #define FirLongbow		0x2E
 #define ElmLongbow		0x2F
-#define YewLongbow		0x30
+#define OakLongbow		0x30
 #define AshLongbow		0x31
 
 #define GleamingBow		0x32
 #define ShiningBow		0x33
 #define RadiantBow		0x34
 
-#define BraveSelf		0x35
-#define ValiantSelf		0x36
+#define BraveSelf		0x49
+#define ValiantSelf		0x4A
 
 // anima (hoo baby)
-#define ClassicFire		0x37
-#define MysticFire		0x38
-#define OrphicFire		0x39
+// basic
+#define ClassicFire		0x38
+#define MysticFire		0x39
+#define OrphicFire		0x3A
 
-#define ClassicGulf		0x3A
-#define MysticGulf		0x3B
-#define OrphicGulf		0x3C
+// int/res debuff after combat
+#define ClassicGulf		0x3B
+#define MysticGulf		0x3C
+#define OrphicGulf		0x3D
 
-#define ClassicJolt		0x3D
-#define MysticJolt		0x3E
-#define OrphicJolt		0x3F
+// mov debuff after combat
+#define ClassicJolt		0x3E
+#define MysticJolt		0x3F
+#define OrphicJolt		0x40
 
-#define ClassicBolt		0x40
-#define MysticBolt		0x41
-#define OrphicBolt		0x42
+// 1-3 range
+#define ClassicBolt		0x41
+#define MysticBolt		0x42
+#define OrphicBolt		0x43
 
-#define ClassicWind		0x43
-#define MysticWind		0x44
-#define OrphicWind		0x45
+// spd boon
+#define ClassicWind		0x44
+#define MysticWind		0x45
+#define OrphicWind		0x46
 
-#define ClassicGale		0x46
-#define MysticGale		0x47
-#define OrphicGale		0x48
+// brave
+#define ClassicGale		0x47
+#define MysticGale		0x48
+#define OrphicGale		0x5A
 
 // light
 #define ProsaicGlow		0x81

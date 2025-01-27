@@ -1,8 +1,8 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 0x01 Alexigant,RighteousnessAlexigantID
-0x02 Dreston,SaviorID
-0x03 Wreston,RallyDefID
+0x02 Dreston,ComradesInArmsDrestonID
+0x03 Wreston,ComradesInArmsWrestonID
 0x04 Yarik,ExperiencedExampleID
 Moulder,RallyResID
 Vanessa,SpurSpdID

@@ -11,6 +11,12 @@ ORG SkillIcon(RighteousnessAlexigantID)
 ORG SkillIcon(ExperiencedExampleID)
 #incbin "SkillIcons/Paragon.dmp"
 
+ORG SkillIcon(ComradesInArmsDrestonID)
+#incbin "SkillIcons/Loyalty.dmp"
+
+ORG SkillIcon(ComradesInArmsWrestonID)
+#incbin "SkillIcons/Loyalty.dmp"
+
 /*
 ORG SkillIcon(AcrobatID)
 #incbin "SkillIcons/Acrobat.dmp"

@@ -3,3 +3,9 @@
 
 // 
 #define ExperiencedExampleID 2
+
+// Comrades in Arms: When Dreston and Wreston are adjacent, Dreston cannot be at WTD
+#define ComradesInArmsDrestonID 3
+
+// Comrades in Arms: When Dreston and Wreston are adjacent, Wreston doubles WTA
+#define ComradesInArmsWrestonID 4

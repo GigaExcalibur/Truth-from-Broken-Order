@@ -797,7 +797,7 @@
   lsl     r4, r4, #0x1
   add     r0, r4, #1
   lsl     r0, r0, #0x6
-  ldr     r1, =#0x2003D4C
+  ldr     r1, =#0x2003D4B @0x2003D4C
   add     r0, r0, r1
   mov     r1, #0x0
   mov     r2, #0x35            @the equip 'E'

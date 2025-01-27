@@ -1,38 +1,41 @@
 ## Test_Name
-Letting Edge[X]
+Trismegistos[X]
+
+## IronSword_Name
+Iron Sword[X]
+
+## SlimSword_Name
+Slim Sword[X]
+
+## FineSword_Name
+Fine Sword[X]
+
+## GiltSword_Name
+Gilt Sword[X]
+
+## IronBlade_Name
+Iron Blade[X]
+	
+## SlimBlade_Name
+Slim Blade[X]
+
+## FineBlade_Name
+Fine Blade[X]
+		
+## GiltBlade_Name
+Gilt Blade[X]
+
+## CuttingEdge_Name
+Cutting Edge[X]
 
 ## BleedinEdge_Name
 Bleedin' Edge[X]
 
-## ProsaicGlow_Name
-Demonic Glow[X]
+## BraveDirk_Name
+Brave Dirk[X]
 
-## GleamingBow_Name
-Gleaming Bow[X]
+## ValiantDirk_Name
+Valiant Dirk[X]
 
-## GigaExcalibur_Name
-Gigaxcalibur[X]
-
-## HealInjuries_Name
-Heal Injuries[X]
-
-## MendWounds_Name
-Mend Wounds[X]
-
-## FullRecover_Name
-Full Recover[X]
-
-## LongPhysic_Name
-Long Physic[X]
-
-## Restoration_Name
-Restoration[X]
-
-## Fortification_Name
-Fortification[X]
-
-## DivineTruth_Name
-Divine Truth[X]
-
-## ElmFlatbow_Name
-Elm Flatbow[X]
+## Lancereaver_Name
+Lancereaver[X]

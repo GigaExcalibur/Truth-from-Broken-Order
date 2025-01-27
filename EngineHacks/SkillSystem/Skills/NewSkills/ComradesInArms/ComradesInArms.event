@@ -1,0 +1,9 @@
+ALIGN 4
+ComradesInArmsDrestonID_Link:
+WORD ComradesInArmsDrestonID
+
+ALIGN 4
+ComradesInArmsWrestonID_Link:
+WORD ComradesInArmsWrestonID
+
+#include "ComradesInArms.lyn.event"

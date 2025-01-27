@@ -1849,3 +1849,8 @@ a staff at least one rank below yours.[N]
 ## SD_ExperiencedExample
 Experienced Example: On a kill,[N]
 adjacent units gain 10 exp.[X]
+
+## SD_ComradesInArms
+Comrades In Arms: If Dreston and[N]
+Wreston are adjacent, he cannot[N]
+be at WTD and she doubles WTA.[X]

@@ -8,6 +8,8 @@ ORG 2*0xFF+SkillDescTable
 // new stuff
 SkillDescription(RighteousnessAlexigantID, SD_Righteousness)
 SkillDescription(ExperiencedExampleID, SD_ExperiencedExample)
+SkillDescription(ComradesInArmsDrestonID, SD_ComradesInArms)
+SkillDescription(ComradesInArmsWrestonID, SD_ComradesInArms)
 
 /*
 SkillDescription(AcrobatID,SD_Acrobat)
