@@ -21,7 +21,7 @@ Slim Blade[X]
 
 ## FineBlade_Name
 Fine Blade[X]
-		
+
 ## GiltBlade_Name
 Gilt Blade[X]
 
@@ -39,3 +39,324 @@ Valiant Dirk[X]
 
 ## Lancereaver_Name
 Lancereaver[X]
+
+## IronLance_Name
+Iron Lance[X]
+
+## SlimLance_Name
+Slim Lance[X]
+
+## FineLance_Name
+Fine Lance[X]
+
+## GiltLance_Name
+Gilt Lance[X]
+
+## IronGlaive_Name
+Iron Glaive[X]
+
+## SlimGlaive_Name
+Slim Glaive[X]
+
+## FineGlaive_Name
+Fine Glaive[X]
+
+## GiltGlaive_Name
+Gilt Glaive[X]
+
+## Javelin_Name
+Javelin[X]
+
+## Spear_Name
+Spear[X]
+
+## FervidPike_Name
+Fervid Pike[X]
+
+## FrigidPike_Name
+Frigid Pike[X]
+
+## ForkedPike_Name
+Forked Pike[X]
+
+## FlurryPike_Name
+Flurry Pike[X]
+
+## Axereaver_Name
+Axereaver[X]
+
+## IronAxe_Name
+Iron Axe[X]
+
+## SlimAxe_Name
+Slim Axe[X]
+
+## FineAxe_Name
+Fine Axe[X]
+
+## GiltAxe_Name
+Gilt Axe[X]
+
+## IronLabrys_Name
+Iron Labrys[X]
+
+## SlimLabrys_Name
+Slim Labrys[X]
+
+## FineLabrys_Name
+Fine Labrys[X]
+
+## GiltLabrys_Name
+Gilt Labrys[X]
+
+## HandAxe_Name
+Hand Axe[X]
+
+## Tomahawk_Name
+Tomahawk[X]
+
+## CuttingYue_Name
+Cutting Yue[X]
+
+## BleedinYue_Name
+Bleedin' Yue[X]
+
+## Swordreaver_Name
+Swordreaver[X]
+
+## FirFlatbow_Name
+Fir Flatbow[X]
+
+## ElmFlatbow_Name
+Elm Flatbow[X]
+
+## AshFlatbow_Name
+Ash Flatbow[X]
+
+## OakFlatbow_Name
+Oak Flatbow[X]
+
+## FirLongbow_Name
+Fir Longbow[X]
+
+## ElmLongbow_Name
+Elm Longbow[X]
+
+## AshLongbow_Name
+Ash Longbow[X]
+
+## OakLongbow_Name
+Oak Longbow[X]
+
+## GleamingBow_Name
+Gleaming Bow[X]
+
+## ShiningBow_Name
+Shining Bow[X]
+
+## RadiantBow_Name
+Radiant Bow[X]
+
+## BraveSelf_Name
+Brave Self[X]
+
+## ValiantSelf_Name
+Valiant Self[X]
+
+## ClassicFire_Name
+Classic Fire[X]
+
+## MysticFire_Name
+Mystic Fire[X]
+
+## OrphicFire_Name
+Orphic Fire[X]
+
+## ClassicGulf_Name
+Classic Gulf[X]
+
+## MysticGulf_Name
+Mystic Gulf[X]
+
+## OrphicGulf_Name
+Orphic Gulf[X]
+
+## ClassicJolt_Name
+Classic Jolt[X]
+
+## MysticJolt_Name
+Mystic Jolt[X]
+
+## OrphicJolt_Name
+Orphic Jolt[X]
+
+## ClassicBolt_Name
+Classic Bolt[X]
+
+## MysticBolt_Name
+Mystic Bolt[X]
+
+## OrphicBolt_Name
+Orphic Bolt[X]
+
+## ClassicWind_Name
+Classic Wind[X]
+
+## MysticWind_Name
+Mystic Wind[X]
+
+## OrphicWind_Name
+Orphic Wind[X]
+
+## ClassicGale_Name
+Classic Gale[X]
+
+## MysticGale_Name
+Mystic Gale[X]
+
+## OrphicGale_Name
+Orphic Gale[X]
+
+## ProsaicGlow_Name
+Prosaic Glow[X]
+
+## BeneficGlow_Name
+Benefic Glow[X]
+
+## AngelicGlow_Name
+Angelic Glow[X]
+
+## ProsaicRadi_Name
+Prosaic Radi[X]
+
+## BeneficRadi_Name
+Benefic Radi[X]
+
+## AngelicRadi_Name
+Angelic Radi[X]
+
+## ProsaicRule_Name
+Prosaic Rule[X]
+
+## BeneficRule_Name
+Benefic Rule[X]
+
+## AngelicRule_Name
+Angelic Rule[X]
+
+## ProsaicFall_Name
+Prosaic Fall[X]
+
+## BeneficFall_Name
+Benefic Fall[X]
+
+## AngelicFall_Name
+Angelic Fall[X]
+
+## ProsaicHoly_Name
+Prosaic Holy[X]
+
+## BeneficHoly_Name
+Benefic Holy[X]
+
+## AngelicHoly_Name
+Angelic Holy[X]
+
+## ProsaicLife_Name
+Prosaic Life[X]
+
+## BeneficLife_Name
+Benefic Life[X]
+
+## AngelicLife_Name
+Angelic Life[X]
+
+## IronWeapon_Desc
+A commonplace weapon.[X]
+
+## SlimWeapon_Desc
+A precise weapon.[X]
+
+## FineWeapon_Desc
+A sharpened weapon.[X]
+
+## GiltWeapon_Desc
+A masterwork weapon.[X]
+
+## IronHeavy_Desc
+A heavy weapon.[X]
+
+## SlimHeavy_Desc
+A hulking weapon.[X]
+
+## FineHeavy_Desc
+A colossal weapon.[X]
+
+## GiltHeavy_Desc
+A titanic weapon.[X]
+
+## KillerWeapon_Desc
+Threatens critical hits.[X]
+
+## BraveWeapon_Desc
+Emboldens consecutive strikes.[X]
+
+## RangedWeapon_Desc
+Returns when thrown.[X]
+
+## MagicWeapon_Desc
+Tip infused with magic.[X]
+
+## ReaverWeapon_Desc
+Evaginates weapon triangle.[X]
+
+## FirBow_Desc
+A limply-strung bow.[X]
+
+## ElmBow_Desc
+A loosely-strung bow.[X]
+
+## AshBow_Desc
+A well-strung bow.[X]
+
+## OakBow_Desc
+A tightly-strung bow.[X]
+
+## ClassicMagic_Desc
+An elementary spell.[X]
+
+## MysticMagic_Desc
+An advanced spell.[X]
+
+## OrphicMagic_Desc
+An incredible spell.[X]
+
+## GulfMagic_Desc
+Halves foe's Int for 1 turn.[X]
+
+## JoltMagic_Desc
+Halves foe's Mov for 1 turn.[X]
+
+## BoltMagic_Desc
+Lightning never strikes twice.[X]
+
+## WindMagic_Desc
+Zephyrs grant a Spd boon.[X]
+
+## RuleMagic_Desc
+Edicts grant a Def boon.[X]
+
+## FallMagic_Desc
+Halves foe's Dex/Lck for 1 turn.[X]
+
+## ProsaicHoly_Desc
+An unstable spell.[X]
+
+## BeneficHoly_Desc
+An explosive spell.[X]
+
+## AngelicHoly_Desc
+An overwhelming spell.[X]
+
+## LifeMagic_Desc
+Siphons foe's vitality.[X]
