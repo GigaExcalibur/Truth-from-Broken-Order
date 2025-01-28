@@ -1,79 +1,111 @@
 // undefs
+#undef IronSword
+#undef SlimSword
+#undef IronBlade
+#undef Lancereaver
+#undef IronLance
+#undef SlimLance
+#undef Javelin
+#undef Spear
+#undef Axereaver
+#undef IronAxe
+#undef HandAxe
+#undef Tomahawk
+#undef Swordreaver
 
 // swords
+// basic
 #define IronSword 		0x01
 #define SlimSword 		0x02
 #define FineSword 		0x03
 #define GiltSword		0x04
 
+// heavy
 #define IronBlade		0x05
 #define SlimBlade		0x06
 #define FineBlade		0x07
 #define GiltBlade		0x08
 
+// crit
 #define CuttingEdge		0x09
 #define BleedinEdge		0x0A
 
+// brave
 #define BraveDirk		0x0B
 #define ValiantDirk		0x0C
 
+// reaver
 #define Lancereaver		0x0D
 
 // lances
+// basic
 #define IronLance 		0x0E
 #define SlimLance 		0x0F
 #define FineLance 		0x10
 #define GiltLance		0x11
 
+// heavy
 #define IronGlaive		0x12
 #define SlimGlaive		0x13
 #define FineGlaive		0x14
 #define GiltGlaive		0x15
 
+// ranged
 #define Javelin			0x16
 #define Spear			0x17
 
+// magic
 #define FervidPike		0x18
 #define FrigidPike		0x19
 #define ForkedPike		0x1A
 #define FlurryPike		0x1B
 
+// reaver
 #define Axereaver		0x1C
 
 // axes
+// basic
 #define IronAxe			0x1D
 #define	SlimAxe			0x1E
 #define FineAxe			0x1F
 #define GiltAxe			0x20
 
+// heavy
 #define IronLabrys		0x21
 #define SlimLabrys		0x22
 #define FineLabrys		0x23
 #define GiltLabrys		0x24
 
+// ranged
 #define HandAxe			0x25
 #define Tomahawk		0x26
 
+// crit
 #define CuttingYue		0x27
 #define BleedinYue		0x28
 
+// reaver
 #define Swordreaver		0x29
 
 // bows
+// basic
 #define FirFlatbow		0x2A
 #define ElmFlatbow		0x2B
-#define OakFlatbow		0x2C
-#define AshLongbow		0x2D
+#define AshFlatbow		0x2C
+#define OakFlatbow		0x2D
 
+// long
 #define FirLongbow		0x2E
 #define ElmLongbow		0x2F
-#define OakLongbow		0x30
-#define AshLongbow		0x31
+#define AshLongbow		0x30
+#define OakLongbow		0x31
 
+// magic
 #define GleamingBow		0x32
 #define ShiningBow		0x33
 #define RadiantBow		0x34
 
+// brave
 #define BraveSelf		0x49
 #define ValiantSelf		0x4A
 
@@ -83,12 +115,12 @@
 #define MysticFire		0x39
 #define OrphicFire		0x3A
 
-// int/res debuff after combat
+// int debuff
 #define ClassicGulf		0x3B
 #define MysticGulf		0x3C
 #define OrphicGulf		0x3D
 
-// mov debuff after combat
+// mov debuff
 #define ClassicJolt		0x3E
 #define MysticJolt		0x3F
 #define OrphicJolt		0x40
@@ -109,51 +141,63 @@
 #define OrphicGale		0x5A
 
 // light
+// basic
 #define ProsaicGlow		0x81
 #define BeneficGlow		0x82
 #define AngelicGlow		0x83
 
+// crit
 #define ProsaicRadi		0x84
 #define BeneficRadi		0x85
 #define AngelicRadi		0x86
 
+// def boon
 #define ProsaicRule		0x8D
 #define BeneficRule		0x8E
 #define AngelicRule		0x8F
 
+// dex/lck debuff
 #define ProsaicFall		0x91
 #define BeneficFall		0x92
 #define AngelicFall		0x93
 
+// heavy
 #define ProsaicHoly		0x94
 #define BeneficHoly		0x95
 #define AngelicHoly		0x96
 
+// lifesteal
 #define ProsaicLife		0xAD
 #define BeneficLife		0xAE
 #define AngelicLife		0xAF
 
 // dark
+// basic
 #define BasicFlux		0xB0
 #define MaleficFlux		0xB1
 #define DemonicFlux		0xB2
 
+// crit
 #define BasicRuin		0xB3
 #define MaleficRuin		0xB4
 #define DemonicRuin		0xB6
 
+// str debuff
 #define BasicAcid		0xBD
 #define MaleficAcid		0xBE
 #define DemonicAcid		0xBF
 
+// range
 #define BasicMire		0xC0
 #define MaleficMire		0xC1
 #define DemonicMire		0xC2
 
+// pierce
 #define BasicNull		0xC3
 #define MaleficNull		0xC4
 #define DemonicNull		0xC5
 
+// reaver
 #define BasicVoid		0xC6
 #define MaleficVoid		0xC7
 #define DemonicVoid		0xC8
