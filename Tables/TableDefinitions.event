@@ -21,6 +21,19 @@
   //#define PersonalMusicTable 0x758a60
 //#endif
 
+//Weapon Types
+#define SwordID		0x0
+#define LanceID		0x1
+#define AxeID		0x2
+#define BowID		0x3
+#define StaffID		0x4
+#define AnimaID		0x5
+#define LightID		0x6
+#define DarkID		0x7
+#define ItemID		0x9
+#define MonsterID	0xB
+#define RingID		0xC
+
 
 //Weapon Ranks
 #define NoRank 0

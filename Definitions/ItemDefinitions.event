@@ -221,7 +221,7 @@
 #define ImbueBarrier	0x59
 
 // new (replaces promo items. i REFUSE to have more new staves than there are promo items)
-#define DivineTruth		0x64	// +3 all
+#define DivineTruth		0x64	// +3 all (alexigant)
 #define Acceleration	0x65	// +4 spd
 #define Manafictaion	0x66	// +4 int
 #define Invigoration	0x67	// +4 str
@@ -231,4 +231,4 @@
 #define Debilitation	0x99	// -2 all
 
 // prfs (non-staves)
-#define Trismegistos	0xC9
+#define Trismegistos	0xC9	// eunonina
