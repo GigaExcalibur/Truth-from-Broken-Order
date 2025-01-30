@@ -1,0 +1,100 @@
+#define ItemIconEntry(ItemIconID) "NewItemIcons + (ItemIconID*128)"
+
+PUSH
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
+POP
+
+ALIGN 4
+NewItemIcons:
+FILL 256*128
+
+// swords
+ORG ItemIconEntry(IronSword)
+#incbin "Swords/IronSword.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimSword)
+#incbin "Swords/SlimSword.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineSword)
+#incbin "Swords/FineSword.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltSword)
+#incbin "Swords/GiltSword.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(IronBlade)
+#incbin "Swords/IronBlade.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimBlade)
+#incbin "Swords/SlimBlade.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineBlade)
+#incbin "Swords/FineBlade.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltBlade)
+#incbin "Swords/GiltBlade.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(CuttingEdge)
+#incbin "Swords/CuttingEdge.dmp"	// Ereshkigal
+
+ORG ItemIconEntry(BleedinEdge)
+#incbin "Swords/BleedinEdge.dmp"	// Ereshkigal
+
+ORG ItemIconEntry(BraveDirk)
+#incbin "Swords/BraveDirk.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ValiantDirk)
+#incbin "Swords/ValiantDirk.dmp"	// Ereshkigal
+
+ORG ItemIconEntry(Lancereaver)
+#incbin "Swords/Lancereaver.dmp"	// Ereshkigal
+
+// lances
+ORG ItemIconEntry(IronLance)
+#incbin "Lances/IronLance.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimLance)
+#incbin "Lances/SlimLance.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineLance)
+#incbin "Lances/FineLance.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltLance)
+#incbin "Lances/GiltLance.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(IronGlaive)
+#incbin "Lances/IronGlaive.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimGlaive)
+#incbin "Lances/SlimGlaive.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineGlaive)
+#incbin "Lances/FineGlaive.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltGlaive)
+#incbin "Lances/GiltGlaive.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Javelin)
+#incbin "Lances/Javelin.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Spear)
+#incbin "Lances/Spear.dmp"			// Ereshkigal
+
+ORG ItemIconEntry(FervidPike)
+#incbin "Lances/FervidPike.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FrigidPike)
+#incbin "Lances/FrigidPike.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ForkedPike)
+#incbin "Lances/ForkedPike.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FlurryPike)
+#incbin "Lances/FlurryPike.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Axereaver)
+#incbin "Lances/Axereaver.dmp"		// Ereshkigal
+
+// axes
