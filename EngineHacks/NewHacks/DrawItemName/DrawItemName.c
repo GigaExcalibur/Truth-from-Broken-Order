@@ -55,15 +55,15 @@ void DrawItemStatScreenLine(struct Text* text, int item, int nameColor, u16* map
     PutSpecialChar(mapOut + 12, color, TEXT_SPECIAL_SLASH);
 	*/
 	
-	if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
+	if(!(UNIT_FACTION(gStatScreen.unit) == FACTION_RED) && !(GetItemAttributes(item) & IA_UNBREAKABLE)) {
 		color = (nameColor != TEXT_COLOR_SYSTEM_GRAY) ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY;
 		PutNumberOrBlank(mapOut + 13, color, GetItemUses(item)); // 11 in vanilla
 		//PutNumberOrBlank(mapOut + 14, color, GetItemMaxUses(item));		
 	}
 
-    PutText(text, mapOut + 2);
+    PutText(text, mapOut + 3); // 2 in vanilla
 
-    DrawIcon(mapOut, GetItemIconId(item), 0x4000);
+    DrawIcon(mapOut + 1, GetItemIconId(item), 0x4000); // 0 in vanilla
 }
 
 void RefreshUnitInventoryInfoWindow(struct Unit* unit) {
@@ -350,3 +350,4 @@ void sub_809D300(struct Text * textBase, u16 * tm, int yLines, struct Unit * uni
 
     return;
 }
+

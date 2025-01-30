@@ -79,7 +79,7 @@ NonArmsthrift:
 	beq End            @ goto End if true (AxeFaith triggers)
 
 NonAxeFaith:
-
+/*
 	@begin Blessing check
 	mov r0, r5                 @ arg r0 = (Battle) Unit
 	ldr r1, LBlessingSkillID   @ arg r1 = Skill Index
@@ -89,8 +89,15 @@ NonAxeFaith:
 
 	cmp r0, #0        @ compare result
 	beq NonBlessing   @ goto NonBlessing if zero (unit does not have blessing)
+*/
+	mov r0, r5			@move unit into r0
+	mov r1, #0x0B		@unit index
+	ldr r0, [r0,r1]		@load index into r0
+	mov r2, #0xC0		@UNIT_FACTIOn
+	and r0, r2
+	cmp r0, #0x80		@FACTION_RED
 	
-	bal End    @ goto End (unit has blessing)
+	beq End    @ goto End (unit has blessing)
 
 NonBlessing:
 	mov  r4, #0x48 @ offsetof(BattleUnit.weaponAfter)
