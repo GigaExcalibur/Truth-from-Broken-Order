@@ -21,3 +21,5 @@
 #include "OpeningSkips/OpeningSkips.event" // 7743
 
 #include "Staves/Staves.event" // me!
+
+#include "ConstantMountedAid/ConstantMountedAid.lyn.event" // me!
