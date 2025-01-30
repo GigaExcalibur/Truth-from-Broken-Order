@@ -1,5 +1,5 @@
 ## Test_Name
-Trismegistos[X]
+Acceleration[X]
 
 ## IronSword_Name
 Iron Sword[X]
@@ -271,6 +271,134 @@ Benefic Life[X]
 ## AngelicLife_Name
 Angelic Life[X]
 
+## BasicFlux_Name
+Basic Flux[X]
+
+## MaleficFlux_Name
+Malefic Flux[X]
+
+## DemonicFlux_Name
+Demonic Flux[X]
+
+## BasicRuin_Name
+Basic Ruin[X]
+
+## MaleficRuin_Name
+Malefic Ruin[X]
+
+## DemonicRuin_Name
+Demonic Ruin[X]
+
+## BasicAcid_Name
+Basic Acid[X]
+
+## MaleficAcid_Name
+Malefic Acid[X]
+
+## DemonicAcid_Name
+Demonic Acid[X]
+
+## BasicMire_Name
+Basic Mire[X]
+
+## MaleficMire_Name
+Malefic Mire[X]
+
+## DemonicMire_Name
+Demonic Mire[X]
+
+## BasicNull_Name
+Basic Null[X]
+
+## MaleficNull_Name
+Malefic Null[X]
+
+## DemonicNull_Name
+Demonic Null[X]
+
+## BasicVoid_Name
+Basic Void[X]
+
+## MaleficVoid_Name
+Malefic Void[X]
+
+## DemonicVoid_Name
+Demonic Void[X]
+
+## HealInjuries_Name
+Heal Injuries[X]
+
+## MendWounds_Name
+Mend Wounds[X]
+
+## FullRecover_Name
+Full Recover[X]
+
+## LongPhysick_Name
+Long Physick[X]
+
+## Fortification_Name
+Fortification[X]
+
+## Restoration_Name
+Restoration[X]
+
+## QuietSpeech_Name
+Silence Word[X]
+
+## SlumberMind_Name
+Slumber Mind[X]
+
+## IncenseSoul_Name
+Incense Soul[X]
+
+## Ingression_Name
+Ingression[X]
+
+## Egression_Name
+Egression[X]
+
+## Illumination_Name
+Illumination[X]
+
+## Reformation_Name
+Reformation[X]
+
+## UnboltLock_Name
+Unbolt Lock[X]
+
+## ImbueBarrier_Name
+Imbue Barrier[X]
+
+## DivineTruth_Name
+Divine Truth[X]
+
+## Acceleration_Name
+Acceleration[X]
+
+## Manafication_Name
+Manafication[X]
+
+## Invigoration_Name
+Invigoration[X]
+
+## Amelioration_Name
+Amelioration[X]
+
+## Traipsation_Name
+Traipsation[X]
+
+## Exhilaration_Name
+Exhilaration[X]
+
+## Debilitation_Name
+Debilitation[X]
+
+## Trismegistos_Name
+Trismegistos[X]
+
+
+
 ## IronWeapon_Desc
 A commonplace weapon.[X]
 
@@ -305,7 +433,7 @@ Emboldens consecutive strikes.[X]
 Returns when thrown.[X]
 
 ## MagicWeapon_Desc
-Tip infused with magic.[X]
+Point infused with magic.[X]
 
 ## ReaverWeapon_Desc
 Evaginates weapon triangle.[X]
@@ -360,3 +488,74 @@ An overwhelming spell.[X]
 
 ## LifeMagic_Desc
 Siphons foe's vitality.[X]
+
+## AcidMagic_Desc
+Halves foe's Str for 1 turn.[X]
+
+## MireMagic_Desc
+The bog prevents follow-ups.[X]
+
+## NullMagic_Desc
+Pierces half of foe's wards.[X]
+
+## DivineTruth_Desc
+Alexigant[lock] Ally receives +3[N]
+to all stats for 1 turn.[X]
+
+## DivineTruth_UseDesc
+Ally receives +3[N]
+to all stats.[X]
+
+## Acceleration_Desc
+Ally receives +4 Spd for 1 turn.[X]
+
+## Acceleration_UseDesc
+Ally receives +4[N]
+to their Spd.[X]
+
+## Manafication_Desc
+Ally receives +4 Int for 1 turn.[X]
+
+## Manafication_UseDesc
+Ally receives +4[N]
+to their Int.[X]
+
+## Invigoration_Desc
+Ally receives +4 Str for 1 turn.[X]
+
+## Invigoration_UseDesc
+Ally receives +4[N]
+to their Str.[X]
+
+## Amelioration_Desc
+Ally receives +4 Bld for 1 turn.[X]
+
+## Amelioration_UseDesc
+Ally receives +4[N]
+to their Bld.[X]
+
+## Traipsation_Desc
+Ally receives +4 Mov for 1 turn.[X]
+
+## Traipsation_UseDesc
+Ally receives +4[N]
+to their Mov.[X]
+
+## Exhilaration_Desc
+Ally can take another action.[X]
+
+## Exhilaration_UseDesc
+Ally can take[N]
+another action.[X]
+
+## Debilitation_Desc
+Enemy receives -2 to all[N]
+stats for 1 turn.[X]
+
+## Debilitation_UseDesc
+Enemy receives -2[N]
+to all stats.[X]
+
+## Trismegistos_Desc
+Eunonina[lock] Winds of commerce.[X]
+

@@ -19,3 +19,5 @@
 #include "GiveExp/give_exp_Install.event" // 7743, vesly
 
 #include "OpeningSkips/OpeningSkips.event" // 7743
+
+#include "Staves/Staves.event" // me!

@@ -201,3 +201,34 @@
 #define BasicVoid		0xC6
 #define MaleficVoid		0xC7
 #define DemonicVoid		0xC8
+
+// staves (hoo baby)
+// vanilla
+#define HealInjuries	0x4B
+#define MendWounds		0x4C
+#define FullRecover		0x4D
+#define LongPhysick		0x4E
+#define Fortification	0x4F
+#define Restoration		0x50
+#define QuietSpeech		0x51
+#define SlumberMind		0x52
+#define IncenseSoul		0x53
+#define Ingression		0x54
+#define Egression		0x55
+#define Illumination	0x56
+#define Reformation		0x57
+#define UnlatchLock		0x58
+#define ImbueBarrier	0x59
+
+// new (replaces promo items. i REFUSE to have more new staves than there are promo items)
+#define DivineTruth		0x64	// +3 all
+#define Acceleration	0x65	// +4 spd
+#define Manafictaion	0x66	// +4 int
+#define Invigoration	0x67	// +4 str
+#define Amelioration	0x68	// +4 bld
+#define Traipsation		0x97	// +4 mov
+#define Exhilaration	0x98	// again
+#define Debilitation	0x99	// -2 all
+
+// prfs (non-staves)
+#define Trismegistos	0xC9

@@ -1,0 +1,7 @@
+#define DivineTruthBuffAmount 3
+
+ALIGN 4
+DivineTruthBuffAmount_Link:
+WORD DivineTruthBuffAmount
+
+#include "DivineTruth.lyn.event"
