@@ -68,8 +68,8 @@
 #define Shaman_F		0x1C
 #define Druid_M			0x1D
 #define Druid_F			0x1E
-#define Blademaiden		0x1F // M
-#define Priest			0x20 // F
+#define Blademaiden		0x1F // F
+#define Priest			0x20 // M
 #define WarMonk			0x21
 #define Bishop			0x22
 

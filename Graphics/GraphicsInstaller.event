@@ -1,3 +1,5 @@
 #include "Mugs/MugsInstaller.event"
 
 #include "ItemIcons/ItemIconInstaller.event"
+
+#include "MapSprites/Installer.event"
