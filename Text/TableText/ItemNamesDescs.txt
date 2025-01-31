@@ -343,7 +343,7 @@ Fortification[X]
 ## Restoration_Name
 Restoration[X]
 
-## QuietSpeech_Name
+## SilenceWord_Name
 Silence Word[X]
 
 ## SlumberMind_Name

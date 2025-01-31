@@ -11,6 +11,7 @@ ALIGN 4
 NewItemIcons:
 FILL 256*128
 
+PUSH
 // swords
 ORG ItemIconEntry(IronSword)
 #incbin "Swords/IronSword.dmp"		// Ereshkigal
@@ -98,3 +99,323 @@ ORG ItemIconEntry(Axereaver)
 #incbin "Lances/Axereaver.dmp"		// Ereshkigal
 
 // axes
+ORG ItemIconEntry(IronAxe)
+#incbin "Axes/IronAxe.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimAxe)
+#incbin "Axes/SlimAxe.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineAxe)
+#incbin "Axes/FineAxe.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltAxe)
+#incbin "Axes/GiltAxe.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(IronLabrys)
+#incbin "Axes/IronLabrys.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlimLabrys)
+#incbin "Axes/SlimLabrys.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FineLabrys)
+#incbin "Axes/FineLabrys.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GiltLabrys)
+#incbin "Axes/GiltLabrys.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(HandAxe)
+#incbin "Axes/HandAxe.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Tomahawk)
+#incbin "Axes/Tomahawk.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(CuttingYue)
+#incbin "Axes/CuttingYue.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(BleedinYue)
+#incbin "Axes/BleedinYue.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Swordreaver)
+#incbin "Axes/Swordreaver.dmp"		// Ereshkigal
+
+// bows
+ORG ItemIconEntry(FirFlatbow)
+#incbin "Bows/FirFlatbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ElmFlatbow)
+#incbin "Bows/ElmFlatbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(AshFlatbow)
+#incbin "Bows/AshFlatbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(OakFlatbow)
+#incbin "Bows/OakFlatbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FirLongbow)
+#incbin "Bows/FirLongbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ElmLongbow)
+#incbin "Bows/ElmLongbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(AshLongbow)
+#incbin "Bows/AshLongbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(OakLongbow)
+#incbin "Bows/OakLongbow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(BraveSelf)
+#incbin "Bows/BraveSelf.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ValiantSelf)
+#incbin "Bows/ValiantSelf.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(GleamingBow)
+#incbin "Bows/GleamingBow.dmp"		// Zarg
+
+ORG ItemIconEntry(ShiningBow)
+#incbin "Bows/ShiningBow.dmp"		// Zarg
+
+ORG ItemIconEntry(RadiantBow)
+#incbin "Bows/RadiantBow.dmp"		// Zarg
+
+// ANIMA!!! ANIMA!!!
+ORG ItemIconEntry(ClassicFire)
+#incbin "Anima/ClassicFire.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MysticFire)
+#incbin "Anima/MysticFire.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(OrphicFire)
+#incbin "Anima/OrphicFire.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ClassicGulf)
+#incbin "Anima/ClassicGulf.dmp"		// Leif
+
+ORG ItemIconEntry(MysticGulf)
+#incbin "Anima/MysticGulf.dmp"		// Leif
+
+ORG ItemIconEntry(OrphicGulf)
+#incbin "Anima/OrphicGulf.dmp"		// Leif
+
+ORG ItemIconEntry(ClassicJolt)
+#incbin "Anima/ClassicJolt.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MysticJolt)
+#incbin "Anima/MysticJolt.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(OrphicJolt)
+#incbin "Anima/OrphicJolt.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ClassicBolt)
+#incbin "Anima/ClassicBolt.dmp"		// Leif
+
+ORG ItemIconEntry(MysticBolt)
+#incbin "Anima/MysticBolt.dmp"		// Leif
+
+ORG ItemIconEntry(OrphicBolt)
+#incbin "Anima/OrphicBolt.dmp"		// Leif
+
+ORG ItemIconEntry(ClassicWind)
+#incbin "Anima/ClassicWind.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MysticWind)
+#incbin "Anima/MysticWind.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(OrphicWind)
+#incbin "Anima/OrphicWind.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ClassicGale)
+#incbin "Anima/ClassicGale.dmp"		// Leif
+
+ORG ItemIconEntry(MysticGale)
+#incbin "Anima/MysticGale.dmp"		// Leif
+
+ORG ItemIconEntry(OrphicGale)
+#incbin "Anima/OrphicGale.dmp"		// Leif
+
+// light
+ORG ItemIconEntry(ProsaicGlow)
+#incbin "Light/ProsaicGlow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(BeneficGlow)
+#incbin "Light/BeneficGlow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(AngelicGlow)
+#incbin "Light/AngelicGlow.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ProsaicRadi)
+#incbin "Light/ProsaicRadi.dmp"		// Batima
+
+ORG ItemIconEntry(BeneficRadi)
+#incbin "Light/BeneficRadi.dmp"		// Batima
+
+ORG ItemIconEntry(AngelicRadi)
+#incbin "Light/AngelicRadi.dmp"		// Batima
+
+ORG ItemIconEntry(ProsaicRule)
+#incbin "Light/ProsaicRule.dmp"		// LordGlenn
+
+ORG ItemIconEntry(BeneficRule)
+#incbin "Light/BeneficRule.dmp"		// LordGlenn
+
+ORG ItemIconEntry(AngelicRule)
+#incbin "Light/AngelicRule.dmp"		// LordGlenn
+
+ORG ItemIconEntry(ProsaicFall)
+#incbin "Light/ProsaicFall.dmp"		// Celice
+
+ORG ItemIconEntry(BeneficFall)
+#incbin "Light/BeneficFall.dmp"		// Celice
+
+ORG ItemIconEntry(AngelicFall)
+#incbin "Light/AngelicFall.dmp"		// Celice
+
+ORG ItemIconEntry(ProsaicHoly)
+#incbin "Light/ProsaicHoly.dmp"		// Zarg
+
+ORG ItemIconEntry(BeneficHoly)
+#incbin "Light/BeneficHoly.dmp"		// Zarg
+
+ORG ItemIconEntry(AngelicHoly)
+#incbin "Light/AngelicHoly.dmp"		// Zarg
+
+ORG ItemIconEntry(ProsaicLife)
+#incbin "Light/ProsaicLife.dmp"		// LordGlenn
+
+ORG ItemIconEntry(BeneficLife)
+#incbin "Light/BeneficLife.dmp"		// LordGlenn
+
+ORG ItemIconEntry(AngelicLife)
+#incbin "Light/AngelicLife.dmp"		// LordGlenn
+
+// dark
+ORG ItemIconEntry(BasicFlux)
+#incbin "Dark/BasicFlux.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MaleficFlux)
+#incbin "Dark/MaleficFlux.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(DemonicFlux)
+#incbin "Dark/DemonicFlux.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(BasicRuin)
+#incbin "Dark/BasicRuin.dmp"		// CardCafe
+
+ORG ItemIconEntry(MaleficRuin)
+#incbin "Dark/MaleficRuin.dmp"		// CardCafe
+
+ORG ItemIconEntry(DemonicRuin)
+#incbin "Dark/DemonicRuin.dmp"		// CardCafe
+
+ORG ItemIconEntry(BasicAcid)
+#incbin "Dark/BasicAcid.dmp"		// 2WB
+
+ORG ItemIconEntry(MaleficAcid)
+#incbin "Dark/MaleficAcid.dmp"		// 2WB
+
+ORG ItemIconEntry(DemonicAcid)
+#incbin "Dark/DemonicAcid.dmp"		// 2WB
+
+ORG ItemIconEntry(BasicMire)
+#incbin "Dark/BasicMire.dmp"		// Celice
+
+ORG ItemIconEntry(MaleficMire)
+#incbin "Dark/MaleficMire.dmp"		// Celice
+
+ORG ItemIconEntry(DemonicMire)
+#incbin "Dark/DemonicMire.dmp"		// Celice
+
+ORG ItemIconEntry(BasicNull)
+#incbin "Dark/BasicNull.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MaleficNull)
+#incbin "Dark/MaleficNull.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(DemonicNull)
+#incbin "Dark/DemonicNull.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(BasicVoid)
+#incbin "Dark/BasicVoid.dmp"		// Leif
+
+ORG ItemIconEntry(MaleficVoid)
+#incbin "Dark/MaleficVoid.dmp"		// Leif
+
+ORG ItemIconEntry(DemonicVoid)
+#incbin "Dark/DemonicVoid.dmp"		// Leif
+
+// staves
+ORG ItemIconEntry(HealInjuries)
+#incbin "Staves/HealInjuries.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(MendWounds)
+#incbin "Staves/MendWounds.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(FullRecover)
+#incbin "Staves/FullRecover.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(LongPhysick)
+#incbin "Staves/LongPhysick.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Fortification)
+#incbin "Staves/Fortification.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Restoration)
+#incbin "Staves/Restoration.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SilenceWord)
+#incbin "Staves/SilenceWord.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(SlumberMind)
+#incbin "Staves/SlumberMind.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(IncenseSoul)
+#incbin "Staves/IncenseSoul.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Ingression)
+#incbin "Staves/Ingression.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Egression)
+#incbin "Staves/Egression.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Reformation)
+#incbin "Staves/Reformation.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(Illumination)
+#incbin "Staves/Illumination.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(UnlatchLock)
+#incbin "Staves/UnlatchLock.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(ImbueBarrier)
+#incbin "Staves/ImbueBarrier.dmp"		// Ereshkigal
+
+ORG ItemIconEntry(DivineTruth)
+#incbin "Staves/DivineTruth.dmp"		// Zarg
+
+ORG ItemIconEntry(Amelioration)
+#incbin "Staves/Amelioration.dmp"		// Zarg
+
+ORG ItemIconEntry(Acceleration)
+#incbin "Staves/Acceleration.dmp"		// Zarg
+
+ORG ItemIconEntry(Manafication)
+#incbin "Staves/Manafication.dmp"		// Zarg
+
+ORG ItemIconEntry(Invigoration)
+#incbin "Staves/Invigoration.dmp"		// Zarg
+
+ORG ItemIconEntry(Exhilaration)
+#incbin "Staves/Exhilaration.dmp"		// Zarg
+
+ORG ItemIconEntry(Traipsation)
+#incbin "Staves/Traipsation.dmp"		// Zarg
+
+ORG ItemIconEntry(Debilitation)
+#incbin "Staves/Debilitation.dmp"		// Zarg
+
+// items/prfs
+ORG ItemIconEntry(Trismegistos)
+#incbin "ItemsPrfs/Trismegistos.dmp"	// Ereshkigal
+
+
+POP

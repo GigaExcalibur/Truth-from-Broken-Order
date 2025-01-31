@@ -210,7 +210,7 @@
 #define LongPhysick		0x4E
 #define Fortification	0x4F
 #define Restoration		0x50
-#define QuietSpeech		0x51
+#define SilenceWord		0x51
 #define SlumberMind		0x52
 #define IncenseSoul		0x53
 #define Ingression		0x54
@@ -223,7 +223,7 @@
 // new (replaces promo items. i REFUSE to have more new staves than there are promo items)
 #define DivineTruth		0x64	// +3 all (alexigant)
 #define Acceleration	0x65	// +4 spd
-#define Manafictaion	0x66	// +4 int
+#define Manafication	0x66	// +4 int
 #define Invigoration	0x67	// +4 str
 #define Amelioration	0x68	// +4 bld
 #define Traipsation		0x97	// +4 mov
