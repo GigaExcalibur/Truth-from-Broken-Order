@@ -195,6 +195,30 @@
 
 #define StatusCount 14
 
+//Movement Costs
+#define PromotedInfantryCost 0x880b808
+#define PromotedCavalryCost 0x880bad3
+#define UnpromotedCavalryCost 0x880ba92
+#define UnpromotedInfantryCost 0x880b849
+#define SneakyInfantryCost 0x880b9cf
+#define FlyingCost 0x880bb96
+#define MagicCost 0x880ba10
+#define ArmorCost 0x880b88a
+#define RangerCost 0x880bb55
+#define AxemanCost 0x880b8cb
+#define BrigandCost 0x880b94d
+#define PirateCost 0x880b98e
+#define BerserkerCost 0x880b90c
+
+#define GroundTerrainAvo 0x880c479
+#define FlyingTerrainAvo 0x880c53c
+
+#define GroundTerrainDef 0x880c4ba
+#define FlyingTerrainDef 0x880c57d
+
+#define GroundTerrainRes 0x880c4fb
+#define FlyingTerrainRes 0x880c5be
+
 //for setting what status effect 
 //status staves will give 
 #define ItemStatus(StatusID,Duration) "StatusID | (Duration << 4)"

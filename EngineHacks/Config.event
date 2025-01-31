@@ -152,10 +152,10 @@
 
 //If uncommented, AdvWeaponLocks will be implemented.
 //This is a rewrite of venno's array-based weapon locks.
-// #define ADV_WEAPON_LOCKS
+#define ADV_WEAPON_LOCKS
 //If uncommented, AdvWeaponLocks will use only the lowest bit of the weapon ability word's 4th byte rather than the entire thing.
 //Requires additional configuration in WeaponLockArray/AdvWeaponLocks.event.
-// #define CONSOLIDATED_ADV_WEAPON_LOCKS
+#define CONSOLIDATED_ADV_WEAPON_LOCKS
 
 //If uncommented, Status-Inflicting Weapons will be implemented.
 //Setting weapon effect 0xD will apply the effect ID at item data +0x22.
@@ -271,7 +271,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define DRAGON_VEIN_SKILL_REQUIRED
 
 //If commented, Heroes Movement skills will use class checks and will not require their respective skills. Configure lists for each skill in 'SkillSystem/Skills/UnitMenuSkills/HeroesMovement/HeroesMovement.event', at the bottom of the file.
-#define HEROES_MOVEMENT_SKILL_REQUIRED
+//#define HEROES_MOVEMENT_SKILL_REQUIRED
 
 // If uncommented, the Charge mechanic will be disabled and Moonbow will use a skill% activation rate. This will not change Moonbow's description.
 // #define DISABLE_CHARGE
@@ -291,9 +291,9 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 
 //If true, will use the vanilla check in addition to the skill check.
 #define ALSO_USE_VANILLA_DANCE_CHECK False
-#define ALSO_USE_VANILLA_SUPPLY_CHECK True
+#define ALSO_USE_VANILLA_SUPPLY_CHECK False
 #define ALSO_USE_VANILLA_SUMMON_CHECK False
-#define ALSO_USE_VANILLA_STEAL_CHECK True
+#define ALSO_USE_VANILLA_STEAL_CHECK False
 
 //If uncommented, Combat Arts will be enabled.
 //This changes the behavior of most command skills and some proc skills such that they cost additional durability per hit and are selected from a submenu.
