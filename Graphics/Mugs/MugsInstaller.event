@@ -2,7 +2,7 @@
 
 #undef PortraitTable
 #define PortraitTable NewPortraitTable
-#define MaxPortaits 0x200
+#define MaxPortaits 0x300
 
 #define AlexigantMug 	0x02 // Garytop
 #define DrestonMug		0x03 // LaurentLacroix
@@ -14,7 +14,7 @@
 #define newSetMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"
 #define newSetMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl; POP"
 
-ALIGN 4
+ALIGN 8
 NewPortraitTable:
 FILL MaxPortaits * 28
 

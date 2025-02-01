@@ -51,7 +51,7 @@ PUSH
  
 SetSMS(Archer_F, 0, Archer_Fstand_Data) 
 SetSMS(Archer_M, 0, Archer_Mstand_Data) 
-SetSMS(Assassin, 0, Assassinstand_Data) 
+SetSMS(Assassin_Class, 0, Assassinstand_Data) 
 SetSMS(Baron, 2, Baronstand_Data) 
 SetSMS(Berserker, 1, Berserkerstand_Data) 
 SetSMS(Bishop, 0, Bishopstand_Data) 
@@ -104,7 +104,7 @@ SetSMS(WyvernRider, 1, WyvernRiderstand_Data)
  
 SetMMS(Archer_F-1, Archer_Fwalk_Data, DemonKingAP) 
 SetMMS(Archer_M-1, Archer_Mwalk_Data, DemonKingAP) 
-SetMMS(Assassin-1, Assassinwalk_Data, DemonKingAP) 
+SetMMS(Assassin_Class-1, Assassinwalk_Data, DemonKingAP) 
 SetMMS(Baron-1, Baronwalk_Data, DemonKingAP) 
 SetMMS(Berserker-1, Berserkerwalk_Data, DemonKingAP) 
 SetMMS(Bishop-1, Bishopwalk_Data, DemonKingAP) 

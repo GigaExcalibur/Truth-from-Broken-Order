@@ -79,7 +79,7 @@
 #define Paladin_M		0x25
 #define Paladin_F		0x26
 #define GreatKnight		0x27 // U
-#define Ranger			0x28 // M?
+#define Ranger			0x28 // F
 #define MageKnight		0x29 // F
 #define Valkyrie		0x2A // F
 

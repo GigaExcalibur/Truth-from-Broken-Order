@@ -121,25 +121,25 @@ UNIT LyonCC 0x4F 0x1 0xA1     [18,32] 0b 0x0 0x0 0x0 [0x8F,0x4E,0x57,0x0] [0x0,0
 UNIT
 
 EnemyUnits:
-UNIT ONeill Mage_F 0x40 0xA5     [8,19] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Assassin_Unit Mage_F 0x40 0xA5     [5,18] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Nightbane Mage_F 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Bazba Brigand 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Saar Knight 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Novala Shaman 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
-UNIT Murray Cavalier 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
-UNIT Tirado General 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
-UNIT Binks Warrior 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
-UNIT Pablo Sage 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
+UNIT ONeill Assassin_Class 0x40 0xA5     [8,19] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Assassin_Unit Cavalier_M 0x40 0xA5     [5,18] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
+UNIT Nightbane Cavalier_F 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Bazba Paladin_M 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Saar Paladin_F 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
+UNIT Novala GreatKnight 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
+UNIT Murray Ranger 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
+UNIT Tirado MageKnight 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI
+UNIT Binks Valkyrie 0x40 0xA5      [1,10] 0 0 0 0 [SteelAxe, SteelBow] AttackInRangeAI
+UNIT Pablo PegasusKnight 0x40 0xA5         [5,11] 0 0 0 0 [Elfire, Purge] AttackInRangeAI
 UNIT
 
 EnemyUnits2:
-UNIT Vigarde General 0x40 0xA5    [10,2] 0 0 0 0 [Spear, SilverBlade, Tomahawk] NeverMoveAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [9,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Cyclops_boss Cyclops 0x40 0xA5       [11,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
-UNIT Aias GreatKnight 0x40 0xA5   [7,11] 0 0 0 0 [ShortSpear, SilverBlade, SilverAxe] AttackInRangeAI
-UNIT Carlyle Swordmaster 0x40 0xA5 [10,9] 0 0 0 0 [WindSword] AttackInRangeAI
-UNIT Gheb Warrior 0x40 0xA5       [2,4] 0 0 0 0 [KillerAxe, KillerBow] NeverMoveAI
+UNIT Vigarde Falcoknight 0x40 0xA5    [10,2] 0 0 0 0 [Spear, SilverBlade, Tomahawk] NeverMoveAI
+UNIT Cyclops_boss WyvernRider 0x40 0xA5       [9,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
+UNIT Cyclops_boss WyvernLord 0x40 0xA5       [11,4] 0 0 0 0 [BattleAxe, Tomahawk] AttackInRangeAI
+UNIT Aias MaligKnight 0x40 0xA5   [7,11] 0 0 0 0 [ShortSpear, SilverBlade, SilverAxe] AttackInRangeAI
+UNIT Carlyle Bombardier 0x40 0xA5 [10,9] 0 0 0 0 [WindSword] AttackInRangeAI
+UNIT Gheb Bishop 0x40 0xA5       [2,4] 0 0 0 0 [KillerAxe, KillerBow] NeverMoveAI
 UNIT Beran Ranger 0x40 0xA5       [17,14] 0 0 0 0 [Lancereaver, KillerBow, Longbow] AttackInRangeAI
 UNIT
 
