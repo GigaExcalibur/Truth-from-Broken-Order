@@ -20,7 +20,6 @@
 
 // Knight				- SALVAGED
 // General				- Topazlight, SamirPlayz
-// Baron				- SamirPlayz
 // Juggernaut			- Huichelaar, Der, Seal, Mobile21
 
 // Mage					- Topazlight, Leif
@@ -47,7 +46,7 @@
 // Malig Knight			- Pikmin
 // Bombardier			- EldritchAbomination, N426, Jj09
 
-// Assassin				- Flasuban
+// Novistador				- Flasuban
 
 ALIGN 4
 Archer_FCard:
@@ -210,12 +209,12 @@ GeneralCardPalette:
 setCardEntry((General+0x200), GeneralCard, GeneralCardPalette)
 
 ALIGN 4
-BaronCard:
-#incbin "stuff/Baroncard.dmp"
+Sage_MCard:
+#incbin "stuff/Sage_Mcard.dmp"
 ALIGN 4
-BaronCardPalette:
-#incbin "stuff/BaroncardPalette.dmp"
-setCardEntry((Baron+0x200), BaronCard, BaronCardPalette)
+Sage_MCardPalette:
+#incbin "stuff/Sage_McardPalette.dmp"
+setCardEntry((Sage_M+0x200), Sage_MCard, Sage_MCardPalette)
 
 ALIGN 4
 JuggernautCard:
@@ -234,12 +233,12 @@ MageCardPalette:
 setCardEntry((Mage+0x200), MageCard, MageCardPalette)
 
 ALIGN 4
-SageCard:
-#incbin "stuff/Sagecard.dmp"
+Sage_FCard:
+#incbin "stuff/Sage_Fcard.dmp"
 ALIGN 4
-SageCardPalette:
-#incbin "stuff/SagecardPalette.dmp"
-setCardEntry((Sage+0x200), SageCard, SageCardPalette)
+Sage_FCardPalette:
+#incbin "stuff/Sage_FcardPalette.dmp"
+setCardEntry((Sage_F+0x200), Sage_FCard, Sage_FCardPalette)
 
 ALIGN 4
 MonkCard:
@@ -434,9 +433,9 @@ BombardierCardPalette:
 setCardEntry((Bombardier+0x200), BombardierCard, BombardierCardPalette)
 
 ALIGN 4
-Assassin_ClassCard:
-#incbin "stuff/Assassin_Classcard.dmp"
+NovistadorCard:
+#incbin "stuff/Novistadorcard.dmp"
 ALIGN 4
-Assassin_ClassCardPalette:
-#incbin "stuff/Assassin_ClasscardPalette.dmp"
-setCardEntry((Assassin_Class+0x200), Assassin_ClassCard, Assassin_ClassCardPalette)
+NovistadorCardPalette:
+#incbin "stuff/NovistadorcardPalette.dmp"
+setCardEntry((Novistador+0x200), NovistadorCard, NovistadorCardPalette)

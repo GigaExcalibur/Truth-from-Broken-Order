@@ -16,6 +16,7 @@
 #undef General
 #undef Mage
 #undef Sage
+#undef Sage_F
 #undef Monk
 #undef Shaman_F
 #undef Druid_F
@@ -57,11 +58,11 @@
 #define Knight			0x13 // U
 #define	General			0x14
 #define Juggernaut		0x15 // U
-#define Baron			0x16 // U
+#define Sage_M			0x16 // U
 
 // magical infantry
 #define Mage			0x17 // F
-#define Sage			0x18
+#define Sage_F			0x18
 #define Monk			0x19 // F
 #define Sibyl			0x1A
 #define Shaman_M		0x1B
@@ -94,7 +95,8 @@
 // uniques (skirting around hardcoded stuff)
 #define Jurispotence	0x3F // Nb
 #define Prosecutor		0x40 // Nb
-#define Assassin_Class	0x41 // U
+#define Novistador		0x41 // U
 #define Ephemerality	0x42 // F
 #define HighGremory		0x43 // F
 #define VioletKnight	0x44 // F
+#define CrownPrince		0x45 // M

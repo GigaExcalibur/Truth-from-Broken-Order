@@ -76,13 +76,22 @@ Even lawless gangs need a pecking[N]
 order, some crude rule of strength.[N]
 Seems this one's a weaker chain.[X]
 
+## Unknown_Name
+Unknown[X]
+
+## Unknown_Desc
+[OQ]...order demands understanding: the[N]
+secrets of the unknown must be laid[N]
+bare, then prosecuted into Truth...[CQ][X]
+
 ## Assassin_Name
 Assassin[X]
 
 ## Assassin_Desc
-[OQ]...rank fell aside to purpose.[N]
-They slithered through the halls,[N]
-blades single poised to kill...[CQ][X]
+[OQ]...skulked the hall with single-[N]
+minded objective, all else in the[N]
+moment falling aside to purpose...[CQ][X]
+
 
 ## PegasusRider
 Pegasus Rider[X]

@@ -57,19 +57,27 @@ rest when my body is laid to such'...[CQ][X]
 ## Vanlino_Name
 Vanlino[X]
 
-## Nulera_Name
-Nulera[X]
+## Morguan_Name
+Morguan[X]
 
 ## Xifersyn_Name
 Xifersyn[X]
 
-## Unknown_Name
-Unknown[X]
+## Intruder_Name
+Intruder[X]
 
-## Unknown_Desc
-Order demands understanding. The[N]
-secrets of the unknown must be laid[N]
-bare, then prosecuted into truth.[X]
+## Intruder_Desc
+[OQ]...derived some simple delight from[N]
+desecrating the palace, the only time[N]
+in their lives they got to feel big...[CQ][X]
+
+## Shrouded_Name
+Shrouded[X]
+
+## Shrouded_Desc
+[OQ]...couldn't make out their figure, only[N]
+the cold glint of their eyes and the[N]
+runes trailing behind every step...[CQ][X]
 
 ## Nightbane_Name
 Nightbane[X]

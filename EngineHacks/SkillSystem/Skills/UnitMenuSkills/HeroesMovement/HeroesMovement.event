@@ -121,7 +121,7 @@ BYTE EirikaLord EphraimLord
 BYTE 0
 
 RepositionClassList:
-BYTE Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F
+BYTE Mage Mage_F Sage_M Sage_F Monk Shaman Shaman_F Druid Druid_F
 BYTE 0
 
 SwapClassList:
