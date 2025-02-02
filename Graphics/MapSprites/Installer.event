@@ -44,14 +44,18 @@
 // Malig Knight			- MeatOfJustice
 // Bombardier			- N426
 
+// Dark Knight			- Pikmin, Nuramon, Der
+// Deserter				- SALVAGED
+// Basara				- Jj09
+
 // Jurispotence			- ArcherBias
 // Novistador			- ArcherBias, Ryn
 // Crown Prince			- Cynon
+PUSH
 
-PUSH 
- 
 SetSMS(Archer_F, 0, Archer_Fstand_Data) 
 SetSMS(Archer_M, 0, Archer_Mstand_Data) 
+SetSMS(Basara, 0, Basarastand_Data) 
 SetSMS(Berserker, 1, Berserkerstand_Data) 
 SetSMS(Bishop, 0, Bishopstand_Data) 
 SetSMS(Blademaiden, 0, Blademaidenstand_Data) 
@@ -59,6 +63,8 @@ SetSMS(Bombardier, 1, Bombardierstand_Data)
 SetSMS(Cavalier_F, 1, Cavalier_Fstand_Data) 
 SetSMS(Cavalier_M, 1, Cavalier_Mstand_Data) 
 SetSMS(CrownPrince, 1, CrownPrincestand_Data) 
+SetSMS(DarkKnight, 1, DarkKnightstand_Data) 
+SetSMS(Deserter, 0, Deserterstand_Data) 
 SetSMS(Druid_F, 0, Druid_Fstand_Data) 
 SetSMS(Druid_M, 0, Druid_Mstand_Data) 
 SetSMS(Falcoknight, 1, Falcoknightstand_Data) 
@@ -106,6 +112,7 @@ SetSMS(WyvernRider, 1, WyvernRiderstand_Data)
  
 SetMMS(Archer_F-1, Archer_Fwalk_Data, DemonKingAP) 
 SetMMS(Archer_M-1, Archer_Mwalk_Data, DemonKingAP) 
+SetMMS(Basara-1, Basarawalk_Data, DemonKingAP) 
 SetMMS(Berserker-1, Berserkerwalk_Data, DemonKingAP) 
 SetMMS(Bishop-1, Bishopwalk_Data, DemonKingAP) 
 SetMMS(Blademaiden-1, Blademaidenwalk_Data, DemonKingAP) 
@@ -113,6 +120,8 @@ SetMMS(Bombardier-1, Bombardierwalk_Data, DemonKingAP)
 SetMMS(Cavalier_F-1, Cavalier_Fwalk_Data, DemonKingAP) 
 SetMMS(Cavalier_M-1, Cavalier_Mwalk_Data, DemonKingAP) 
 SetMMS(CrownPrince-1, CrownPrincewalk_Data, DemonKingAP) 
+SetMMS(DarkKnight-1, DarkKnightwalk_Data, DemonKingAP) 
+SetMMS(Deserter-1, Deserterwalk_Data, DemonKingAP) 
 SetMMS(Druid_F-1, Druid_Fwalk_Data, DemonKingAP) 
 SetMMS(Druid_M-1, Druid_Mwalk_Data, DemonKingAP) 
 SetMMS(Falcoknight-1, Falcoknightwalk_Data, DemonKingAP) 

@@ -46,7 +46,11 @@
 // Malig Knight			- Pikmin
 // Bombardier			- EldritchAbomination, N426, Jj09
 
-// Novistador				- Flasuban
+// Dark Knight			- EldritchAbomination
+// Deserter				- SALVAGED
+// Basara				- Jj09, Der, Spud
+
+// Novistador			- Flasuban
 
 ALIGN 4
 Archer_FCard:
@@ -439,3 +443,27 @@ ALIGN 4
 NovistadorCardPalette:
 #incbin "stuff/NovistadorcardPalette.dmp"
 setCardEntry((Novistador+0x200), NovistadorCard, NovistadorCardPalette)
+
+ALIGN 4
+DarkKnightCard:
+#incbin "stuff/DarkKnightcard.dmp"
+ALIGN 4
+DarkKnightCardPalette:
+#incbin "stuff/DarkKnightcardPalette.dmp"
+setCardEntry((DarkKnight+0x200), DarkKnightCard, DarkKnightCardPalette)
+
+ALIGN 4
+DeserterCard:
+#incbin "stuff/Desertercard.dmp"
+ALIGN 4
+DeserterCardPalette:
+#incbin "stuff/DesertercardPalette.dmp"
+setCardEntry((Deserter+0x200), DeserterCard, DeserterCardPalette)
+
+ALIGN 4
+BasaraCard:
+#incbin "stuff/Basaracard.dmp"
+ALIGN 4
+BasaraCardPalette:
+#incbin "stuff/BasaracardPalette.dmp"
+setCardEntry((Basara+0x200), BasaraCard, BasaraCardPalette)

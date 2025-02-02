@@ -123,9 +123,9 @@ UNIT
 EnemyUnits:
 UNIT Intruder Pirate 0x40 0xA5     [8,19] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
 UNIT Shrouded Novistador 0x40 0xA5     [5,18] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
-UNIT Bone Sage_M 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Bazba Paladin_M 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Saar Paladin_F 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
+UNIT Bone DarkKnight 0x40 0xA5       [11,17] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Bazba Deserter 0x40 0xA5      [16,18] 0 0 0 0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Saar Basara 0x40 0xA5        [8,15] 0 0 0 0 [SteelLance, Javelin] AttackInRangeAI
 UNIT Novala GreatKnight 0x40 0xA5      [12,13] 0 0 0 0 [Nosferatu] AttackInRangeAI
 UNIT Murray Ranger 0x40 0xA5    [3,13] 0 0 0 0 [SteelSword, Javelin] AttackInRangeAI
 UNIT Tirado MageKnight 0x40 0xA5     [16,9] 0 0 0 0 [SilverLance, Javelin] AttackInRangeAI

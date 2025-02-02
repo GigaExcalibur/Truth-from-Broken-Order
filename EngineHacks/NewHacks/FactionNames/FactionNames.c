@@ -1,8 +1,8 @@
 #include "gbafe.h"
 
 extern u8 GenericClassCount_Link;
-extern u16 FactionClassNameTable[255][0x30];
-extern u16 FactionClassDescTable[255][0x30];
+extern u16 FactionClassNameTable[255][0x33];
+extern u16 FactionClassDescTable[255][0x33];
 
 
 u16 FactionClassNameGetter(struct Unit* unit) {

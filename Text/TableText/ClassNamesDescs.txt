@@ -1,3 +1,10 @@
+## Default_Name
+Default[X]
+
+## Default_Desc
+Dragz forgot to write a faction-[N]
+specific class description here.[X]
+
 ## Jurispotence_Name
 Jurispotence[X]
 
@@ -88,13 +95,24 @@ bare, then prosecuted into Truth...[CQ][X]
 Assassin[X]
 
 ## Assassin_Desc
-[OQ]...skulked the hall with single-[N]
+[OQ]...skulked the halls with single-[N]
 minded objective, all else in the[N]
 moment falling aside to purpose...[CQ][X]
 
+## Ephemerality_Name
+Ephemerality[X]
 
-## PegasusRider
-Pegasus Rider[X]
+## Prosecutor_Name
+Prosecutor[X]
+
+## CrownPrince_Name
+Crown Prince[X]
+
+## HighGremory_Name
+High Gremory[X]
+
+## VioletKnight_Name
+Violet Knight[X]
 
 ## Archmagister_Name
 Archmagister[X]

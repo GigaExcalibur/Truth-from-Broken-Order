@@ -8,111 +8,117 @@
 //hello
 #define Archer_Fstand 0 
 #define Archer_Mstand 1 
-#define Berserkerstand 2 
-#define Bishopstand 3 
-#define Blademaidenstand 4 
-#define Bombardierstand 5 
-#define Cavalier_Fstand 6 
-#define Cavalier_Mstand 7 
-#define CrownPrincestand 8 
-#define Druid_Fstand 9 
-#define Druid_Mstand 10 
-#define Falcoknightstand 11 
-#define Fighterstand 12 
-#define Generalstand 13 
-#define GreatKnightstand 14 
-#define Halberdierstand 15 
-#define Hero_Fstand 16 
-#define Hero_Mstand 17 
-#define Juggernautstand 18 
-#define Jurispotencestand 19 
-#define Knightstand 20 
-#define MageKnightstand 21 
-#define Magestand 22 
-#define MaligKnightstand 23 
-#define Mercenary_Fstand 24 
-#define Mercenary_Mstand 25 
-#define Monkstand 26 
-#define Myrmidonstand 27 
-#define Novistadorstand 28 
-#define Paladin_Fstand 29 
-#define Paladin_Mstand 30 
-#define PegasusKnightstand 31 
-#define Piratestand 32 
-#define Prieststand 33 
-#define Prosecutorstand 34 
-#define Rangerstand 35 
-#define Roguestand 36 
-#define Sage_Fstand 37 
-#define Sage_Mstand 38 
-#define Shaman_Fstand 39 
-#define Shaman_Mstand 40 
-#define Sibylstand 41 
-#define Sniper_Fstand 42 
-#define Sniper_Mstand 43 
-#define Soldierstand 44 
-#define Swordmasterstand 45 
-#define Thiefstand 46 
-#define Valkyriestand 47 
-#define WarMonkstand 48 
-#define Warriorstand 49 
-#define WyvernLordstand 50 
-#define WyvernRiderstand 51 
+#define Basarastand 2 
+#define Berserkerstand 3 
+#define Bishopstand 4 
+#define Blademaidenstand 5 
+#define Bombardierstand 6 
+#define Cavalier_Fstand 7 
+#define Cavalier_Mstand 8 
+#define CrownPrincestand 9 
+#define DarkKnightstand 10 
+#define Deserterstand 11 
+#define Druid_Fstand 12 
+#define Druid_Mstand 13 
+#define Falcoknightstand 14 
+#define Fighterstand 15 
+#define Generalstand 16 
+#define GreatKnightstand 17 
+#define Halberdierstand 18 
+#define Hero_Fstand 19 
+#define Hero_Mstand 20 
+#define Juggernautstand 21 
+#define Jurispotencestand 22 
+#define Knightstand 23 
+#define MageKnightstand 24 
+#define Magestand 25 
+#define MaligKnightstand 26 
+#define Mercenary_Fstand 27 
+#define Mercenary_Mstand 28 
+#define Monkstand 29 
+#define Myrmidonstand 30 
+#define Novistadorstand 31 
+#define Paladin_Fstand 32 
+#define Paladin_Mstand 33 
+#define PegasusKnightstand 34 
+#define Piratestand 35 
+#define Prieststand 36 
+#define Prosecutorstand 37 
+#define Rangerstand 38 
+#define Roguestand 39 
+#define Sage_Fstand 40 
+#define Sage_Mstand 41 
+#define Shaman_Fstand 42 
+#define Shaman_Mstand 43 
+#define Sibylstand 44 
+#define Sniper_Fstand 45 
+#define Sniper_Mstand 46 
+#define Soldierstand 47 
+#define Swordmasterstand 48 
+#define Thiefstand 49 
+#define Valkyriestand 50 
+#define WarMonkstand 51 
+#define Warriorstand 52 
+#define WyvernLordstand 53 
+#define WyvernRiderstand 54 
  
  
 //First free MMS is 127 and will show up if you've expanded classes.
 #define Archer_Fwalk 0 
 #define Archer_Mwalk 1 
-#define Berserkerwalk 2 
-#define Bishopwalk 3 
-#define Blademaidenwalk 4 
-#define Bombardierwalk 5 
-#define Cavalier_Fwalk 6 
-#define Cavalier_Mwalk 7 
-#define CrownPrincewalk 8 
-#define Druid_Fwalk 9 
-#define Druid_Mwalk 10 
-#define Falcoknightwalk 11 
-#define Fighterwalk 12 
-#define Generalwalk 13 
-#define GreatKnightwalk 14 
-#define Halberdierwalk 15 
-#define Hero_Fwalk 16 
-#define Hero_Mwalk 17 
-#define Juggernautwalk 18 
-#define Jurispotencewalk 19 
-#define Knightwalk 20 
-#define MageKnightwalk 21 
-#define Magewalk 22 
-#define MaligKnightwalk 23 
-#define Mercenary_Fwalk 24 
-#define Mercenary_Mwalk 25 
-#define Monkwalk 26 
-#define Myrmidonwalk 27 
-#define Novistadorwalk 28 
-#define Paladin_Fwalk 29 
-#define Paladin_Mwalk 30 
-#define PegasusKnightwalk 31 
-#define Piratewalk 32 
-#define Priestwalk 33 
-#define Prosecutorwalk 34 
-#define Rangerwalk 35 
-#define Roguewalk 36 
-#define Sage_Fwalk 37 
-#define Sage_Mwalk 38 
-#define Shaman_Fwalk 39 
-#define Shaman_Mwalk 40 
-#define Sibylwalk 41 
-#define Sniper_Fwalk 42 
-#define Sniper_Mwalk 43 
-#define Soldierwalk 44 
-#define Swordmasterwalk 45 
-#define Thiefwalk 46 
-#define Valkyriewalk 47 
-#define WarMonkwalk 48 
-#define Warriorwalk 49 
-#define WyvernLordwalk 50 
-#define WyvernRiderwalk 51 
+#define Basarawalk 2 
+#define Berserkerwalk 3 
+#define Bishopwalk 4 
+#define Blademaidenwalk 5 
+#define Bombardierwalk 6 
+#define Cavalier_Fwalk 7 
+#define Cavalier_Mwalk 8 
+#define CrownPrincewalk 9 
+#define DarkKnightwalk 10 
+#define Deserterwalk 11 
+#define Druid_Fwalk 12 
+#define Druid_Mwalk 13 
+#define Falcoknightwalk 14 
+#define Fighterwalk 15 
+#define Generalwalk 16 
+#define GreatKnightwalk 17 
+#define Halberdierwalk 18 
+#define Hero_Fwalk 19 
+#define Hero_Mwalk 20 
+#define Juggernautwalk 21 
+#define Jurispotencewalk 22 
+#define Knightwalk 23 
+#define MageKnightwalk 24 
+#define Magewalk 25 
+#define MaligKnightwalk 26 
+#define Mercenary_Fwalk 27 
+#define Mercenary_Mwalk 28 
+#define Monkwalk 29 
+#define Myrmidonwalk 30 
+#define Novistadorwalk 31 
+#define Paladin_Fwalk 32 
+#define Paladin_Mwalk 33 
+#define PegasusKnightwalk 34 
+#define Piratewalk 35 
+#define Priestwalk 36 
+#define Prosecutorwalk 37 
+#define Rangerwalk 38 
+#define Roguewalk 39 
+#define Sage_Fwalk 40 
+#define Sage_Mwalk 41 
+#define Shaman_Fwalk 42 
+#define Shaman_Mwalk 43 
+#define Sibylwalk 44 
+#define Sniper_Fwalk 45 
+#define Sniper_Mwalk 46 
+#define Soldierwalk 47 
+#define Swordmasterwalk 48 
+#define Thiefwalk 49 
+#define Valkyriewalk 50 
+#define WarMonkwalk 51 
+#define Warriorwalk 52 
+#define WyvernLordwalk 53 
+#define WyvernRiderwalk 54 
  
 */ 
  
@@ -124,6 +130,7 @@ PUSH
  
 SetSMS(Archer_Fstand, 1, Archer_Fstand_Data) 
 SetSMS(Archer_Mstand, 1, Archer_Mstand_Data) 
+SetSMS(Basarastand, 1, Basarastand_Data) 
 SetSMS(Berserkerstand, 1, Berserkerstand_Data) 
 SetSMS(Bishopstand, 1, Bishopstand_Data) 
 SetSMS(Blademaidenstand, 1, Blademaidenstand_Data) 
@@ -131,6 +138,8 @@ SetSMS(Bombardierstand, 1, Bombardierstand_Data)
 SetSMS(Cavalier_Fstand, 1, Cavalier_Fstand_Data) 
 SetSMS(Cavalier_Mstand, 1, Cavalier_Mstand_Data) 
 SetSMS(CrownPrincestand, 1, CrownPrincestand_Data) 
+SetSMS(DarkKnightstand, 1, DarkKnightstand_Data) 
+SetSMS(Deserterstand, 1, Deserterstand_Data) 
 SetSMS(Druid_Fstand, 1, Druid_Fstand_Data) 
 SetSMS(Druid_Mstand, 1, Druid_Mstand_Data) 
 SetSMS(Falcoknightstand, 1, Falcoknightstand_Data) 
@@ -178,6 +187,7 @@ SetSMS(WyvernRiderstand, 1, WyvernRiderstand_Data)
  
 SetMMS(Archer_Fwalk, Archer_Fwalk_Data, DemonKingAP) 
 SetMMS(Archer_Mwalk, Archer_Mwalk_Data, DemonKingAP) 
+SetMMS(Basarawalk, Basarawalk_Data, DemonKingAP) 
 SetMMS(Berserkerwalk, Berserkerwalk_Data, DemonKingAP) 
 SetMMS(Bishopwalk, Bishopwalk_Data, DemonKingAP) 
 SetMMS(Blademaidenwalk, Blademaidenwalk_Data, DemonKingAP) 
@@ -185,6 +195,8 @@ SetMMS(Bombardierwalk, Bombardierwalk_Data, DemonKingAP)
 SetMMS(Cavalier_Fwalk, Cavalier_Fwalk_Data, DemonKingAP) 
 SetMMS(Cavalier_Mwalk, Cavalier_Mwalk_Data, DemonKingAP) 
 SetMMS(CrownPrincewalk, CrownPrincewalk_Data, DemonKingAP) 
+SetMMS(DarkKnightwalk, DarkKnightwalk_Data, DemonKingAP) 
+SetMMS(Deserterwalk, Deserterwalk_Data, DemonKingAP) 
 SetMMS(Druid_Fwalk, Druid_Fwalk_Data, DemonKingAP) 
 SetMMS(Druid_Mwalk, Druid_Mwalk_Data, DemonKingAP) 
 SetMMS(Falcoknightwalk, Falcoknightwalk_Data, DemonKingAP) 
@@ -245,6 +257,10 @@ Archer_Mstand_Data:
 #incbin "dmp/Archer_Mstand.dmp" 
  
 ALIGN 4 
+Basarastand_Data: 
+#incbin "dmp/Basarastand.dmp" 
+ 
+ALIGN 4 
 Berserkerstand_Data: 
 #incbin "dmp/Berserkerstand.dmp" 
  
@@ -271,6 +287,14 @@ Cavalier_Mstand_Data:
 ALIGN 4 
 CrownPrincestand_Data: 
 #incbin "dmp/CrownPrincestand.dmp" 
+ 
+ALIGN 4 
+DarkKnightstand_Data: 
+#incbin "dmp/DarkKnightstand.dmp" 
+ 
+ALIGN 4 
+Deserterstand_Data: 
+#incbin "dmp/Deserterstand.dmp" 
  
 ALIGN 4 
 Druid_Fstand_Data: 
@@ -458,6 +482,10 @@ Archer_Mwalk_Data:
 #incbin "dmp/Archer_Mwalk.dmp" 
  
 ALIGN 4 
+Basarawalk_Data: 
+#incbin "dmp/Basarawalk.dmp" 
+ 
+ALIGN 4 
 Berserkerwalk_Data: 
 #incbin "dmp/Berserkerwalk.dmp" 
  
@@ -484,6 +512,14 @@ Cavalier_Mwalk_Data:
 ALIGN 4 
 CrownPrincewalk_Data: 
 #incbin "dmp/CrownPrincewalk.dmp" 
+ 
+ALIGN 4 
+DarkKnightwalk_Data: 
+#incbin "dmp/DarkKnightwalk.dmp" 
+ 
+ALIGN 4 
+Deserterwalk_Data: 
+#incbin "dmp/Deserterwalk.dmp" 
  
 ALIGN 4 
 Druid_Fwalk_Data: 
