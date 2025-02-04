@@ -2,6 +2,8 @@
 
 #include "MMB\Installers\MMBInstallerCatball_1.event" // zane
 
+#include "ExpandedConvoy/ExpandedConvoy.event" // cam
+
 #include "DrawItemName/DrawItemNameInstaller.event" // me!
 
 #include "StatScreenBlink/SSBlink.event" // nat
@@ -9,8 +11,6 @@
 #include "FactionNames/FactionNames.event" // me!
 
 #include "SetUnitStatus/SetUnitStatus.event" // ditto
-
-#include "ExpandedConvoy/ExpandedConvoy.event" // cam
 
 #include "WRankBonuses/WRankBonuses.event" // me!
 

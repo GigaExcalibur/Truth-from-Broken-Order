@@ -329,7 +329,7 @@ def main():
     parser.add_argument("-s", "--scanfolders", action="store_true", help="scan all subfolders and generate master installer") #optional scan
 
     # output
-    parser.add_argument("-O", '--installer', help = 'output installer event (default: [Folder]/Master Map Installer.event)')
+    parser.add_argument("-O", '--installer', help = 'output installer event (default: [Folder]/MasterMapInstaller.event)')
     
     # options
     parser.add_argument("-H", "--noheader", action="store_true", help="do not add in the tmx2ea header in generated file(s)")
@@ -381,7 +381,7 @@ def main():
             sys.exit("ERROR: {}: {}".format(tmxFilename, e.message))
 
     if createInstaller:
-        installerFile = args.installer if args.installer else "Master Map Installer.event"
+        installerFile = args.installer if args.installer else "MasterMapInstaller.event"
 
         with open(installerFile, 'w') as f:
             f.writelines(map(lambda file: '#include "{}"\n'.format(os.path.relpath(file, os.path.dirname(installerFile))), processedFiles))

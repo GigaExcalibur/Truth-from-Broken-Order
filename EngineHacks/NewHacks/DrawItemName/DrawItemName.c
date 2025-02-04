@@ -1,5 +1,95 @@
 #include "gbafe.h"
 
+extern u8 RefreshingDurabilityList[];
+extern u8 ConvoySize_Link;
+
+
+// hoo boy
+bool DoesItemRefreshDurability(int item) {
+	int i = 0;
+	while(RefreshingDurabilityList[i] != 0) {
+		if(RefreshingDurabilityList[i] == GetItemIndex(item)) {
+			return true;
+		}
+		i++;
+	}
+	return false;
+}
+
+int GetItemDurabilityColor(int item) {
+	if(DoesItemRefreshDurability(item)) {
+		return TEXT_COLOR_SYSTEM_GOLD;
+	}
+	return TEXT_COLOR_SYSTEM_BLUE;
+}
+
+u16 GetItemAfterUse(int item) {
+    if (GetItemAttributes(item) & IA_UNBREAKABLE)
+        return item; // unbreakable items don't loose uses!
+
+    item -= (1 << 8); // lose one use
+
+    if (item < (1 << 8)) {
+		if(DoesItemRefreshDurability(item)) {
+			item = GetItemIndex(item);
+		}
+	}
+
+    return item; // return used item
+}
+
+// goes in the weapon usability calc loop
+int ZeroDurabilityWeaponUsability(struct Unit* unit, u16 item, u8 rank) {
+	if (GetItemUses(item) <= 0) {
+		return 0;
+	}
+	return 2;
+}
+
+s8 BattleGenerateRoundHits(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    int i, count;
+    u16 attrs; // NOTE: this is a bug! attrs are 19 bits in FE8 (they're 16 bits in previous games)
+
+    if (GetItemUses(attacker->weapon) <= 0)
+        return FALSE;
+
+    attrs = gBattleHitIterator->attributes;
+    count = GetBattleUnitHitCount(attacker);
+
+    for (i = 0; i < count; ++i) {
+        gBattleHitIterator->attributes |= attrs;
+
+        if (BattleGenerateHit(attacker, defender))
+            return TRUE;
+    }
+
+    return FALSE;
+}
+
+void RefreshItemsASMC(struct Proc* proc) {
+	int unitID = 1;
+	int maxCount = 62;
+	
+	while(unitID < maxCount) {
+		struct Unit* curUnit = GetUnit(unitID);
+		for(int j = 0; j < GetUnitItemCount(curUnit); j++) {
+			u16 curItem = curUnit->items[j];
+			if(DoesItemRefreshDurability(curItem)) {
+				curUnit->items[j] = MakeNewItem(GetItemIndex(curItem));
+			}
+		}
+		unitID++;
+	}
+	
+	u16 * convoy = GetConvoyItemArray();
+	for(int i = 0; ((i < ConvoySize_Link) && (*convoy)); i++) {
+		if(DoesItemRefreshDurability(GetItemIndex(*convoy))) {
+			*convoy = MakeNewItem(GetItemIndex(*convoy));
+		}
+		*convoy++;
+	}
+}
+
 // let's fucking do this baby
 void DrawItemMenuLine(struct Text* text, int item, s8 isUsable, u16* mapOut) {
     Text_SetParams(text, 0, (isUsable ? TEXT_COLOR_SYSTEM_WHITE : TEXT_COLOR_SYSTEM_GRAY));
@@ -7,7 +97,7 @@ void DrawItemMenuLine(struct Text* text, int item, s8 isUsable, u16* mapOut) {
 
     PutText(text, mapOut + 2);
 	if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-		PutNumberOrBlank(mapOut + 11, isUsable ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
+		PutNumberOrBlank(mapOut + 11, isUsable ? GetItemDurabilityColor(item) : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
 	}
 
     DrawIcon(mapOut, GetItemIconId(item), 0x4000);
@@ -20,7 +110,7 @@ void DrawItemMenuLineLong(struct Text* text, int item, s8 isUsable, u16* mapOut)
     PutText(text, mapOut + 2);
 
 	if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-		PutNumberOrBlank(mapOut + 13, isUsable ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item)); // 10 in vanilla
+		PutNumberOrBlank(mapOut + 13, isUsable ? GetItemDurabilityColor(item) : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item)); // 10 in vanilla
 	}
     //PutNumberOrBlank(mapOut + 13, isUsable ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY, GetItemMaxUses(item));
     //PutSpecialChar(mapOut + 11, isUsable ? TEXT_COLOR_SYSTEM_WHITE : TEXT_COLOR_SYSTEM_GRAY, TEXT_SPECIAL_SLASH);
@@ -56,7 +146,7 @@ void DrawItemStatScreenLine(struct Text* text, int item, int nameColor, u16* map
 	*/
 	
 	if(!(UNIT_FACTION(gStatScreen.unit) == FACTION_RED) && !(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-		color = (nameColor != TEXT_COLOR_SYSTEM_GRAY) ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY;
+		color = (nameColor != TEXT_COLOR_SYSTEM_GRAY) ? GetItemDurabilityColor(item) : TEXT_COLOR_SYSTEM_GRAY;
 		PutNumberOrBlank(mapOut + 13, color, GetItemUses(item)); // 11 in vanilla
 		//PutNumberOrBlank(mapOut + 14, color, GetItemMaxUses(item));		
 	}
@@ -137,7 +227,7 @@ void RefreshUnitStealInventoryInfoWindow(struct Unit* unit) {
         PutText(proc->lines + i, gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 3, yPos));
 		
 		if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-			PutNumberOrBlank(gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 11, yPos), stealable ? 2 : 1, GetItemUses(item));
+			PutNumberOrBlank(gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 11, yPos), stealable ? GetItemDurabilityColor(item) : 1, GetItemUses(item));
 		}
         
         DrawIcon(gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 1, yPos), GetItemIconId(item), 0x4000);
@@ -174,7 +264,7 @@ void RefreshHammerneUnitInfoWindow(struct Unit* unit) {
         PutText(proc->lines + i, gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 3, yPos));
         //PutSpecialChar(gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 12, yPos), color, TEXT_SPECIAL_SLASH);
 
-        color = IsItemHammernable(item) ? 2 : 1;
+        color = IsItemHammernable(item) ? GetItemDurabilityColor(item) : 1;
 		
 		if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
 			PutNumberOrBlank(gBG0TilemapBuffer + TILEMAP_INDEX(xPos + 13, yPos), color, GetItemUses(item)); // 11 in vanilla
@@ -221,7 +311,7 @@ void PrepUnit_DrawUnitItems(struct Unit *unit)
 			PutNumberOrBlank(
 				TILEMAP_LOCATED(gBG0TilemapBuffer, 11, 5 + 2 * i),
 				IsItemDisplayUsable(unit, item)
-					? TEXT_COLOR_SYSTEM_BLUE
+					? GetItemDurabilityColor(item)
 					: TEXT_COLOR_SYSTEM_GRAY,
 				GetItemUses(item)
 			);			
@@ -260,7 +350,7 @@ void DrawPrepScreenItems(u16 * tm, struct Text* th, struct Unit* unit, u8 checkP
         );
 		
 		if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-			PutNumberOrBlank(tm + i * 0x40 + 0xB, isUsable ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
+			PutNumberOrBlank(tm + i * 0x40 + 0xB, isUsable ? GetItemDurabilityColor(item) : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
 		}
         DrawIcon(tm + i * 0x40, GetItemIconId(item), 0x4000);
 
@@ -304,7 +394,7 @@ void sub_8099F7C(struct Text* th, u16 * tm, struct Unit* unit, u16 flags) {
 
         PutText(th, tm + 2 + i * 0x40);
 		if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-			PutNumberOrBlank(tm + 11 + i * 0x40, !isUnusable ? TEXT_COLOR_SYSTEM_BLUE : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
+			PutNumberOrBlank(tm + 11 + i * 0x40, !isUnusable ? GetItemDurabilityColor(item) : TEXT_COLOR_SYSTEM_GRAY, GetItemUses(item));
 		}
         
     }
@@ -343,7 +433,7 @@ void sub_809D300(struct Text * textBase, u16 * tm, int yLines, struct Unit * uni
 
         PutText(th, tm + TILEMAP_INDEX(3, i*2 & 0x1f));
 		if(!(GetItemAttributes(item) & IA_UNBREAKABLE)) {
-			PutNumberOrBlank(tm + TILEMAP_INDEX(12, i*2 & 0x1f), !unusable ? 2 : 1, GetItemUses(item));
+			PutNumberOrBlank(tm + TILEMAP_INDEX(12, i*2 & 0x1f), !unusable ? GetItemDurabilityColor(item) : 1, GetItemUses(item));
 		}
         
     }

@@ -94,7 +94,7 @@
 
 // bonus generics
 #define DarkKnight		0x31 // U
-#define Deserter		0x32 // U
+#define Deserter		0x32 // M
 #define Basara			0x33
 
 // uniques (skirting around hardcoded stuff)

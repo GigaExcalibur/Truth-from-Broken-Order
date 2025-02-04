@@ -14,4 +14,16 @@ ORG 0xA00798
 BYTE ItemNameWidth
 POP
 
+ALIGN 4
+ConvoySize_Link:
+WORD MaxConvoy
+
+ALIGN 4
+RefreshingDurabilityList:
+BYTE IronSword
+BYTE DivineTruth
+BYTE ClassicGale
+BYTE Axereaver
+BYTE 0 // terminator
+
 #include "DrawItemName.lyn.event"
