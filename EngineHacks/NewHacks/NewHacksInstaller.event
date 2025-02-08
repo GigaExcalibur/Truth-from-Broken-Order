@@ -4,7 +4,8 @@
 
 #include "ExpandedConvoy/ExpandedConvoy.event" // cam
 
-#include "DrawItemName/DrawItemNameInstaller.event" // me!
+#include "AutoRefreshingWeapons/AutoRefreshingWeapons.event"
+//#include "DrawItemName/DrawItemNameInstaller.event" // me!
 
 #include "StatScreenBlink/SSBlink.event" // nat
 

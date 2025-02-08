@@ -1,5 +1,5 @@
 ## Test_Name
-Acceleration[X]
+Test Name[X]
 
 ## IronSword_Name
 Iron Sword[X]

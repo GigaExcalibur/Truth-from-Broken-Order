@@ -8,6 +8,7 @@
 [ToggleInvert] = [ToggleColorInvert]
 [Red] = [ToggleRed]
 [Blink] = [CloseEyes][.][OpenEyes]
+[Eyes] = [CloseEyes]
 [AA] = [.....][A]
 [.A] = [.....][A]
 [.4] = [....]
@@ -39,6 +40,15 @@
 [MR] = [MidRight]
 [FR] = [FarRight]
 [FFR] = [FarFarRight]
+
+[MoFFL] = [MoveFarFarLeft]
+[MoFL] = [MoveFarLeft]
+[MoML] = [MoveMidLeft]
+[MoL] = [MoveLeft]
+[MoR] = [MoveRight]
+[MoMR] = [MoveMidRight]
+[MoFR] = [MoveFarRight]
+[MoFFR] = [MoveFarFarRight]
 
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
@@ -75,6 +85,11 @@
 [LoadSaleh] = [LoadFace][0x20][0x1]
 
 [LoadAlexigant] = [LoadFace][0x02][0x01]
+[LoadYarik] = [LoadFace][0x05][0x01]
+[LoadDreston] = [LoadFace][0x03][0x01]
+[LoadWreston] = [LoadFace][0x04][0x01]
+
+[LoadBandit] = [LoadFace][0x02][0x01]
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]

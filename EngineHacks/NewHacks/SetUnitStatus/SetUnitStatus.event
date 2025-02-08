@@ -1,5 +1,7 @@
-#define UnitStructLevel 	0x8
-#define UnitStructExp 		0x9
+#define UnitStructLevel 			0x8
+#define UnitStructExp 				0x9
+#define UnitStructSecondItemUses	0x21
+#define UnitStructThirdItemUses		0x23
 
 #define SetUnitLevel(unit, level) "SVAL s1 UnitStructLevel; SVAL s2 unit; SVAL s3 level; ASMC SetUnitStats|1"
 #define SetUnitExp(unit, exp) "SVAL s1 UnitStructExp; SVAL s2 unit; SVAL s3 exp; ASMC SetUnitStats|1"
