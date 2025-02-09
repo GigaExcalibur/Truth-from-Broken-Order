@@ -1,0 +1,7 @@
+1. get midi
+2. edit midi
+3. run midi over midi2agb
+4. run resulting s over s2ea
+5. CHANGE .align 2 to ALIGN 4
+6. move files into respective folders
+7. include resulting event and do SongTable()

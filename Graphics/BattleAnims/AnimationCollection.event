@@ -1,0 +1,9 @@
+{
+#include "Animations/Jurispotence/Bow Installer.event"
+#include "Animations/Jurispotence/Staff Installer.event"
+#include "Animations/Jurispotence/Unarmed Installer.event"
+}
+
+{
+
+}

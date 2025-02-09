@@ -1,0 +1,11 @@
+#include "BattleAnimInternals.event"
+
+#include "AnimationCollection.event"
+
+// Jurispotence (ITranc, Nuramon)
+ALIGN 4
+JurispotenceAnims:
+BowAnim(JurispotenceBowAnim)
+StaffAnim(JurispotenceStaffAnim)
+UnarmedAnim(JurispotenceUnarmedAnim)
+EndAnim

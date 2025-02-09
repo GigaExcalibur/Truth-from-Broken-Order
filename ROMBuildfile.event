@@ -12,7 +12,7 @@
     MESSAGE Used text space ends at currentOffset
 	
     ORG FreeSpace
-	MESSAGE Free speech starts at currentOffset
+	MESSAGE Free space starts at currentOffset
 	
 	//Graphics before tables for portrait/animation definitions
 	#include "Graphics/GraphicsInstaller.event"
@@ -21,6 +21,10 @@
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
+	
+	//Music
+	#include "Music/MusicInstaller.event"
+	MESSAGE Used music space ends at currentOffset
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"

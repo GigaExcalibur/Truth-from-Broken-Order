@@ -5,3 +5,9 @@
 #include "Mugs/MugsInstaller.event"
 
 #include "ClassCards/ClassCardInstaller.event"
+
+#include "BattleAnims/BattleAnimInstaller.event"
+
+#include "Palettes/Palette Setup.event"
+
+#include "Palettes/System/FactionMapPalettes.event"

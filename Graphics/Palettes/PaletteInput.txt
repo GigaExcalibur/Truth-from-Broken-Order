@@ -1,0 +1,3 @@
+#char{1} "AlexigantJurispotence" set{Alexigant, 1, Jurispotence}"
+	5553FF7F70252E1DCA188714DE779E5F9746567B6F5ECA49326A8E51E938A514
+	
