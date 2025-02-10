@@ -5,7 +5,7 @@
 	ALIGN 4
 
 	titlebackgroundimage:
-	#incext compress "titlebackgroundimage.img.bin"
+	#incext compress "titlebackgroundimage.img.bin" // change to incbin if i get annoyed by build times
 	
 	ALIGN 4
 	

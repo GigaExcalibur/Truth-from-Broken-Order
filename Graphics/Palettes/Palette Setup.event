@@ -7,3 +7,11 @@
 // AlexigantJurispotence
 	setPalette(1,AlexigantJurispotence)
 	setCBSP(1,Alexigant, 1, Jurispotence)
+
+// AlexigantProsecutor
+	setPalette(2,AlexigantProsecutor)
+	setCBSP(2,Alexigant, 2, Prosecutor)
+
+// YarikSwordmaster
+	setPalette(3,YarikSwordmaster)
+	setCBSP(3,Yarik, 1, Swordmaster)

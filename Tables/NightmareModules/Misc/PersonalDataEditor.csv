@@ -1,6 +1,6 @@
-INLINE PersonalDataTable,First Like,Second Like,First Disike,Second Dislike,Age,Height
+INLINE PersonalDataTable,Full Name 1,Full Name 2,Info 1,Info 2,Age,Height
 0x0,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
-Eirika,EirikaLike1ID,EirikaLike2ID,EirikaDislike1ID,EirikaDislike2ID,EirikaAgeID,EirikaHeightID
+0x01 Alexigant,AlexigantFullName1,AlexigantFullName2,AlexigantInfo1,AlexigantInfo2,0x0000,0x0000
 Seth,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 Gilliam,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 Franz,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000

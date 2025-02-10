@@ -2,10 +2,46 @@
 
 #include "AnimationCollection.event"
 
-// Jurispotence (ITranc, Nuramon)
+// Jurispotence (Nuramon)
 ALIGN 4
 JurispotenceAnims:
 BowAnim(JurispotenceBowAnim)
 StaffAnim(JurispotenceStaffAnim)
 UnarmedAnim(JurispotenceUnarmedAnim)
+EndAnim
+
+// Prosecutor (ltranc, Nuramon)
+ALIGN 4
+ProsecutorAnims:
+BowAnim(ProsecutorBowAnim)
+StaffAnim(ProsecutorStaffAnim)
+UnarmedAnim(ProsecutorUnarmedAnim)
+EndAnim
+
+// Myrmidon (Leo_Link)
+ALIGN 4
+MyrmidonAnims:
+SwordAnim(MyrmidonSwordAnim)
+UnarmedAnim(MyrmidonUnarmedAnim)
+EndAnim
+
+// Swordmaster (Greentea, RobertFPY, ltranc)
+ALIGN 4
+SwordmasterAnims:
+SwordAnim(SwordmasterSwordAnim)
+UnarmedAnim(SwordmasterUnarmedAnim)
+EndAnim
+
+// SALVAGED
+ALIGN 4
+MercenaryFAnims:
+SwordAnim(MercenaryFSwordAnim)
+UnarmedAnim(MercenaryFUnarmedAnim)
+EndAnim
+
+// SALVAGED
+ALIGN 4
+MercenaryMAnims:
+SwordAnim(MercenaryMSwordAnim)
+UnarmedAnim(MercenaryMUnarmedAnim)
 EndAnim

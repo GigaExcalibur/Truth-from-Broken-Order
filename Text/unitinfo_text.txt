@@ -1,17 +1,11 @@
-## EirikaLike1ID
-piña coladas[X]
+## AlexigantFullName1
+Alexigant du Partriz[X]
 
-## EirikaLike2ID * 
-getting caught in the rain[X]
+## AlexigantFullName2
+Alexigant Partriz[X]
 
-## EirikaDislike1ID
-health food[X]
+## AlexigantInfo1
+28, 6'2[CQ], They/Them[X]
 
-## EirikaDislike2ID
-yoga[X]
-
-## EirikaAgeID
-1337[X]
-
-## EirikaHeightID
-420cm[X]
+## AlexigantInfo2
+31, 6'2[CQ], They/Them[X]

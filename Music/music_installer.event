@@ -30,10 +30,12 @@
 //#include "songs/ctest.event"
 //}
 
+// me!
 {
-SongTable(0x43, _00___Random_Dungeon_Theme_3, MapMusicGroup)
+SongTable(0x34, _00___Random_Dungeon_Theme_3, MapMusicGroup)
 #include "songs/100 - Random Dungeon Theme 3.event"
 }
+
 /*
 {
 SongTable(0x34,Moderato2004, MapMusicGroup)
@@ -41,14 +43,23 @@ SongTable(0x34,Moderato2004, MapMusicGroup)
 }
 */
 
+
+// me!
 {
-SongTable(0x34,prisonerselegy, MapMusicGroup)
+SongTable(0x43,prisonerselegy, MapMusicGroup)
 #include "songs/prisonerselegy.event"
 }
 
+// hunteraurzo
 {
 SongTable(0x09, song09, MapMusicGroup)
-#include "C:\Users\jlevi\OneDrive\Documents\GitHub\deepsigh\Music\songs\Avalon Code_ Flows of Weld River & Ravine of Vulgazzo.event"
+#include "songs\Avalon Code_ Flows of Weld River & Ravine of Vulgazzo.event"
+}
+
+// me!
+{
+SongTable(0x36, _64___Temporal_Tower, MapMusicGroup)
+#include "songs/064 - Temporal Tower.event"
 }
 
 // --------------- SONGS: GUI AND SFX ---------------

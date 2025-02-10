@@ -6,3 +6,9 @@ ALIGN 4
 AlexigantJurispotence:
 	#incbin "./_palettes/AlexigantJurispotence.lzpal" 
 
+AlexigantProsecutor:
+	#incbin "./_palettes/AlexigantProsecutor.lzpal" 
+
+YarikSwordmaster:
+	#incbin "./_palettes/YarikSwordmaster.lzpal" 
+

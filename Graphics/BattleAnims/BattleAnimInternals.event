@@ -28,8 +28,6 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 #define EndAnim "WORD 0x0 0x0"
 
-#define ClassAnimTable 0xC00008
-/*
 ALIGN 16
 ClassAnimTable:
 FILL 0x20 * 0x300 // number of battle anims
@@ -52,10 +50,33 @@ POIN ClassAnimTable
 ORG $70A60
 POIN ClassAnimTable
 POP
-*/
+
 #define JurispotenceBowAnim			0x001
 #define JurispotenceStaffAnim		0x002
 #define JurispotenceUnarmedAnim		0x003
 
-#define MyrmidonSwordAnim			0x004
-#define MyrmidonUnarmedAnim			0x005
+#define ProsecutorBowAnim			0x004
+#define ProsecutorStaffAnim			0x005
+#define ProsecutorUnarmedAnim		0x006
+
+#define MyrmidonSwordAnim			0x007
+#define MyrmidonUnarmedAnim			0x008
+
+#define SwordmasterSwordAnim		0x009
+#define SwordmasterUnarmedAnim		0x00A
+
+#define MercenaryFSwordAnim			0x00B
+#define MercenaryFUnarmedAnim		0x00C
+
+#define MercenaryMSwordAnim			0x00D
+#define MercenaryMUnarmedAnim		0x00E
+
+#define HeroFSwordAnim				0x00F
+#define HeroFAxeAnim				0x010
+#define HeroFHandAxeAnim			0x011
+#define HeroFUnarmedAnim			0x012
+
+#define HeroMSwordAnim				0x013
+#define HeroMAxeAnim				0x014
+#define HeroMHandAxeAnim			0x015
+#define HeroMUnarmedAnim			0x016

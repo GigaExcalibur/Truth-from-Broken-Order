@@ -5,5 +5,27 @@
 }
 
 {
+#include "Animations/Prosecutor/Bow Installer.event"
+#include "Animations/Prosecutor/Staff Installer.event"
+#include "Animations/Prosecutor/Unarmed Installer.event"
+}
 
+{
+#include "Animations/Myrmidon/Sword Installer.event"
+#include "Animations/Myrmidon/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Swordmaster/Sword Installer.event"
+#include "Animations/Swordmaster/Unarmed Installer.event"
+}
+
+{
+#include "Animations/MercenaryF/Sword Installer.event"
+#include "Animations/MercenaryF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/MercenaryM/Sword Installer.event"
+#include "Animations/MercenaryM/Unarmed Installer.event"
 }

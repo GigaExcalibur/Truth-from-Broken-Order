@@ -5,5 +5,5 @@ POP
 
 PUSH
 ORG 0x870B8
-WORD 0x02003F74 // I can't entirely explain it but the last two bytes here determine position
+WORD 0x020040B4 // I can't entirely explain it but the last two bytes here determine position
 POP
