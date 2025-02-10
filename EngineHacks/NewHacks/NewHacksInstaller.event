@@ -25,5 +25,6 @@
 
 #include "ConstantMountedAid/ConstantMountedAid.lyn.event" // me!
 
+#include "256ColorTitle/titlebackgroundinstaller.event" // leonarth
 
 //#include "ExtraFactionPalettes/ExtraFactionPalettes.lyn.event" // me!
