@@ -1,0 +1,3323 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    Moderato2004_grp  voicegroup000
+        #define    Moderato2004_pri  0
+        #define    Moderato2004_rev  0
+        #define    Moderato2004_key  0
+
+        // .rodata
+        // Moderato2004
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+Moderato2004_0:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   122/2
+        BYTE           VOICE   12
+        BYTE           VOL     40
+        BYTE           N06     As4   v080
+        BYTE   W06
+        BYTE                   As4   v060
+        BYTE   W06
+        BYTE                   As4   v040
+        BYTE   W06
+        BYTE                   As4   v020
+        BYTE   W06
+        BYTE                   As4
+        BYTE   W48
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+// 001   ----------------------------------------
+Moderato2004_0_1:
+        BYTE           N06     Cs5   v040
+        BYTE   W06
+        BYTE                   Cs5   v020
+        BYTE   W06
+        BYTE                   Cs5
+        BYTE   W24
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cn5   v040
+        BYTE   W06
+        BYTE                   Cn5   v020
+        BYTE   W06
+        BYTE                   Cn5
+        BYTE   W24
+        BYTE                   As4   v080
+        BYTE   W06
+        BYTE                   As4   v060
+        BYTE   W06
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_0_2:
+        BYTE           N06     As4   v040
+        BYTE   W06
+        BYTE                   As4   v020
+        BYTE   W06
+        BYTE                   As4
+        BYTE   W60
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_0_3:
+        BYTE           N06     Cs5   v040
+        BYTE   W06
+        BYTE                   Cs5   v020
+        BYTE   W06
+        BYTE                   Cs5
+        BYTE   W24
+        BYTE                   Ds5   v080
+        BYTE   W06
+        BYTE                   Ds5   v060
+        BYTE   W06
+        BYTE                   Ds5   v040
+        BYTE   W06
+        BYTE                   Ds5   v020
+        BYTE   W06
+        BYTE                   Ds5
+        BYTE   W24
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_0_4:
+        BYTE           N06     Cs5   v040
+        BYTE   W06
+        BYTE                   Cs5   v020
+        BYTE   W06
+        BYTE                   Cs5
+        BYTE   W60
+        BYTE                   Ds5   v080
+        BYTE   W06
+        BYTE                   Ds5   v060
+        BYTE   W06
+        BYTE                   Fn5   v080
+        BYTE   W06
+        BYTE                   Fn5   v060
+        BYTE   W06
+        BYTE   PEND
+// 005   ----------------------------------------
+Moderato2004_0_5:
+        BYTE           N06     Fn5   v040
+        BYTE   W06
+        BYTE                   Fn5   v020
+        BYTE   W06
+        BYTE                   Fn5
+        BYTE   W24
+        BYTE                   Ds5   v080
+        BYTE   W06
+        BYTE                   Ds5   v060
+        BYTE   W06
+        BYTE                   Ds5   v040
+        BYTE   W06
+        BYTE                   Ds5   v020
+        BYTE   W06
+        BYTE                   Ds5
+        BYTE   W24
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+        BYTE   PEND
+// 006   ----------------------------------------
+Moderato2004_0_6:
+        BYTE           N06     Cs5   v040
+        BYTE   W06
+        BYTE                   Cs5   v020
+        BYTE   W06
+        BYTE                   Cs5
+        BYTE   W60
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+        BYTE   PEND
+// 007   ----------------------------------------
+Moderato2004_0_7:
+        BYTE           N06     Cs5   v040
+        BYTE   W06
+        BYTE                   Cs5   v020
+        BYTE   W06
+        BYTE                   Cs5
+        BYTE   W24
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cn5   v040
+        BYTE   W06
+        BYTE                   Cn5   v020
+        BYTE   W06
+        BYTE                   Cn5
+        BYTE   W36
+        BYTE   PEND
+// 008   ----------------------------------------
+Moderato2004_0_8:
+        BYTE           N06     As4   v080
+        BYTE   W06
+        BYTE                   As4   v060
+        BYTE   W06
+        BYTE                   As4   v040
+        BYTE   W06
+        BYTE                   As4   v020
+        BYTE   W06
+        BYTE                   As4
+        BYTE   W48
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cs5   v080
+        BYTE   W06
+        BYTE                   Cs5   v060
+        BYTE   W06
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_7
+// 016   ----------------------------------------
+Moderato2004_0_16:
+        BYTE           N06     Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE                   Cn5   v040
+        BYTE   W06
+        BYTE                   Cn5   v020
+        BYTE   W06
+        BYTE                   Cn5
+        BYTE   W48
+        BYTE                   Dn5   v080
+        BYTE   W06
+        BYTE                   Dn5   v060
+        BYTE   W06
+        BYTE                   En5   v080
+        BYTE   W06
+        BYTE                   En5   v060
+        BYTE   W06
+        BYTE   PEND
+// 017   ----------------------------------------
+Moderato2004_0_17:
+        BYTE           N06     En5   v040
+        BYTE   W06
+        BYTE                   En5   v020
+        BYTE   W06
+        BYTE                   En5
+        BYTE   W24
+        BYTE                   Dn5   v080
+        BYTE   W06
+        BYTE                   Dn5   v060
+        BYTE   W06
+        BYTE                   Dn5   v040
+        BYTE   W06
+        BYTE                   Dn5   v020
+        BYTE   W06
+        BYTE                   Dn5
+        BYTE   W24
+        BYTE                   Cn5   v080
+        BYTE   W06
+        BYTE                   Cn5   v060
+        BYTE   W06
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_0_18:
+        BYTE           N06     Cn5   v040
+        BYTE   W06
+        BYTE                   Cn5   v020
+        BYTE   W06
+        BYTE                   Cn5
+        BYTE   W60
+        BYTE                   Dn5   v080
+        BYTE   W06
+        BYTE                   Dn5   v060
+        BYTE   W06
+        BYTE                   En5   v080
+        BYTE   W06
+        BYTE                   En5   v060
+        BYTE   W06
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_17
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_18
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_18
+// 023   ----------------------------------------
+Moderato2004_0_23:
+        BYTE           N06     En5   v040
+        BYTE   W06
+        BYTE                   En5   v020
+        BYTE   W06
+        BYTE                   En5
+        BYTE   W24
+        BYTE                   Fn5   v080
+        BYTE   W06
+        BYTE                   Fn5   v060
+        BYTE   W06
+        BYTE                   Fn5   v040
+        BYTE   W06
+        BYTE                   Fn5   v020
+        BYTE   W06
+        BYTE                   Fn5
+        BYTE   W36
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_8
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_5
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_6
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_7
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_16
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_17
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_17
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_18
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_17
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_18
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_0_23
+// 048   ----------------------------------------
+        BYTE   W48
+        BYTE           N06     As4   v080
+        BYTE   W06
+        BYTE                   As4   v060
+        BYTE   W06
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+Moderato2004_1:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   95
+        BYTE           VOL     120
+        BYTE           N08     As1   v052
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W24
+// 001   ----------------------------------------
+Moderato2004_1_1:
+        BYTE   W12
+        BYTE           N08     As1   v052
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W24
+        BYTE                   As1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_1_2:
+        BYTE   W36
+        BYTE           N08     Fs1   v052
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W24
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_1_3:
+        BYTE   W12
+        BYTE           N08     Fs1   v052
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W24
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_1_4:
+        BYTE   W36
+        BYTE           N08     As1   v052
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W24
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 007   ----------------------------------------
+Moderato2004_1_7:
+        BYTE   W12
+        BYTE           N08     Fs1   v052
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W24
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   PEND
+// 008   ----------------------------------------
+Moderato2004_1_8:
+        BYTE           N08     As1   v052
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W24
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_7
+// 016   ----------------------------------------
+        BYTE           N08     An1   v052
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W24
+// 017   ----------------------------------------
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+// 018   ----------------------------------------
+Moderato2004_1_18:
+        BYTE   W36
+        BYTE           N08     Fn1   v052
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W24
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+// 020   ----------------------------------------
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W24
+// 021   ----------------------------------------
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W24
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_18
+// 023   ----------------------------------------
+        BYTE   W12
+        BYTE           N08     Fn1   v052
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W24
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_8
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_7
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_7
+// 040   ----------------------------------------
+        BYTE           N08     An1   v052
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+// 041   ----------------------------------------
+Moderato2004_1_41:
+        BYTE   W12
+        BYTE           N08     An2   v052
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W24
+        BYTE           N06
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE           N08     En2
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE   PEND
+// 042   ----------------------------------------
+Moderato2004_1_42:
+        BYTE   W36
+        BYTE           N08     Fn1   v052
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+// 044   ----------------------------------------
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_41
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_1_42
+// 047   ----------------------------------------
+        BYTE   W12
+        BYTE           N08     Fn1   v052
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W24
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+// 048   ----------------------------------------
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W12
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+Moderato2004_2:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   98
+        BYTE           VOL     120
+        BYTE           PAN     c_v+10
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE           TIE     Fn2   v040
+        BYTE   W96
+// 025   ----------------------------------------
+Moderato2004_2_25:
+        BYTE   W36
+        BYTE           EOT     Fn2
+        BYTE           N48     As2   v040
+        BYTE   W48
+        BYTE           TIE     Fs2
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+Moderato2004_2_27:
+        BYTE   W36
+        BYTE           EOT     Fs2
+        BYTE           N48     As2   v040
+        BYTE   W48
+        BYTE           TIE     Fn2
+        BYTE   W12
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_2_25
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+Moderato2004_2_31:
+        BYTE   W36
+        BYTE           EOT     Fs2
+        BYTE           N60     As2   v040
+        BYTE   W60
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE           TIE     Fn2
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W36
+        BYTE           EOT
+        BYTE           N54     As2
+        BYTE   W48
+        BYTE           TIE     Fs2
+        BYTE   W12
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_2_27
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_2_25
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_2_31
+// 040   ----------------------------------------
+        BYTE           TIE     An2   v032
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W24
+        BYTE           EOT
+        BYTE           N30     En3
+        BYTE   W24
+        BYTE           N24     Dn3
+        BYTE   W24
+        BYTE           N12     En3
+        BYTE   W12
+        BYTE           TIE     Cn3
+        BYTE   W12
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W24
+        BYTE           EOT
+        BYTE           N24     Bn2
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N12     Dn3
+        BYTE   W12
+        BYTE           TIE     An2
+        BYTE   W12
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W24
+        BYTE           EOT
+        BYTE           N24     En3
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE           N12     En3
+        BYTE   W12
+        BYTE           TIE     Cn3
+        BYTE   W12
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W48
+        BYTE           EOT
+        BYTE           N48     Fn2
+        BYTE   W48
+// 048   ----------------------------------------
+        BYTE           N12     Fn2   v020
+        BYTE   W12
+        BYTE                   Fn2   v016
+        BYTE   W12
+        BYTE                   Fn2   v012
+        BYTE   W12
+        BYTE                   Fn2   v008
+        BYTE   W24
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+Moderato2004_3:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   98
+        BYTE           VOL     120
+        BYTE           PAN     c_v-10
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE           TIE     As1   v056
+        BYTE   W96
+// 025   ----------------------------------------
+Moderato2004_3_25:
+        BYTE   W36
+        BYTE           EOT     As1
+        BYTE           N24     As1   v056
+        BYTE   W24
+        BYTE           N12     Cn2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE           TIE     Cs2
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W60
+        BYTE           EOT
+        BYTE           N12     Cn2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+// 028   ----------------------------------------
+        BYTE           TIE     As1
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W60
+        BYTE           EOT
+        BYTE           N12     Cn2
+        BYTE   W12
+        BYTE                   Cs2
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W12
+// 030   ----------------------------------------
+        BYTE           TIE     Cs2
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE           EOT
+        BYTE           TIE     As1
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_3_25
+// 034   ----------------------------------------
+        BYTE           TIE     Cs2   v056
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W36
+        BYTE           EOT
+        BYTE           N36     Cn2
+        BYTE   W36
+        BYTE           N12     Cs2
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+// 036   ----------------------------------------
+        BYTE           TIE     As1
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_3_25
+// 038   ----------------------------------------
+        BYTE           TIE     Cs2   v056
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE           EOT
+        BYTE           TIE     En2   v048
+        BYTE   W96
+// 041   ----------------------------------------
+Moderato2004_3_41:
+        BYTE   W24
+        BYTE           EOT     En2
+        BYTE           N24     Cn3   v048
+        BYTE   W24
+        BYTE                   Bn2
+        BYTE   W24
+        BYTE           N12     Cn3
+        BYTE   W12
+        BYTE           TIE     An2
+        BYTE   W12
+        BYTE   PEND
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W24
+        BYTE           EOT
+        BYTE           N24     Gn2
+        BYTE   W24
+        BYTE                   An2
+        BYTE   W24
+        BYTE           N12     Bn2
+        BYTE   W12
+        BYTE           TIE     En2
+        BYTE   W12
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_3_41
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W48
+        BYTE           EOT     An2
+        BYTE           N48     An2   v048
+        BYTE   W48
+// 048   ----------------------------------------
+        BYTE           N12     An2   v020
+        BYTE   W12
+        BYTE                   An2   v016
+        BYTE   W12
+        BYTE                   An2   v012
+        BYTE   W12
+        BYTE                   An2   v008
+        BYTE   W24
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+Moderato2004_4:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   12
+        BYTE           VOL     80
+        BYTE           PAN     c_v+12
+        BYTE   W12
+        BYTE           N06     Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+// 001   ----------------------------------------
+Moderato2004_4_1:
+        BYTE   W12
+        BYTE           N06     Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   Fn2   v040
+        BYTE   W06
+        BYTE                   Fn2   v020
+        BYTE   W06
+        BYTE                   Fn2
+        BYTE   W24
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   Fn2   v040
+        BYTE   W06
+        BYTE                   Fn2   v020
+        BYTE   W06
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_4_2:
+        BYTE           N06     Fn2   v020
+        BYTE   W12
+        BYTE                   Fs2   v080
+        BYTE   W06
+        BYTE                   Fs2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_4_3:
+        BYTE   W12
+        BYTE           N06     As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   Fs2   v080
+        BYTE   W06
+        BYTE                   Fs2   v060
+        BYTE   W06
+        BYTE                   Fs2   v040
+        BYTE   W06
+        BYTE                   Fs2   v020
+        BYTE   W06
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   Fs2   v080
+        BYTE   W06
+        BYTE                   Fs2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_4_4:
+        BYTE           N06     As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+        BYTE   PEND
+// 005   ----------------------------------------
+Moderato2004_4_5:
+        BYTE   W12
+        BYTE           N06     Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   Fs2   v080
+        BYTE   W06
+        BYTE                   Fs2   v060
+        BYTE   W06
+        BYTE   PEND
+// 006   ----------------------------------------
+Moderato2004_4_6:
+        BYTE           N06     Fs2   v040
+        BYTE   W06
+        BYTE                   Fs2   v020
+        BYTE   W06
+        BYTE                   Fs2   v080
+        BYTE   W06
+        BYTE                   Fs2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+        BYTE   PEND
+// 007   ----------------------------------------
+Moderato2004_4_7:
+        BYTE   W36
+        BYTE           N06     Cs3   v080
+        BYTE   W06
+        BYTE                   Cs3   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   Fs3   v068
+        BYTE   W06
+        BYTE                   Fs3   v052
+        BYTE   W06
+        BYTE                   Fs3   v036
+        BYTE   W06
+        BYTE                   Fs3   v016
+        BYTE   W06
+        BYTE                   Fs3
+        BYTE   W12
+        BYTE   PEND
+// 008   ----------------------------------------
+Moderato2004_4_8:
+        BYTE   W12
+        BYTE           N06     Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_7
+// 016   ----------------------------------------
+        BYTE   W36
+        BYTE           N06     An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   En3   v068
+        BYTE   W06
+        BYTE                   En3   v052
+        BYTE   W06
+        BYTE                   En3   v036
+        BYTE   W06
+        BYTE                   En3   v016
+        BYTE   W06
+        BYTE                   En3
+        BYTE   W12
+// 017   ----------------------------------------
+Moderato2004_4_17:
+        BYTE   W24
+        BYTE           N06     An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   Cn3   v080
+        BYTE   W06
+        BYTE                   Cn3   v060
+        BYTE   W06
+        BYTE                   Cn3   v040
+        BYTE   W06
+        BYTE                   Cn3   v020
+        BYTE   W06
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_4_18:
+        BYTE           N06     Cn3   v020
+        BYTE   W24
+        BYTE                   An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W12
+        BYTE                   En3   v068
+        BYTE   W06
+        BYTE                   En3   v052
+        BYTE   W06
+        BYTE                   En3   v036
+        BYTE   W06
+        BYTE                   En3   v016
+        BYTE   W06
+        BYTE                   En3
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+Moderato2004_4_19:
+        BYTE   W24
+        BYTE           N06     An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W24
+        BYTE                   An3   v068
+        BYTE   W06
+        BYTE                   An3   v052
+        BYTE   W06
+        BYTE                   An3   v036
+        BYTE   W06
+        BYTE                   An3   v016
+        BYTE   W06
+        BYTE   PEND
+// 020   ----------------------------------------
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   En3   v068
+        BYTE   W06
+        BYTE                   En3   v052
+        BYTE   W06
+        BYTE                   En3   v036
+        BYTE   W06
+        BYTE                   En3   v016
+        BYTE   W06
+        BYTE                   En3
+        BYTE   W12
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_18
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_19
+// 024   ----------------------------------------
+        BYTE           N06     An3   v016
+        BYTE   W12
+        BYTE                   Fn2   v080
+        BYTE   W06
+        BYTE                   Fn2   v060
+        BYTE   W06
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_5
+// 030   ----------------------------------------
+Moderato2004_4_30:
+        BYTE           N06     Fs2   v040
+        BYTE   W06
+        BYTE                   Fs2   v020
+        BYTE   W18
+        BYTE                   As2   v080
+        BYTE   W06
+        BYTE                   As2   v060
+        BYTE   W06
+        BYTE                   As2   v040
+        BYTE   W06
+        BYTE                   As2   v020
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W48
+        BYTE   PEND
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_7
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_30
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_4_7
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W12
+        BYTE           N06     An2   v080
+        BYTE   W06
+        BYTE                   An2   v060
+        BYTE   W06
+        BYTE                   An2   v040
+        BYTE   W06
+        BYTE                   An2   v020
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W24
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+Moderato2004_5:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   49
+        BYTE           VOL     120
+        BYTE   W72
+        BYTE   W01
+        BYTE           N09     Gs3   v036
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W11
+// 001   ----------------------------------------
+Moderato2004_5_1:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N09     Gs3   v036
+        BYTE   W56
+        BYTE   W03
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_5_2:
+        BYTE   W72
+        BYTE   W01
+        BYTE           N09     Gs3   v036
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W11
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_5_3:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N09     Cn4   v036
+        BYTE   W48
+        BYTE                   As3
+        BYTE   W11
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_5_4:
+        BYTE   W72
+        BYTE   W01
+        BYTE           N09     Cn4   v036
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W11
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 016   ----------------------------------------
+Moderato2004_5_16:
+        BYTE   W01
+        BYTE           N09     Gn3   v036
+        BYTE   W72
+        BYTE                   Bn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W11
+        BYTE   PEND
+// 017   ----------------------------------------
+Moderato2004_5_17:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N09     Bn3   v036
+        BYTE   W48
+        BYTE                   An3
+        BYTE   W11
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_5_18:
+        BYTE   W72
+        BYTE   W01
+        BYTE           N09     Bn3   v036
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W11
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_17
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_18
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_18
+// 023   ----------------------------------------
+Moderato2004_5_23:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N09     Cn4   v036
+        BYTE   W56
+        BYTE   W03
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_3
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_1
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_16
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_17
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_17
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_18
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_17
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_18
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_5_23
+// 048   ----------------------------------------
+        BYTE   W60
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+Moderato2004_6:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   49
+        BYTE           VOL     120
+        BYTE   W96
+// 001   ----------------------------------------
+Moderato2004_6_1:
+        BYTE   W01
+        BYTE           N08     As3   v020
+        BYTE   W48
+        BYTE                   Gs3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+Moderato2004_6_3:
+        BYTE   W01
+        BYTE           N08     As3   v020
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_6_4:
+        BYTE   W01
+        BYTE           N08     As3   v020
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 005   ----------------------------------------
+Moderato2004_6_5:
+        BYTE   W01
+        BYTE           N08     Cs4   v020
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 016   ----------------------------------------
+Moderato2004_6_16:
+        BYTE   W13
+        BYTE           N08     Gn3   v020
+        BYTE   W80
+        BYTE   W03
+        BYTE   PEND
+// 017   ----------------------------------------
+Moderato2004_6_17:
+        BYTE   W01
+        BYTE           N08     Cn4   v020
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_6_18:
+        BYTE   W01
+        BYTE           N08     An3   v020
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_17
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_18
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_18
+// 023   ----------------------------------------
+Moderato2004_6_23:
+        BYTE   W01
+        BYTE           N08     Cn4   v020
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_5
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_4
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_1
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_16
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_17
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_17
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_18
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_17
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_18
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_6_23
+// 048   ----------------------------------------
+        BYTE   W60
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+Moderato2004_7:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   101
+        BYTE           VOL     110
+        BYTE           PAN     c_v-16
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+Moderato2004_7_8:
+        BYTE   W24
+        BYTE           N12     As4   v036
+        BYTE   W12
+        BYTE                   Fn4
+        BYTE   W60
+        BYTE   PEND
+// 009   ----------------------------------------
+Moderato2004_7_9:
+        BYTE   W12
+        BYTE           N12     Fn4   v036
+        BYTE   W36
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE                   Fn4
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W12
+        BYTE                   Cs5
+        BYTE   W12
+        BYTE   PEND
+// 010   ----------------------------------------
+Moderato2004_7_10:
+        BYTE   W24
+        BYTE           N12     As4   v036
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W60
+        BYTE   PEND
+// 011   ----------------------------------------
+Moderato2004_7_11:
+        BYTE   W12
+        BYTE           N12     Fs4   v036
+        BYTE   W36
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE                   Fs4
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W12
+        BYTE                   Cs5
+        BYTE   W12
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_8
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_11
+// 016   ----------------------------------------
+Moderato2004_7_16:
+        BYTE   W24
+        BYTE           N12     Cn5   v036
+        BYTE   W12
+        BYTE                   Gn4
+        BYTE   W60
+        BYTE   PEND
+// 017   ----------------------------------------
+Moderato2004_7_17:
+        BYTE   W12
+        BYTE           N12     Gn4   v036
+        BYTE   W36
+        BYTE                   En4
+        BYTE   W12
+        BYTE                   Gn4
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE                   En5
+        BYTE   W12
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_7_18:
+        BYTE   W24
+        BYTE           N12     Cn5   v036
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W60
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W36
+        BYTE                   En4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE                   En5
+        BYTE   W12
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_16
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_7_18
+// 023   ----------------------------------------
+        BYTE   W12
+        BYTE           N12     An4   v036
+        BYTE   W36
+        BYTE                   Ds4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE                   Ds5
+        BYTE   W12
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W72
+        BYTE                   As4
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W60
+        BYTE   FINE
+
+//****************** Track 8 (Midi-Chn.8) ******************//
+
+Moderato2004_8:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   101
+        BYTE           VOL     110
+        BYTE           PAN     c_v+10
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W72
+        BYTE           N12     As4   v076
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+// 040   ----------------------------------------
+Moderato2004_8_40:
+        BYTE   W24
+        BYTE           N12     Cn4   v076
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W60
+        BYTE   PEND
+// 041   ----------------------------------------
+Moderato2004_8_41:
+        BYTE   W12
+        BYTE           N12     Gn3   v076
+        BYTE   W36
+        BYTE                   En3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE   PEND
+// 042   ----------------------------------------
+Moderato2004_8_42:
+        BYTE   W24
+        BYTE           N12     Cn4   v076
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W60
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   En3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_8_40
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_8_41
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_8_42
+// 047   ----------------------------------------
+        BYTE   W12
+        BYTE           N12     An3   v076
+        BYTE   W36
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Ds4
+        BYTE   W12
+// 048   ----------------------------------------
+        BYTE   W60
+        BYTE   FINE
+
+//***************** Track 9 (Midi-Chn.10) ******************//
+
+Moderato2004_9:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   55
+        BYTE           VOL     120
+        BYTE   W01
+        BYTE           N08     As1   v036
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W23
+// 001   ----------------------------------------
+Moderato2004_9_1:
+        BYTE   W13
+        BYTE           N08     As1   v036
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W24
+        BYTE                   As1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_9_2:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N08     Fs1   v036
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W23
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_9_3:
+        BYTE   W13
+        BYTE           N08     Fs1   v036
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W24
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W11
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_9_4:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N08     As1   v036
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W23
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 007   ----------------------------------------
+Moderato2004_9_7:
+        BYTE   W13
+        BYTE           N08     Fs1   v036
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W24
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 008   ----------------------------------------
+Moderato2004_9_8:
+        BYTE   W01
+        BYTE           N08     As1   v036
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W23
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_7
+// 016   ----------------------------------------
+        BYTE   W01
+        BYTE           N08     An1   v036
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W23
+// 017   ----------------------------------------
+        BYTE   W13
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W11
+// 018   ----------------------------------------
+Moderato2004_9_18:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N08     Fn1   v036
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W23
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W13
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W11
+// 020   ----------------------------------------
+        BYTE   W36
+        BYTE   W01
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W23
+// 021   ----------------------------------------
+        BYTE   W13
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W24
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W11
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_18
+// 023   ----------------------------------------
+        BYTE   W13
+        BYTE           N08     Fn1   v036
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W24
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W11
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_8
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_7
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_7
+// 040   ----------------------------------------
+        BYTE   W01
+        BYTE           N08     An1   v036
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W11
+// 041   ----------------------------------------
+Moderato2004_9_41:
+        BYTE   W13
+        BYTE           N08     An2   v036
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W24
+        BYTE           N06
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE           N08     En2
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W11
+        BYTE   PEND
+// 042   ----------------------------------------
+Moderato2004_9_42:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N08     Fn1   v036
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W11
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE   W13
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W11
+// 044   ----------------------------------------
+        BYTE   W13
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W11
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_41
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_9_42
+// 047   ----------------------------------------
+        BYTE   W13
+        BYTE           N08     Fn1   v036
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W24
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W11
+// 048   ----------------------------------------
+        BYTE   W13
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W11
+        BYTE   FINE
+
+//***************** Track 10 (Midi-Chn.11) *****************//
+
+Moderato2004_10:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   12
+        BYTE           VOL     40
+        BYTE           PAN     c_v-10
+        BYTE           N09     As3   v080
+        BYTE   W72
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+// 001   ----------------------------------------
+Moderato2004_10_1:
+        BYTE   W36
+        BYTE           N09     Cn4   v080
+        BYTE   W48
+        BYTE                   As3
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_10_2:
+        BYTE   W72
+        BYTE           N09     Cn4   v080
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_10_3:
+        BYTE   W36
+        BYTE           N09     Ds4   v080
+        BYTE   W48
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_10_4:
+        BYTE   W72
+        BYTE           N09     Ds4   v080
+        BYTE   W12
+        BYTE                   Fn4
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 007   ----------------------------------------
+Moderato2004_10_7:
+        BYTE   W36
+        BYTE           N09     Cn4   v080
+        BYTE   W60
+        BYTE   PEND
+// 008   ----------------------------------------
+Moderato2004_10_8:
+        BYTE           N09     As3   v080
+        BYTE   W72
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_7
+// 016   ----------------------------------------
+Moderato2004_10_16:
+        BYTE           N09     Cn4   v080
+        BYTE   W72
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE   PEND
+// 017   ----------------------------------------
+Moderato2004_10_17:
+        BYTE   W36
+        BYTE           N09     Dn4   v080
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_10_18:
+        BYTE   W72
+        BYTE           N09     Dn4   v080
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_17
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_18
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_18
+// 023   ----------------------------------------
+Moderato2004_10_23:
+        BYTE   W36
+        BYTE           N09     Fn4   v080
+        BYTE   W60
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_8
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_7
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_8
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_3
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_16
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_17
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_17
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_18
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_17
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_18
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_10_23
+// 048   ----------------------------------------
+        BYTE   W48
+        BYTE           N09     As3   v080
+        BYTE   W12
+        BYTE   FINE
+
+//***************** Track 11 (Midi-Chn.12) *****************//
+
+Moderato2004_11:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   95
+        BYTE           VOL     120
+        BYTE   W12
+        BYTE           N08     As1   v012
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W12
+// 001   ----------------------------------------
+Moderato2004_11_1:
+        BYTE   W24
+        BYTE           N08     As1   v012
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE   PEND
+// 002   ----------------------------------------
+Moderato2004_11_2:
+        BYTE           N08     Fs1   v012
+        BYTE   W48
+        BYTE                   Fs1
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+Moderato2004_11_3:
+        BYTE   W24
+        BYTE           N08     Fs1   v012
+        BYTE   W36
+        BYTE                   Fs1
+        BYTE   W36
+        BYTE   PEND
+// 004   ----------------------------------------
+Moderato2004_11_4:
+        BYTE           N08     As1   v012
+        BYTE   W48
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 008   ----------------------------------------
+        BYTE           N08     Fs1   v012
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W12
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 016   ----------------------------------------
+        BYTE   W12
+        BYTE           N08     An1   v012
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+// 017   ----------------------------------------
+Moderato2004_11_17:
+        BYTE   W24
+        BYTE           N08     An1   v012
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W36
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_11_18:
+        BYTE           N08     Fn1   v012
+        BYTE   W48
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+Moderato2004_11_19:
+        BYTE   W24
+        BYTE           N08     Fn1   v012
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE   PEND
+// 020   ----------------------------------------
+        BYTE                   An1
+        BYTE   W48
+        BYTE                   An1
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W12
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_18
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_19
+// 024   ----------------------------------------
+Moderato2004_11_24:
+        BYTE   W12
+        BYTE           N08     As1   v012
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W36
+        BYTE                   As1
+        BYTE   W12
+        BYTE   PEND
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_24
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_3
+// 040   ----------------------------------------
+        BYTE   W12
+        BYTE           N08     An1   v012
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W48
+// 041   ----------------------------------------
+Moderato2004_11_41:
+        BYTE           N08     An1   v012
+        BYTE   W36
+        BYTE                   An1
+        BYTE   W60
+        BYTE   PEND
+// 042   ----------------------------------------
+Moderato2004_11_42:
+        BYTE           N08     Fn1   v012
+        BYTE   W48
+        BYTE                   Fn1
+        BYTE   W48
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE                   Fn1
+        BYTE   W36
+        BYTE                   Fn1
+        BYTE   W60
+// 044   ----------------------------------------
+        BYTE                   An1
+        BYTE   W48
+        BYTE                   An1
+        BYTE   W48
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_41
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_42
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_11_42
+// 048   ----------------------------------------
+        BYTE           N08     Fn2   v012
+        BYTE   W48
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE   FINE
+
+//***************** Track 12 (Midi-Chn.13) *****************//
+
+Moderato2004_12:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   101
+        BYTE           VOL     90
+        BYTE           PAN     c_v-16
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W48
+        BYTE           N12     Fn4   v012
+        BYTE   W48
+// 009   ----------------------------------------
+Moderato2004_12_9:
+        BYTE   W24
+        BYTE           N12     Fn4   v012
+        BYTE   W72
+        BYTE   PEND
+// 010   ----------------------------------------
+Moderato2004_12_10:
+        BYTE           N12     Cs5   v012
+        BYTE   W48
+        BYTE                   Fs4
+        BYTE   W48
+        BYTE   PEND
+// 011   ----------------------------------------
+Moderato2004_12_11:
+        BYTE   W24
+        BYTE           N12     Fs4   v012
+        BYTE   W72
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE                   Cs5
+        BYTE   W48
+        BYTE                   Fn4
+        BYTE   W48
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_9
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_10
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_11
+// 016   ----------------------------------------
+        BYTE           N12     Cs5   v012
+        BYTE   W48
+        BYTE                   Gn4
+        BYTE   W48
+// 017   ----------------------------------------
+Moderato2004_12_17:
+        BYTE   W24
+        BYTE           N12     Gn4   v012
+        BYTE   W72
+        BYTE   PEND
+// 018   ----------------------------------------
+Moderato2004_12_18:
+        BYTE           N12     En5   v012
+        BYTE   W48
+        BYTE                   An4
+        BYTE   W48
+        BYTE   PEND
+// 019   ----------------------------------------
+Moderato2004_12_19:
+        BYTE   W24
+        BYTE           N12     An4   v012
+        BYTE   W72
+        BYTE   PEND
+// 020   ----------------------------------------
+        BYTE                   En5
+        BYTE   W48
+        BYTE                   Gn4
+        BYTE   W48
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_17
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_18
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_12_19
+// 024   ----------------------------------------
+        BYTE           N12     Ds5   v012
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE                   As3
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W60
+        BYTE   FINE
+
+//***************** Track 13 (Midi-Chn.14) *****************//
+
+Moderato2004_13:
+        BYTE   KEYSH   Moderato2004_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   101
+        BYTE           VOL     90
+        BYTE           PAN     c_v+10
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE           N12     As3   v028
+        BYTE   W48
+        BYTE                   Gn3
+        BYTE   W48
+// 041   ----------------------------------------
+Moderato2004_13_41:
+        BYTE   W24
+        BYTE           N12     Gn3   v028
+        BYTE   W72
+        BYTE   PEND
+// 042   ----------------------------------------
+Moderato2004_13_42:
+        BYTE           N12     En4   v028
+        BYTE   W48
+        BYTE                   An3
+        BYTE   W48
+        BYTE   PEND
+// 043   ----------------------------------------
+Moderato2004_13_43:
+        BYTE   W24
+        BYTE           N12     An3   v028
+        BYTE   W72
+        BYTE   PEND
+// 044   ----------------------------------------
+        BYTE                   En4
+        BYTE   W48
+        BYTE                   Gn3
+        BYTE   W48
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_13_41
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_13_42
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  Moderato2004_13_43
+// 048   ----------------------------------------
+        BYTE           N12     Ds4   v028
+        BYTE   W60
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+Moderato2004:
+        BYTE   14                      // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   Moderato2004_pri        // Priority
+        BYTE   Moderato2004_rev        // Reverb
+
+        POIN2   Moderato2004_grp       
+
+        POIN2   Moderato2004_0
+        POIN2   Moderato2004_1
+        POIN2   Moderato2004_2
+        POIN2   Moderato2004_3
+        POIN2   Moderato2004_4
+        POIN2   Moderato2004_5
+        POIN2   Moderato2004_6
+        POIN2   Moderato2004_7
+        POIN2   Moderato2004_8
+        POIN2   Moderato2004_9
+        POIN2   Moderato2004_10
+        POIN2   Moderato2004_11
+        POIN2   Moderato2004_12
+        POIN2   Moderato2004_13
+
+        

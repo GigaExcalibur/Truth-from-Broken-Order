@@ -224,7 +224,8 @@ ENDA
 
 TalkEvent:
 Text(TeeHee)
-
+SVAL s3 IronSword
+GIVEITEM Alexigant
 /*
 Text(PrologueColdOpen1)
 Text(PrologueColdOpen2)
