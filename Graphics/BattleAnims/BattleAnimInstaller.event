@@ -166,3 +166,30 @@ RogueAnims:
 SwordAnim(RogueSwordAnim)
 UnarmedAnim(RogueUnarmedAnim)
 EndAnim
+
+// Knight (SALVAGED)
+ALIGN 4
+KnightAnims:
+LanceAnim(KnightLanceAnim)
+BowAnim(KnightBowAnim)
+UnarmedAnim(KnightUnarmedAnim)
+EndAnim
+
+// General (Leo_link, Nuramon, Iscaneus, The_Big_Dededester, Sax Marine, Der, RRSKAI, UltraFenix)
+ALIGN 4
+GeneralAnims:
+SwordAnim(GeneralSwordAnim)
+LanceAnim(GeneralLanceAnim)
+AxeAnim(GeneralAxeAnim)
+HandAxeAnim(GeneralHandAxeAnim)
+BowAnim(GeneralBowAnim)
+MagicAnim(GeneralMagicAnim)
+EndAnim
+
+// Juggernaut (Nuramon, Linkain Arakeist, Mycahel, Jj09, GabrielKnight, ZoramineFae)
+ALIGN 4
+JuggernautAnims:
+AxeAnim(JuggernautAxeAnim)
+HandAxeAnim(JuggernautHandAxeAnim)
+MagicAnim(JuggernautMagicAnim)
+EndAnim

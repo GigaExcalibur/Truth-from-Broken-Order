@@ -99,7 +99,7 @@ POP
 
 #define BerserkerAxeAnim			0x022
 #define BerserkerHandAxeAnim		0x023
-// #define BerserkerUnarmedAnim		0x024 // armored berserker has no unarmed anim!! fucked up
+// #define BerserkerUnarmedAnim		0x024 // armored berserker has no unarmed anim!! fucked up. reserving just in case
 
 #define FighterAxeAnim				0x025
 #define FighterHandAxeAnim			0x026
@@ -127,3 +127,19 @@ POP
 
 #define RogueSwordAnim				0x036
 #define RogueUnarmedAnim			0x037
+
+#define KnightLanceAnim				0x038
+#define KnightBowAnim				0x039 // just in case
+#define KnightUnarmedAnim			0x03A
+
+#define GeneralSwordAnim			0x03B
+#define GeneralLanceAnim			0x03C
+#define GeneralAxeAnim				0x03D
+#define GeneralHandAxeAnim			0x03E
+#define GeneralBowAnim				0x03F // just in case
+#define GeneralMagicAnim			0x040 // i don't care if i already have a dedicated magic armor class
+
+#define JuggernautAxeAnim			0x041
+#define JuggernautHandAxeAnim		0x042
+#define JuggernautMagicAnim			0x043
+

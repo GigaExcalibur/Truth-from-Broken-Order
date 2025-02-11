@@ -118,3 +118,27 @@
 #include "Animations/Rogue/Sword Installer.event"
 #include "Animations/Rogue/Unarmed Installer.event"
 }
+
+{
+#include "Animations/Knight/Lance Installer.event"
+#include "Animations/Knight/Bow Installer.event"
+#include "Animations/Knight/Unarmed Installer.event"
+}
+
+{
+#include "Animations/General/Lance Installer.event"
+#include "Animations/General/Axe Installer.event"
+}
+
+// have to put general stuff in separate scopes for handaxe reasons
+{
+#include "Animations/General/Handaxe Installer.event"
+#include "Animations/General/Bow Installer.event"
+#include "Animations/General/Magic Installer.event"
+}
+
+{
+#include "Animations/Juggernaut/Axe Installer.event"
+#include "Animations/Juggernaut/Handaxe Installer.event"
+#include "Animations/Juggernaut/Magic Installer.event"
+}

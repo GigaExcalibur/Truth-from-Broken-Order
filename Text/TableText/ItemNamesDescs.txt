@@ -1,5 +1,5 @@
 ## Test_Name
-Test Name[X]
+Eldritch Bow[X]
 
 ## IronSword_Name
 Iron Sword[X]
