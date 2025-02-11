@@ -53,3 +53,38 @@
 #include "Animations/Halberdier/Lance Installer.event"
 #include "Animations/Halberdier/Unarmed Installer.event"
 }
+
+{
+#include "Animations/Deserter/Lance Installer.event"
+#include "Animations/Deserter/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Basara/Lance Installer.event"
+#include "Animations/Basara/Magic Installer.event"
+}
+
+{
+#include "Animations/Pirate/Axe Installer.event"
+#include "Animations/Pirate/Handaxe Installer.event"
+#include "Animations/Pirate/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Berserker/Axe Installer.event"
+#include "Animations/Berserker/Handaxe Installer.event"
+// #include "Animations/Berserker/Unarmed Installer.event" // armored berserker has no unarmed anim!! fucked up
+}
+
+{
+#include "Animations/Fighter/Axe Installer.event"
+#include "Animations/Fighter/Handaxe Installer.event"
+#include "Animations/Fighter/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Warrior/Axe Installer.event"
+#include "Animations/Warrior/Handaxe Installer.event"
+#include "Animations/Warrior/Bow Installer.event"
+#include "Animations/Warrior/Unarmed Installer.event"
+}

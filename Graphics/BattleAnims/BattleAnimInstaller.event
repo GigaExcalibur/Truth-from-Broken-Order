@@ -77,3 +77,51 @@ HalberdierAnims:
 LanceAnim(HalberdierLanceAnim)
 UnarmedAnim(HalberdierUnarmedAnim)
 EndAnim
+
+// Deserter (SALVAGED)
+ALIGN 4
+DeserterAnims:
+LanceAnim(DeserterLanceAnim)
+UnarmedAnim(DeserterUnarmedAnim)
+EndAnim
+
+// Basara (Jj09, UltraxBlade)
+ALIGN 4
+BasaraAnims:
+LanceAnim(BasaraLanceAnim)
+MagicAnim(BasaraMagicAnim)
+EndAnim
+
+// Pirate (Nuramon, MarioKirby, Wan)
+ALIGN 4
+PirateAnims:
+AxeAnim(PirateAxeAnim)
+HandAxeAnim(PirateHandAxeAnim)
+UnarmedAnim(PirateUnarmedAnim)
+EndAnim
+
+// Berserker (a3d3, TBA)
+ALIGN 4
+BerserkerAnims:
+AxeAnim(BerserkerAxeAnim)
+HandAxeAnim(BerserkerHandAxeAnim)
+UnarmedAnim(BerserkerAxeAnim) // armored berserker has no unarmed anim!! fucked up
+EndAnim
+
+// Fighter (MK404, Glenwing)
+ALIGN 4
+FighterAnims:
+AxeAnim(FighterAxeAnim)
+HandAxeAnim(FighterHandAxeAnim)
+UnarmedAnim(FighterUnarmedAnim)
+EndAnim
+
+// Warrior (Redbean, Leo_Link, Nuramon)
+ALIGN 4
+WarriorAnims:
+AxeAnim(WarriorAxeAnim)
+HandAxeAnim(WarriorHandAxeAnim)
+BowAnim(WarriorBowAnim)
+UnarmedAnim(WarriorUnarmedAnim)
+EndAnim
+

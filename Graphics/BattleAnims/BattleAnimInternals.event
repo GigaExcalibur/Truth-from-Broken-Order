@@ -86,3 +86,26 @@ POP
 
 #define HalberdierLanceAnim			0x019
 #define HalberdierUnarmedAnim		0x01A
+
+#define DeserterLanceAnim			0x01B
+#define DeserterUnarmedAnim			0x01C
+
+#define BasaraLanceAnim				0x01D
+#define BasaraMagicAnim				0x01E
+
+#define PirateAxeAnim				0x01F
+#define PirateHandAxeAnim			0x020
+#define PirateUnarmedAnim			0x021
+
+#define BerserkerAxeAnim			0x022
+#define BerserkerHandAxeAnim		0x023
+// #define BerserkerUnarmedAnim		0x024 // armored berserker has no unarmed anim!! fucked up
+
+#define FighterAxeAnim				0x025
+#define FighterHandAxeAnim			0x026
+#define FighterUnarmedAnim			0x027
+
+#define WarriorAxeAnim				0x028
+#define WarriorHandAxeAnim			0x029
+#define WarriorBowAnim				0x02A
+#define WarriorUnarmedAnim			0x02B
