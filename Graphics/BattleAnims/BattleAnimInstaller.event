@@ -125,3 +125,44 @@ BowAnim(WarriorBowAnim)
 UnarmedAnim(WarriorUnarmedAnim)
 EndAnim
 
+// Archer (F) (Der)
+ALIGN 4
+ArcherFAnims:
+BowAnim(ArcherFBowAnim)
+UnarmedAnim(ArcherFUnarmedAnim)
+EndAnim
+
+// Archer (M) (Der)
+ALIGN 4
+ArcherMAnims:
+BowAnim(ArcherMBowAnim)
+UnarmedAnim(ArcherMUnarmedAnim)
+EndAnim
+
+// Sniper (F) (Nuramon, Swain, Temp, Wan)
+ALIGN 4
+SniperFAnims:
+BowAnim(SniperFBowAnim)
+UnarmedAnim(SniperFUnarmedAnim)
+EndAnim
+
+// Sniper (M) (Nuramon, Swain, Temp)
+ALIGN 4
+SniperMAnims:
+BowAnim(SniperMBowAnim)
+UnarmedAnim(SniperMUnarmedAnim)
+EndAnim
+
+// Thief (Solum)
+ALIGN 4
+ThiefAnims:
+SwordAnim(ThiefSwordAnim)
+UnarmedAnim(ThiefUnarmedAnim)
+EndAnim
+
+// Rogue (Pikmin1211, Maiser6, Ukelele, SD9k, Temp, Black Mage, Wan, Orihara_Saki, ltranc)
+ALIGN 4
+RogueAnims:
+SwordAnim(RogueSwordAnim)
+UnarmedAnim(RogueUnarmedAnim)
+EndAnim

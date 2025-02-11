@@ -109,3 +109,21 @@ POP
 #define WarriorHandAxeAnim			0x029
 #define WarriorBowAnim				0x02A
 #define WarriorUnarmedAnim			0x02B
+
+#define ArcherFBowAnim				0x02C
+#define ArcherFUnarmedAnim			0x02D
+
+#define ArcherMBowAnim				0x02E
+#define ArcherMUnarmedAnim			0x02F
+
+#define SniperFBowAnim				0x030
+#define SniperFUnarmedAnim			0x031
+
+#define SniperMBowAnim				0x032
+#define SniperMUnarmedAnim			0x033
+
+#define ThiefSwordAnim				0x034
+#define ThiefUnarmedAnim			0x035
+
+#define RogueSwordAnim				0x036
+#define RogueUnarmedAnim			0x037

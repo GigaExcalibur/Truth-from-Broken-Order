@@ -88,3 +88,33 @@
 #include "Animations/Warrior/Bow Installer.event"
 #include "Animations/Warrior/Unarmed Installer.event"
 }
+
+{
+#include "Animations/ArcherF/Bow Installer.event"
+#include "Animations/ArcherF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/ArcherM/Bow Installer.event"
+#include "Animations/ArcherM/Unarmed Installer.event"
+}
+
+{
+#include "Animations/SniperF/Bow Installer.event"
+#include "Animations/SniperF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/SniperM/Bow Installer.event"
+#include "Animations/SniperM/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Thief/Sword Installer.event"
+#include "Animations/Thief/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Rogue/Sword Installer.event"
+#include "Animations/Rogue/Unarmed Installer.event"
+}
