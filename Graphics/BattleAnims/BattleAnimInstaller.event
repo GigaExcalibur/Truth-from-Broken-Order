@@ -32,16 +32,48 @@ SwordAnim(SwordmasterSwordAnim)
 UnarmedAnim(SwordmasterUnarmedAnim)
 EndAnim
 
-// SALVAGED
+// Mercenary (F) (SALVAGED)
 ALIGN 4
 MercenaryFAnims:
 SwordAnim(MercenaryFSwordAnim)
 UnarmedAnim(MercenaryFUnarmedAnim)
 EndAnim
 
-// SALVAGED
+// Mercenary (M) (SALVAGED)
 ALIGN 4
 MercenaryMAnims:
 SwordAnim(MercenaryMSwordAnim)
 UnarmedAnim(MercenaryMUnarmedAnim)
+EndAnim
+
+// Hero (F) (flasuban, Nuramon, Sax Marine, ltranc)
+ALIGN 4
+HeroFAnims:
+SwordAnim(HeroFSwordAnim)
+AxeAnim(HeroFAxeAnim)
+HandAxeAnim(HeroFHandAxeAnim)
+UnarmedAnim(HeroFUnarmedAnim)
+EndAnim
+
+// Hero (M) (Nuramon, Sax Marine)
+ALIGN 4
+HeroMAnims:
+SwordAnim(HeroMSwordAnim)
+AxeAnim(HeroMAxeAnim)
+HandAxeAnim(HeroMHandAxeAnim)
+UnarmedAnim(HeroMUnarmedAnim)
+EndAnim
+
+// Soldier (Nuramon, Jeorge Red)
+ALIGN 4
+SoldierAnims:
+LanceAnim(SoldierLanceAnim)
+UnarmedAnim(SoldierUnarmedAnim)
+EndAnim
+
+// Halberdier (TBA)
+ALIGN 4
+HalberdierAnims:
+LanceAnim(HalberdierLanceAnim)
+UnarmedAnim(HalberdierUnarmedAnim)
 EndAnim

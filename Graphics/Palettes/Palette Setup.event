@@ -15,3 +15,11 @@
 // YarikSwordmaster
 	setPalette(3,YarikSwordmaster)
 	setCBSP(3,Yarik, 1, Swordmaster)
+
+// DrestonSoldier
+	setPalette(4,DrestonSoldier)
+	setCBSP(4,Dreston, 1, Soldier)
+
+// WrestonSoldier
+	setPalette(5,WrestonSoldier)
+	setCBSP(5,Wreston, 1, Soldier)

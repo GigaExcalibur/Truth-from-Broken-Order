@@ -12,3 +12,9 @@ AlexigantProsecutor:
 YarikSwordmaster:
 	#incbin "./_palettes/YarikSwordmaster.lzpal" 
 
+DrestonSoldier:
+	#incbin "./_palettes/DrestonSoldier.lzpal" 
+
+WrestonSoldier:
+	#incbin "./_palettes/WrestonSoldier.lzpal" 
+

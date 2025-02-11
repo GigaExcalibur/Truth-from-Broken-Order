@@ -29,3 +29,27 @@
 #include "Animations/MercenaryM/Sword Installer.event"
 #include "Animations/MercenaryM/Unarmed Installer.event"
 }
+
+{
+#include "Animations/HeroF/Sword Installer.event"
+#include "Animations/HeroF/Axe Installer.event"
+#include "Animations/HeroF/Handaxe Installer.event"
+#include "Animations/HeroF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/HeroM/Sword Installer.event"
+#include "Animations/HeroM/Axe Installer.event"
+#include "Animations/HeroM/Handaxe Installer.event"
+#include "Animations/HeroM/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Soldier/Lance Installer.event"
+#include "Animations/Soldier/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Halberdier/Lance Installer.event"
+#include "Animations/Halberdier/Unarmed Installer.event"
+}

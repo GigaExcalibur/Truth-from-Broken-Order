@@ -80,3 +80,9 @@ POP
 #define HeroMAxeAnim				0x014
 #define HeroMHandAxeAnim			0x015
 #define HeroMUnarmedAnim			0x016
+
+#define SoldierLanceAnim			0x017
+#define SoldierUnarmedAnim			0x018
+
+#define HalberdierLanceAnim			0x019
+#define HalberdierUnarmedAnim		0x01A
