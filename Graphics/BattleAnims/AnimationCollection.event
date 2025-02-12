@@ -142,3 +142,8 @@
 #include "Animations/Juggernaut/Handaxe Installer.event"
 #include "Animations/Juggernaut/Magic Installer.event"
 }
+
+{
+#include "Animations/Mage/Magic Installer.event"
+}
+

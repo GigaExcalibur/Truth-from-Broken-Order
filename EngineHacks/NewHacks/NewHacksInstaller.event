@@ -28,3 +28,7 @@
 #include "256ColorTitle/titlebackgroundinstaller.event" // leonarth
 
 //#include "ExtraFactionPalettes/ExtraFactionPalettes.lyn.event" // me!
+
+#include "PrepsAugury/PrepsAugury.event" // Huichelaar
+
+#include "PrepsGuide/PrepScreenGuide.lyn.event" // Eebit

@@ -1,3 +1,6 @@
+## TestChar_Name
+Sandraudiga[X]
+
 ## Alexigant_Name
 Alexigant[X]
 
@@ -56,7 +59,7 @@ Eunonina[X]
 
 ## Eunonina_Desc
 [OQ]...said this would be the year everyone[N]
-would respect her age... didn't seem to[N]
+would respect her age [B.R] didn't seem to[N]
 know everyone else aged each year too...[CQ][X]
 
 ## Hollaje_Name

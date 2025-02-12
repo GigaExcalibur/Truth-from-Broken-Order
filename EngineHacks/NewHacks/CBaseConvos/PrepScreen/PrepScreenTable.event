@@ -9,7 +9,7 @@ _C2EA_Prep_Screen_Table(0,DeploymentPrepName,0x00,0x00,DeploymentPrepDesc,0x57D,
 _C2EA_Prep_Screen_Table(1,ArmamentsPrepName,0x00,0x00,ArmamentsPrepDesc,ArmamentsPrepDesc,0x080951CD) // items
 _C2EA_Prep_Screen_Table(4,BaseConvoCommandName,0x00,BaseConvoUsability|IsPointer,BaseConvoCommandDesc,BaseConvoCommandGoneDesc,0x080951E1) // base convos
 // oh god
-//_C2EA_Prep_Screen_Table(3,GuidePrepName, 0x0, 0x0, GuidePrepDesc, 0x57D, GuideEffect)
+_C2EA_Prep_Screen_Table(5,GuidePrepName, 0x0, 0x0, GuidePrepDesc, 0x57D, PrepScreenMenu_OnGuide|IsPointer)
 _C2EA_Prep_Screen_Table(7,ArrangementPrepName,0x00,0x00,ArrangementPrepDesc,0x57D,0x080952C1) // check map
 _C2EA_Prep_Screen_Table(2,DocumentPrepName,0x00,0x00,DocumentPrepDesc,0x57D,0x08095211) // save 
 _C2EA_Prep_Screen_Table(0,0x00,0x00,0x00,0x00,0x00,0x00) // terminator

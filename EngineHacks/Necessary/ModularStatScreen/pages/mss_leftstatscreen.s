@@ -10,7 +10,7 @@ MSS_leftpage:
 
 leftpage_start
 
-draw_character_name_at 3,10
+draw_character_name_at 4,10
 @draw_class_name_at 1,13
 
   ldr     r0, [r7, #0xC]    @load unit's pointer
@@ -28,7 +28,7 @@ draw_character_name_at 3,10
   blh     DrawTextInline
 
 
-draw_left_affinity_icon_at 9,10
+@draw_left_affinity_icon_at 9,10
 
 
 draw_lv_icon_at 1, 15

@@ -193,3 +193,91 @@ AxeAnim(JuggernautAxeAnim)
 HandAxeAnim(JuggernautHandAxeAnim)
 MagicAnim(JuggernautMagicAnim)
 EndAnim
+
+// Mage (RedBean, 7743)
+ALIGN 4
+MageAnims:
+MagicAnim(MageMagicAnim)
+EndAnim
+
+// Sage (F)
+ALIGN 4
+SageFAnims:
+StaffAnim(SageFStaffAnim)
+MagicAnim(SageFMagicAnim)
+EndAnim
+
+// Sage (M)
+ALIGN 4
+SageMAnims:
+StaffAnim(SageMStaffAnim)
+MagicAnim(SageMMagicAnim)
+EndAnim
+
+// Monk
+ALIGN 4
+MonkAnims:
+MagicAnim(MonkMagicAnim)
+EndAnim
+
+// Sibyl
+ALIGN 4
+SibylAnims:
+MagicAnim(SibylMagicAnim)
+EndAnim
+
+// Shaman (F)
+ALIGN 4
+ShamanFAnims:
+MagicAnim(ShamanFMagicAnim)
+EndAnim
+
+// Shaman (M)
+ALIGN 4
+ShamanMAnims:
+MagicAnim(ShamanMMagicAnim)
+EndAnim
+
+// Druid (F)
+ALIGN 4
+DruidFAnims:
+StaffAnim(DruidFStaffAnim)
+MagicAnim(DruidFMagicAnim)
+EndAnim
+
+// Druid (M)
+ALIGN 4
+DruidMAnims:
+StaffAnim(DruidMStaffAnim)
+MagicAnim(DruidMMagicAnim)
+EndAnim
+
+// Blademaiden
+ALIGN 4
+BlademaidenAnims:
+SwordAnim(BlademaidenSwordAnim)
+MagicAnim(BlademaidenMagicAnim)
+EndAnim
+
+// Priest
+ALIGN 4
+PriestAnims:
+StaffAnim(PriestStaffAnim)
+UnarmedAnim(PriestUnarmedAnim)
+EndAnim
+
+// War Monk
+ALIGN 4
+WarMonkAnims:
+AxeAnim(WarMonkAxeAnim)
+HandAxeAnim(WarMonkHandAxeAnim)
+StaffAnim(WarMonkStaffAnim)
+UnarmedAnim(WarMonkUnarmedAnim)
+EndAnim
+
+// Bishop
+ALIGN 4
+BishopAnims:
+StaffAnim(BishopStaffAnim)
+MagicAnim(BishopMagicAnim)
+EndAnim

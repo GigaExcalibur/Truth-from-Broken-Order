@@ -19,6 +19,9 @@
 [Event] = [LoadOverworldFaces]
 [OpenQuote] = [0xC2][0x93]
 [CloseQuote] = [0xC2][0x94]
+[OBr] = [0x5B]
+[CBr] = [0x5D]
+[B.R] = [OBr]...[CBr]
 
 [OQ] = [OpenQuote]
 [CQ] = [CloseQuote]

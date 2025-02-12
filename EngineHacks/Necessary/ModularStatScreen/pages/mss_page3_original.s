@@ -143,6 +143,8 @@ draw_weapon_rank_at 9, 8, Bow, 7
 
 blh DrawBWLNumbers
 
+draw_affinity_icon_at 13, 16
+
 @blh      DrawSupports
 
 page_end

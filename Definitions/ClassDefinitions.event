@@ -58,7 +58,7 @@
 #define Knight			0x13 // U
 #define	General			0x14
 #define Juggernaut		0x15 // U
-#define Sage_M			0x16 // U // sage isn't an armor but i GUESS i should have male sages and not two magic armors...
+#define Sage_M			0x16 // sage isn't an armor but i GUESS i should have male sages and not two magic armors...
 
 // magical infantry
 #define Mage			0x17 // F

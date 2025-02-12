@@ -34,7 +34,6 @@ FILL 0x20 * 0x300 // number of battle anims
 
 //Repointing Animation Table
 PUSH
-
 ORG $59BD8
 POIN ClassAnimTable
 ORG $5A600
@@ -51,6 +50,7 @@ ORG $70A60
 POIN ClassAnimTable
 POP
 
+// Lord gaming
 #define JurispotenceBowAnim			0x001
 #define JurispotenceStaffAnim		0x002
 #define JurispotenceUnarmedAnim		0x003
@@ -59,6 +59,7 @@ POP
 #define ProsecutorStaffAnim			0x005
 #define ProsecutorUnarmedAnim		0x006
 
+// Infantry
 #define MyrmidonSwordAnim			0x007
 #define MyrmidonUnarmedAnim			0x008
 
@@ -128,6 +129,7 @@ POP
 #define RogueSwordAnim				0x036
 #define RogueUnarmedAnim			0x037
 
+// Armors
 #define KnightLanceAnim				0x038
 #define KnightBowAnim				0x039 // just in case
 #define KnightUnarmedAnim			0x03A
@@ -143,3 +145,97 @@ POP
 #define JuggernautHandAxeAnim		0x042
 #define JuggernautMagicAnim			0x043
 
+// Magic
+#define MageMagicAnim				0x044 // mages are so EASY!!!
+
+#define SageFStaffAnim				0x045
+#define SageFMagicAnim				0x046
+
+#define SageMStaffAnim				0x047
+#define SageMMagicAnim				0x048
+
+#define MonkMagicAnim				0x049
+
+#define SibylMagicAnim				0x04A
+
+#define ShamanFMagicAnim			0x04B
+
+#define ShamanMMagicAnim			0x04C
+
+#define DruidFStaffAnim				0x04D
+#define DruidFMagicAnim				0x04E
+
+#define DruidMStaffAnim				0x04F
+#define DruidMMagicAnim				0x050
+
+#define BlademaidenSwordAnim		0x051
+#define BlademaidenMagicAnim		0x052
+
+#define PriestStaffAnim				0x053
+#define PriestUnarmedAnim			0x054
+
+#define WarMonkAxeAnim				0x055
+#define WarMonkHandAxeAnim			0x056
+#define WarMonkStaffAnim			0x057
+#define WarMonkUnarmedAnim			0x058
+
+#define BishopStaffAnim				0x059
+#define BishopMagicAnim				0x05A
+
+// Cavalry
+#define CavalierFSwordAnim			0x05B
+#define CavalierFLanceAnim			0x05C
+#define CavalierFUnarmedAnim		0x05D
+
+#define CavalierMSwordAnim			0x05E
+#define CavalierMLanceAnim			0x05F
+#define CavalierMUnarmedAnim		0x060
+
+#define PaladinFSwordAnim			0x061
+#define PaladinFLanceAnim			0x062
+#define PaladinFUnarmedAnim			0x063
+
+#define PaladinMSwordAnim			0x064
+#define PaladinMLanceAnim			0x065
+#define PaladinMUnarmedAnim			0x066
+
+#define GreatKnightSwordAnim		0x067
+#define GreatKnightAxeAnim			0x068
+#define GreatKnightHandAxeAnim		0x069
+#define GreatKnightUnarmedAnim		0x06A
+
+#define RangerSwordAnim				0x06B
+#define RangerBowAnim				0x06C
+#define RangerUnarmedAnim			0x06D
+
+#define MageKnightLanceAnim			0x06E
+#define MageKnightStaffAnim			0x06F // for eunonina
+#define MageKnightMagicAnim			0x070
+
+#define ValkyrieSwordAnim			0x071
+#define ValkyrieStaffAnim			0x072
+#define ValkyrieUnarmedAnim			0x073
+
+#define DarkKnightMagicAnim			0x074
+
+// Fliers
+#define PegasusKnightLanceAnim		0x075
+#define PegasusKnightUnarmedAnim	0x076
+
+#define FalcoknightSwordAnim		0x077
+#define FalcoknightLanceAnim		0x078
+#define FalcoknightUnarmedAnim		0x079
+
+#define WyvernRiderAxeAnim			0x07A
+#define WyvernRiderHandAxeAnim		0x07B
+#define WyvernRiderUnarmedAnim		0x07C
+
+#define WyvernLordLanceAnim			0x07D
+#define WyvernLordAxeAnim			0x07E
+#define WyvernLordHandAxeAnim		0x07F
+#define WyvernLordUnarmedAnim		0x080
+
+#define MaligKnightLanceAnim		0x081
+#define MaligKnightMagicAnim		0x082
+
+// the rest

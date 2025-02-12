@@ -23,3 +23,7 @@
 // WrestonSoldier
 	setPalette(5,WrestonSoldier)
 	setCBSP(5,Wreston, 1, Soldier)
+
+// EunoninaMage
+	setPalette(6,EunoninaMage)
+	setCBSP(6,Eunonina, 1, Mage)
