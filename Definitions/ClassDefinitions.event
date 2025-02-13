@@ -43,7 +43,7 @@
 #define Hero_F			0x06
 #define Soldier			0x07 // M?
 #define Halberdier		0x08
-#define Pirate			0x09 // M
+#define Pirate			0x09 // M // more like brigand but pirate came first
 #define Berserker		0x0A
 #define Fighter			0x0B // M
 #define Warrior			0x0C

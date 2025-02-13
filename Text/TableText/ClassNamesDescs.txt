@@ -27,6 +27,9 @@ Secretary[X]
 the unnecessary court documents[N]
 strewn about the office...[CQ][X]
 
+## Efficiencier_Name
+Efficiencier[X]
+
 ## Dispatcher_Name
 Dispatcher[X]
 

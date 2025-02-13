@@ -92,7 +92,7 @@ LanceAnim(BasaraLanceAnim)
 MagicAnim(BasaraMagicAnim)
 EndAnim
 
-// Pirate (Nuramon, MarioKirby, Wan)
+// Pirate (Flasuban, UltraFenix)
 ALIGN 4
 PirateAnims:
 AxeAnim(PirateAxeAnim)
