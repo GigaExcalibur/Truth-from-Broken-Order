@@ -64,29 +64,29 @@ b		ShowStats2
 ShowGrowths:
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#4]		@str growth getter
-draw_growth_at 17, 8
+draw_growth_at 18, 8
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#8]		@mag growth getter
-draw_growth_at 17, 10
+draw_growth_at 18, 10
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#12]		@skl growth getter
-draw_growth_at 17, 12
+draw_growth_at 18, 12
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#16]		@spd growth getter
-draw_growth_at 17, 14
+draw_growth_at 18, 14
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#20]		@luk growth getter
-draw_growth_at 17, 16
+draw_growth_at 18, 16
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#24]		@def growth getter
-draw_growth_at 25, 8
+draw_growth_at 26, 8
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#28]		@res growth getter
-draw_growth_at 25, 10
+draw_growth_at 26, 10
 draw_textID_at 21, 12, textID=0x4E9, growth_func=1 @hp name
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
-draw_growth_at 25, 12
+draw_growth_at 26, 12
 b		NextColumn
 .ltorg
 
@@ -101,7 +101,7 @@ draw_con_bar_with_getter_at 24, 14
 
 draw_textID_at 21, 16, textID=0x4f8 @aid
 draw_number_at 25, 16, 0x80189B8, 2 @aid getter
-draw_aid_icon_at 26, 16
+draw_aid_icon_at 27, 12
 
 draw_status_text_at 13, 5
 draw_trv_text_at 21, 5

@@ -1841,6 +1841,10 @@ than one weapon type.[X]
 "Faction" Slayer: Deal 2x calculated[N]
 damage to specific opponents.[X]
 
+## SD_NoSkill
+This unit does not possess[N]
+any distinguishing abilities.[X]
+
 ## SD_Righteousness
 Righteousness: Gain 2nd turn on using[N]
 a staff at least one rank below yours.[N]

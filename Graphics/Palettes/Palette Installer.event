@@ -21,3 +21,6 @@ WrestonSoldier:
 EunoninaMage:
 	#incbin "./_palettes/EunoninaMage.lzpal" 
 
+EunoninaSage:
+	#incbin "./_palettes/EunoninaSage.lzpal" 
+

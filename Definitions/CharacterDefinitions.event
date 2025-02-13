@@ -7,14 +7,14 @@
 #define Eunonina	0x05 // accountant (anima)
 #define Loran		0x06 // attorney (sword/light)
 #define Fabrizia	0x07 // efficiencier (sword/lance)
-#define Sres		0x08 // bailiff (axe)
+#define Svestri		0x08 // bailiff (axe)
 
 // chapter one
-#define Cilvianne	0x06 // dispatcher (lance)
-#define Hollaje		0x07 // sir ______ (sword/axe)
-#define Vanlino		0x08 // pointman (sword)
-#define Morguan		0x09 // backwatcher (axe/staff)
-#define Xifersyn	0x0A // host (axe/dark)
+#define Cilvianne	0x09 // dispatcher (lance)
+#define Hollaje		0x0A // sir ______ (sword/axe)
+#define Vanlino		0x0B // pointman (sword)
+#define Morguan		0x0C // backwatcher (axe/staff)
+#define Xifersyn	0x0D // host (axe/dark)
 
 // chapter two
 

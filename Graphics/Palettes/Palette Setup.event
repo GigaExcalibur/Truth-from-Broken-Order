@@ -27,3 +27,7 @@
 // EunoninaMage
 	setPalette(6,EunoninaMage)
 	setCBSP(6,Eunonina, 1, Mage)
+
+// EunoninaSage
+	setPalette(7,EunoninaSage)
+	setCBSP(7,Eunonina, 2, Sage_F)

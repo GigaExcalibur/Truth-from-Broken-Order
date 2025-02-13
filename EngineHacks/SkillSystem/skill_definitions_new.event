@@ -1,11 +1,14 @@
+// no skill (LOSER)
+#define NoSkillID 1
+
 // Righteousness: Galeforce on staff usage. 0 mov and +1 bowrange on 2nd turn.
-#define RighteousnessAlexigantID 1
+#define RighteousnessAlexigantID 2
 
 // 
-#define ExperiencedExampleID 2
+#define ExperiencedExampleID 3
 
 // Comrades in Arms: When Dreston and Wreston are adjacent, Dreston cannot be at WTD
-#define ComradesInArmsDrestonID 3
+#define ComradesInArmsDrestonID 4
 
 // Comrades in Arms: When Dreston and Wreston are adjacent, Wreston doubles WTA
-#define ComradesInArmsWrestonID 4
+#define ComradesInArmsWrestonID 5

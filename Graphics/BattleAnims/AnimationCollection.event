@@ -147,3 +147,7 @@
 #include "Animations/Mage/Magic Installer.event"
 }
 
+{
+#include "Animations/SageF/Magic Installer.event"
+#include "Animations/SageF/Staff Installer.event"
+}

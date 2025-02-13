@@ -194,13 +194,13 @@ HandAxeAnim(JuggernautHandAxeAnim)
 MagicAnim(JuggernautMagicAnim)
 EndAnim
 
-// Mage (RedBean, 7743)
+// Mage (Solum)
 ALIGN 4
 MageAnims:
 MagicAnim(MageMagicAnim)
 EndAnim
 
-// Sage (F)
+// Sage (F) (Levin64, L95)
 ALIGN 4
 SageFAnims:
 StaffAnim(SageFStaffAnim)
