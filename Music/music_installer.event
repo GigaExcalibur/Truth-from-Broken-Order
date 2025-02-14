@@ -19,6 +19,41 @@
 
 #define voicegroup000 MusicVoices //in case you forget to change this
 
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+PUSH
+ORG 0x1BC14   
+POIN NewSoundRoom
+ORG 0x1BCC4
+POIN NewSoundRoom
+ORG 0xAECA8
+POIN NewSoundRoom
+ORG 0xAECD0
+POIN NewSoundRoom
+ORG 0xAED2C
+POIN NewSoundRoom
+ORG 0xAEEBC
+POIN NewSoundRoom
+ORG 0xAF438
+POIN NewSoundRoom
+ORG 0xAF830
+POIN NewSoundRoom
+ORG 0xAFE30
+POIN NewSoundRoom
+ORG 0xB0080
+POIN NewSoundRoom
+ORG 0xB042C
+POIN NewSoundRoom
+POP
+
+ALIGN 4
+NewSoundRoom:
+SoundRoomEntry(0x43, 0, PrisonersElegyName)
+SoundRoomEntry(0x02, 0, PrisonersElegyName)
+SoundRoomTerminator
+
+
 // Uncomment below if you want to use a static location for the main voice table. BCVoices will be located at MusicVoices+0x600.
 //#define VoiceTableOffset 0x207470
 
@@ -60,6 +95,12 @@ SongTable(0x09, song09, MapMusicGroup)
 {
 SongTable(0x36, _64___Temporal_Tower, MapMusicGroup)
 #include "songs/064 - Temporal Tower.event"
+}
+
+// me!
+{
+SongTable(0x02, _34___Vast_Ice_Mountain, MapMusicGroup)
+#include "songs/134 - Vast Ice Mountain.event"
 }
 
 // --------------- SONGS: GUI AND SFX ---------------

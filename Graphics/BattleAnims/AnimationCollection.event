@@ -151,3 +151,116 @@
 #include "Animations/SageF/Magic Installer.event"
 #include "Animations/SageF/Staff Installer.event"
 }
+
+{
+#include "Animations/SageM/Magic Installer.event"
+#include "Animations/SageM/Staff Installer.event"
+}
+
+{
+#include "Animations/Monk/Magic Installer.event"
+}
+
+{
+#include "Animations/Sibyl/Magic Installer.event"
+}
+
+{
+#include "Animations/ShamanF/Magic Installer.event"
+}
+
+{
+#include "Animations/ShamanM/Magic Installer.event"
+}
+
+{
+#include "Animations/DruidF/Magic Installer.event"
+}
+
+{
+#include "Animations/DruidM/Magic Installer.event"
+}
+
+{
+#include "Animations/Blademaiden/Sword Installer.event"
+#include "Animations/Blademaiden/Magic Installer.event"
+}
+
+{
+#include "Animations/Priest/Staff Installer.event"
+#include "Animations/Priest/Unarmed Installer.event"
+}
+
+{
+#include "Animations/Bishop/Staff Installer.event"
+#include "Animations/Bishop/Magic Installer.event"
+}
+
+{
+#include "Animations/WarMonk/Axe Installer.event"
+#include "Animations/WarMonk/Handaxe Installer.event"
+#include "Animations/WarMonk/Staff Installer.event"
+#include "Animations/WarMonk/Unarmed Installer.event"
+}
+
+{
+#include "Animations/CavalierF/Sword Installer.event"
+#include "Animations/CavalierF/Lance Installer.event"
+#include "Animations/CavalierF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/CavalierM/Sword Installer.event"
+#include "Animations/CavalierM/Lance Installer.event"
+#include "Animations/CavalierM/Unarmed Installer.event"
+}
+
+{
+#include "Animations/PaladinF/Sword Installer.event"
+#include "Animations/PaladinF/Lance Installer.event"
+#include "Animations/PaladinF/Unarmed Installer.event"
+}
+
+{
+#include "Animations/PaladinM/Sword Installer.event"
+#include "Animations/PaladinM/Lance Installer.event"
+#include "Animations/PaladinM/Bow Installer.event"
+#include "Animations/PaladinM/Unarmed Installer.event"
+}
+
+MESSAGE Going back to freespace at currentOffset
+POP // go back to freespace JUST IN CASE
+
+{
+#include "Animations/GreatKnight/Sword Installer.event"
+#include "Animations/GreatKnight/Axe Installer.event"
+#include "Animations/GreatKnight/Handaxe Installer.event"
+#include "Animations/GreatKnight/Unarmed Installer.event"
+}
+
+{
+#include "Animations/MageKnight/Sword Installer.event"
+#include "Animations/MageKnight/Staff Installer.event"
+#include "Animations/MageKnight/Magic Installer.event"
+}
+
+{
+#include "Animations/Valkyrie/Knife Installer.event"
+#include "Animations/Valkyrie/Staff Installer.event"
+#include "Animations/Valkyrie/Magic Installer.event"
+}
+
+{
+#include "Animations/DarkKnight/Magic Installer.event"
+}
+
+{
+#include "Animations/PegasusKnight/Lance Installer.event"
+#include "Animations/PegasusKnight/Magic Installer.event"
+}
+
+{
+#include "Animations/Falcoknight/Sword Installer.event"
+#include "Animations/Falcoknight/Lance Installer.event"
+#include "Animations/Falcoknight/Magic Installer.event"
+}

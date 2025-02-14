@@ -3,3 +3,5 @@
 #include "ClassNamesDescs.txt"
 
 #include "ItemNamesDescs.txt"
+
+#include "MusicNames.txt"

@@ -162,10 +162,10 @@ POP
 
 #define ShamanMMagicAnim			0x04C
 
-#define DruidFStaffAnim				0x04D
+//#define DruidFStaffAnim				0x04D // awakening dark mage has no staff anim but i don't want to use vanilla druid so staffless staffing it is
 #define DruidFMagicAnim				0x04E
 
-#define DruidMStaffAnim				0x04F
+//#define DruidMStaffAnim				0x04F // awakening dark mage has no staff anim but i don't want to use vanilla druid so staffless staffing it is
 #define DruidMMagicAnim				0x050
 
 #define BlademaidenSwordAnim		0x051
@@ -204,27 +204,27 @@ POP
 #define GreatKnightHandAxeAnim		0x069
 #define GreatKnightUnarmedAnim		0x06A
 
-#define RangerSwordAnim				0x06B
-#define RangerBowAnim				0x06C
-#define RangerUnarmedAnim			0x06D
+//#define RangerSwordAnim			0x06B
+#define RangerBowAnim				0x06C // "ranger" is just salv paladin M with bows so bow is the only new anim it needs
+//#define RangerUnarmedAnim			0x06D
 
-#define MageKnightLanceAnim			0x06E
-#define MageKnightStaffAnim			0x06F // for eunonina
+#define MageKnightSwordAnim			0x06E
+#define MageKnightStaffAnim			0x06F // for eunonina second promo
 #define MageKnightMagicAnim			0x070
 
 #define ValkyrieSwordAnim			0x071
 #define ValkyrieStaffAnim			0x072
-#define ValkyrieUnarmedAnim			0x073
+#define ValkyrieMagicAnim			0x073 // no wrank but there's no dedicated unarmed valk anim
 
 #define DarkKnightMagicAnim			0x074
 
 // Fliers
 #define PegasusKnightLanceAnim		0x075
-#define PegasusKnightUnarmedAnim	0x076
+#define PegasusKnightMagicAnim		0x076 // you never know
 
 #define FalcoknightSwordAnim		0x077
 #define FalcoknightLanceAnim		0x078
-#define FalcoknightUnarmedAnim		0x079
+#define FalcoknightMagicAnim		0x079 // you never know
 
 #define WyvernRiderAxeAnim			0x07A
 #define WyvernRiderHandAxeAnim		0x07B
@@ -237,5 +237,9 @@ POP
 
 #define MaligKnightLanceAnim		0x081
 #define MaligKnightMagicAnim		0x082
+
+#define BombardierLanceAnim			0x083
+#define BombardierBowAnim			0x084
+#define BombardierUnarmedAnim		0x085
 
 // the rest
