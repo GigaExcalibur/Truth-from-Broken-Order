@@ -45,7 +45,7 @@
     #include "Events/WorldMapEvents.event"
 
     //Maps
-    #include "Maps/Master Map Installer.event"
+    #include "Maps/MasterMapInstaller.event"
 	
 	//ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	

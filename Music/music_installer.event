@@ -89,18 +89,34 @@ SongTable(0x43,prisonerselegy, MapMusicGroup)
 {
 SongTable(0x09, song09, MapMusicGroup)
 #include "songs\Avalon Code_ Flows of Weld River & Ravine of Vulgazzo.event"
+#undef	song09_grp
+#undef	song09_pri
+#undef	song09_rev
+#undef	song09_mvl
+#undef	song09_key
+#undef	song09_tbs
+#undef	song09_exg
+#undef	song09_cmp
 }
 
-// me!
+// hunteraurzo
 {
-SongTable(0x36, _64___Temporal_Tower, MapMusicGroup)
-#include "songs/064 - Temporal Tower.event"
+SongTable(0x02, song09, MapMusicGroup)
+#include "songs\TimeGear.event"
+#undef	song09_grp
+#undef	song09_pri
+#undef	song09_rev
+#undef	song09_mvl
+#undef	song09_key
+#undef	song09_tbs
+#undef	song09_exg
+#undef	song09_cmp
 }
 
-// me!
+// hunteraurzo
 {
-SongTable(0x02, _34___Vast_Ice_Mountain, MapMusicGroup)
-#include "songs/134 - Vast Ice Mountain.event"
+SongTable(0x36, song09, MapMusicGroup)
+#include "songs/TemporalTower.event"
 }
 
 // --------------- SONGS: GUI AND SFX ---------------
