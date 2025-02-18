@@ -8,6 +8,18 @@ SkillIcons:
 ORG SkillIcon(NoSkillID)
 #incbin "SkillIcons/EmptyFrame.dmp"
 
+ORG SkillIcon(HeavyItemSkillID)
+#incbin "SkillIcons/HeavyBlade.dmp"
+
+ORG SkillIcon(KillerItemSkillID)
+#incbin "SkillIcons/CriticalForce.dmp"
+
+ORG SkillIcon(BraveItemSkillID)
+#incbin "SkillIcons/DoubleLion.dmp"
+
+ORG SkillIcon(MagicItemSkillID)
+#incbin "SkillIcons/ArcaneBlade.dmp"
+
 ORG SkillIcon(RighteousnessAlexigantID)
 #incbin "SkillIcons/Aptitude.dmp"
 

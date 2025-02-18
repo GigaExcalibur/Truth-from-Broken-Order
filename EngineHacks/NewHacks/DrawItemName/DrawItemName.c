@@ -2,7 +2,7 @@
 
 extern u8 RefreshingDurabilityList[];
 extern u8 ConvoySize_Link;
-
+extern u8 GetItemSkill(int item);
 
 // hoo boy
 bool DoesItemRefreshDurability(int item) {
@@ -153,7 +153,8 @@ void DrawItemStatScreenLine(struct Text* text, int item, int nameColor, u16* map
 
     PutText(text, mapOut + 3); // 2 in vanilla
 
-    DrawIcon(mapOut + 1, GetItemIconId(item), 0x4000); // 0 in vanilla
+    //DrawIcon(mapOut + 1, GetItemIconId(item), 0x4000); // 0 in vanilla
+	DrawIcon(mapOut+1, GetItemSkill(item), 0x4000); // skill id
 }
 
 void RefreshUnitInventoryInfoWindow(struct Unit* unit) {

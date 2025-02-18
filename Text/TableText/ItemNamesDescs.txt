@@ -557,5 +557,20 @@ Enemy receives -2[N]
 to all stats.[X]
 
 ## Trismegistos_Desc
-Eunonina[lock] Winds of commerce.[X]
+Eunonina's winds of commerce.[X]
 
+## SD_HeavyItem
+This weapon cannot perform[N]
+follow-up attacks at all.[X]
+
+## SD_BraveItem
+This weapon doubles its[N]
+total number of strikes.[X]
+
+## SD_KillerItem
+This weapon doubles user's[N]
+base critical hit rate.[X]
+
+## SD_MagicItem
+This weapon adds half of[N]
+user's Int to damage.[X]

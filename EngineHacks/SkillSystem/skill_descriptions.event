@@ -7,6 +7,12 @@ ORG 2*0xFF+SkillDescTable
 
 // new stuff
 SkillDescription(NoSkillID, SD_NoSkill)
+SkillDescription(HeavyItemSkillID, SD_HeavyItem)
+SkillDescription(KillerItemSkillID, SD_KillerItem)
+SkillDescription(BraveItemSkillID, SD_BraveItem)
+SkillDescription(MagicItemSkillID, SD_MagicItem)
+
+
 SkillDescription(RighteousnessAlexigantID, SD_Righteousness)
 SkillDescription(ExperiencedExampleID, SD_ExperiencedExample)
 SkillDescription(ComradesInArmsDrestonID, SD_ComradesInArms)

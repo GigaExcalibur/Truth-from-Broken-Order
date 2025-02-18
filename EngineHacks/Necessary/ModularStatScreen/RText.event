@@ -297,19 +297,34 @@
 
 
   ST_Inventory1: 
-  RMenu(0,ST_Inventory2,ST_Name2,0,0x68,0x18,0,ItemDescLooper,ItemDescGetter)
+  RMenu(0,ST_Inventory2,ST_Name2,ST_InventorySkill1,0x68,0x18,0,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory2: 
-  RMenu(ST_Inventory1,ST_Inventory3,ST_Name2,0,0x68,0x28,1,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory1,ST_Inventory3,ST_Name2,ST_InventorySkill2,0x68,0x28,1,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory3: 
-  RMenu(ST_Inventory2,ST_Inventory4,ST_Name2,0,0x68,0x38,2,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory2,ST_Inventory4,ST_Name2,ST_InventorySkill3,0x68,0x38,2,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory4: 
-  RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,0,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,ST_InventorySkill4,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory5: 
-  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_Atk,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_InventorySkill5,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
+  
+  ST_InventorySkill1: 
+  RMenu(0,ST_InventorySkill2,ST_Inventory1,0,0xD0,0x18,0,ItemSkillDescLooper,ItemSkillDescGetter)
+
+  ST_InventorySkill2: 
+  RMenu(ST_InventorySkill1,ST_InventorySkill3,ST_Inventory2,0,0xD0,0x28,1,ItemSkillDescLooper,ItemSkillDescGetter)
+
+  ST_InventorySkill3: 
+  RMenu(ST_InventorySkill2,ST_InventorySkill4,ST_Inventory3,0,0xD0,0x38,2,ItemSkillDescLooper,ItemSkillDescGetter)
+
+  ST_InventorySkill4: 
+  RMenu(ST_InventorySkill3,ST_InventorySkill5,ST_Inventory4,0,0xD0,0x48,3,ItemSkillDescLooper,ItemSkillDescGetter)
+
+  ST_InventorySkill5: 
+  RMenu(ST_InventorySkill4,ST_AS,ST_Inventory5,0,0xD0,0x58,4,ItemSkillDescLooper,ItemSkillDescGetter)
   
   ST_Atk:
   RMenu(ST_Inventory5, ST_Hit, ST_Class2, ST_AS, 0x68, 0x68, 0x55C)
@@ -321,7 +336,7 @@
   RMenu(ST_Hit, 0, ST_HP2, ST_CritAvo, 0x68, 0x88, 0x55F)
   
   ST_AS:
-  RMenu(ST_Inventory5, ST_Avo, ST_Atk, 0, 0xAE, 0x68, 0x55E)
+  RMenu(ST_InventorySkill5, ST_Avo, ST_Atk, 0, 0xAE, 0x68, 0x55E)
   
   ST_Avo:
   RMenu(ST_AS, ST_CritAvo, ST_Hit, 0, 0xAE, 0x78, 0x560)

@@ -17,3 +17,5 @@ WORD SS_SkillsDefaultRText
 
 #include "AffinityDescGetter/Installer.event"
 #include "StatusDescGetter/Installer.event"
+
+#include "ItemSkillDescGetter/ItemSkillDescGetter.lyn.event"
