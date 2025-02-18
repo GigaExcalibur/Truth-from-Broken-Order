@@ -11,3 +11,5 @@
 #include "Palettes/System/FactionMapPalettes.event"
 
 // #include "BattleAnims/BattleAnimInstaller.event"
+
+#include "Tilesets/MasterTilesetInstaller.event"

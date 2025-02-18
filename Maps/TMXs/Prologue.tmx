@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="17" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="ZoramineVillage" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../Tilesets/ZoramineVillage.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="17" height="10">
+  <properties>
+   <property name="Anims" value="VillageAnimsID"/>
+   <property name="ChapterID" value="PrologueID"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="PrologueMapChangesID"/>
+   <property name="MapID" value="PrologueMapID"/>
+   <property name="ObjectType" value="ZoramineVillageDayObjectID"/>
+   <property name="PaletteID" value="ZoramineVillageDayPaletteID"/>
+   <property name="TileConfig" value="ZoramineVillageConfigID"/>
+  </properties>
+  <data encoding="csv">
+442,507,507,364,877,420,129,231,198,204,420,876,199,938,939,940,519,
+254,255,507,364,877,420,322,237,303,303,198,909,517,970,971,972,230,
+286,287,288,364,876,198,207,135,303,240,517,430,519,424,517,232,257,
+318,389,320,364,877,519,517,230,236,420,165,432,517,517,517,200,420,
+359,318,249,364,877,400,401,402,946,878,878,878,947,424,519,485,134,
+318,318,249,364,909,529,529,529,876,868,869,870,876,400,401,401,401,
+359,318,391,360,392,526,526,526,909,900,998,902,909,453,517,424,519,
+318,318,391,360,392,526,526,591,430,517,517,424,517,517,519,485,228,
+359,318,391,360,392,526,526,591,432,519,519,588,517,519,490,228,257,
+318,318,249,364,877,526,526,591,432,517,232,322,165,232,129,420,420
+</data>
+ </layer>
+ <layer id="2" name="HouseClose" width="17" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,965,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

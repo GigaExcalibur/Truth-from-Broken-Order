@@ -1,0 +1,15 @@
+// chapter ids
+#define PrologueID		0x00
+
+
+// plist
+#define PrologueMapID				0x04
+#define PrologueMapChangesID		0x06
+#define PrologueEventsID			0x07
+
+#define VillageAnimsID				0x12
+
+// new tilesets (start from 0x88)
+#define ZoramineVillageDayObjectID 			0x88
+#define ZoramineVillageDayPaletteID			0x89
+#define ZoramineVillageConfigID				0x8A

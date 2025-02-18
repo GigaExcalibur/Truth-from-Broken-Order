@@ -1,0 +1,9 @@
+## PrologueName
+P: Guilty Conscience[X]
+
+## PrologueObjective
+Quell Leaders[X]
+
+## PrologueStatusObjective
+Subdue Eclarro's[N]
+bribed captains.[X]

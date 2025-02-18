@@ -1,0 +1,16 @@
+// Zoramine Village (Zoramine Fae)
+ALIGN 4
+ZoramineVillageDayObject:
+#incbin "Dmp/Object/ZoramineVillageDay.dmp"
+
+ALIGN 4
+ZoramineVillageDayPalette:
+#incbin "Dmp/Palette/ZoramineVillageDay_pal.dmp"
+
+ALIGN 4
+ZoramineVillageConfig:
+#incbin "Dmp/Config/ZoramineVillage_comp.dmp"
+
+EventPointerTable(ZoramineVillageDayObjectID, ZoramineVillageDayObject)
+EventPointerTable(ZoramineVillageDayPaletteID, ZoramineVillageDayPalette)
+EventPointerTable(ZoramineVillageConfigID, ZoramineVillageConfig)

@@ -2,3 +2,4 @@
 #include "ClassDefinitions.event"
 #include "ItemDefinitions.event"
 #include "MacroDefinitions.event"
+#include "ChapterDefinitions.event"
