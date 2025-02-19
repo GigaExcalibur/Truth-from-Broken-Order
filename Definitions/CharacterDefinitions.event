@@ -20,5 +20,5 @@
 
 // enemy units
 // prologue
-#define Intruder	0x46
+#define Eclarro		0x46; #define Intruder Eclarro
 #define Shrouded	0x47

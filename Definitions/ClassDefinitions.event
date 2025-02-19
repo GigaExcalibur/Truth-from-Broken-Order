@@ -101,7 +101,7 @@
 #define Jurispotence	0x3F // Nb
 #define Prosecutor		0x40 // Nb
 #define Novistador		0x41 // U
-#define Ephemerality	0x42 // F
+#define Attorney		0x42 // M
 #define HighGremory		0x43 // F
 #define VioletKnight	0x44 // F
 #define CrownPrince		0x45 // M
