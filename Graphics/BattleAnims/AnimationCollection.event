@@ -264,3 +264,8 @@ POP // go back to freespace JUST IN CASE
 #include "Animations/Falcoknight/Lance Installer.event"
 #include "Animations/Falcoknight/Magic Installer.event"
 }
+
+{
+#include "Animations/Attorney/Sword Installer.event"
+#include "Animations/Attorney/Magic Installer.event"
+}

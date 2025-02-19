@@ -243,3 +243,5 @@ POP
 #define BombardierUnarmedAnim		0x085
 
 // the rest
+#define AttorneySwordAnim			0x086
+#define AttorneyMagicAnim			0x087

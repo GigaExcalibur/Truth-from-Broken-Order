@@ -391,3 +391,10 @@ LanceAnim(BombardierLanceAnim)
 BowAnim(BombardierBowAnim)
 UnarmedAnim(BombardierUnarmedAnim)
 EndAnim
+
+// Attorney (Linkain)
+ALIGN 4
+AttorneyAnims:
+SwordAnim(AttorneySwordAnim)
+MagicAnim(AttorneyMagicAnim)
+EndAnim
