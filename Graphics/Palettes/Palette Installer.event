@@ -3,11 +3,11 @@
 
 ALIGN 4
 
-AlexigantJurispotence:
-	#incbin "./_palettes/AlexigantJurispotence.lzpal" 
-
 AlexigantProsecutor:
 	#incbin "./_palettes/AlexigantProsecutor.lzpal" 
+
+AlexigantJurispotence:
+	#incbin "./_palettes/AlexigantJurispotence.lzpal" 
 
 YarikSwordmaster:
 	#incbin "./_palettes/YarikSwordmaster.lzpal" 
@@ -23,4 +23,16 @@ EunoninaMage:
 
 EunoninaSage:
 	#incbin "./_palettes/EunoninaSage.lzpal" 
+
+LoranAttorney:
+	#incbin "./_palettes/LoranAttorney.lzpal" 
+
+FabriziaCavalier:
+	#incbin "./_palettes/FabriziaCavalier.lzpal" 
+
+SvestriFighter:
+	#incbin "./_palettes/SvestriFighter.lzpal" 
+
+EclarroShaman:
+	#incbin "./_palettes/EclarroShaman.lzpal" 
 

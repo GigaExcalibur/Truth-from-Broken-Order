@@ -4,13 +4,13 @@
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
 
-// AlexigantJurispotence
-	setPalette(1,AlexigantJurispotence)
-	setCBSP(1,Alexigant, 1, Jurispotence)
-
 // AlexigantProsecutor
-	setPalette(2,AlexigantProsecutor)
-	setCBSP(2,Alexigant, 2, Prosecutor)
+	setPalette(1,AlexigantProsecutor)
+	setCBSP(1,Alexigant, 1, Prosecutor)
+
+// AlexigantJurispotence
+	setPalette(2,AlexigantJurispotence)
+	setCBSP(2,Alexigant, 2, Jurispotence)
 
 // YarikSwordmaster
 	setPalette(3,YarikSwordmaster)
@@ -31,3 +31,19 @@
 // EunoninaSage
 	setPalette(7,EunoninaSage)
 	setCBSP(7,Eunonina, 2, Sage_F)
+
+// LoranAttorney
+	setPalette(8,LoranAttorney)
+	setCBSP(8,Loran, 1, Attorney)
+
+// FabriziaCavalier
+	setPalette(9,FabriziaCavalier)
+	setCBSP(9,Fabrizia, 1, Cavalier_F)
+
+// SvestriFighter
+	setPalette(10,SvestriFighter)
+	setCBSP(10,Svestri, 1, Fighter)
+
+// EclarroShaman
+	setPalette(11,EclarroShaman)
+	setCBSP(11,Eclarro, 1, Shaman_M)

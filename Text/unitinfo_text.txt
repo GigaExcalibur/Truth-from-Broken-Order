@@ -11,22 +11,22 @@ Alexigant Partriz[X]
 31, 6'2[CQ], They/Them[X]
 
 ## LoranFullName1
-Loran von Harke II[X]
+Loran von Harke[X]
 
 ## LoranFullName2
 Loran Harke[X]
 
 ## LoranInfo1
-28, 5'7[CQ], She/Her[X]
+28, 5'6[CQ], He/Him[X]
 
 ## LoranInfo2
-31, 5'7[CQ], She/Her[X]
+31, 5'6[CQ], He/Him[X]
 
 ## EunoninaFullName
 Eunonina Middler[X]
 
 ## EunoninaInfo1
-19, 5'5[CQ], She/Her[X]
+19, 5'3[CQ], She/Her[X]
 
 ## EunoninaInfo2
 22, 5'5[CQ], She/They[X]

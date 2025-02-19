@@ -62,6 +62,15 @@ Eunonina[X]
 would respect her age [B.R] didn't seem to[N]
 know everyone else aged each year too...[CQ][X]
 
+## Loran_Name
+Loran[X]
+
+## Fabrizia_Name
+Fabrizia[X]
+
+## Svestri_Name
+Svestri[X]
+
 ## Hollaje_Name
 Hollaje[X]
 
@@ -78,6 +87,9 @@ Morguan[X]
 
 ## Xifersyn_Name
 Xifersyn[X]
+
+## Eclarro_Name
+Eclarro[X]
 
 ## Intruder_Name
 Intruder[X]
