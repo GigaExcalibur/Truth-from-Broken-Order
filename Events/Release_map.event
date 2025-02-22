@@ -227,6 +227,10 @@ Text(TeeHee)
 SVAL s1 1
 SET_HP Ephraim
 ENUT 0x78
+SVAL s1 Eunonina
+SVAL s2 1
+SVAL s3 500
+ASMC SetBWLASMC|1
 /*
 Text(PrologueColdOpen1)
 Text(PrologueColdOpen2)

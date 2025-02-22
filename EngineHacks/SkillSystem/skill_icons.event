@@ -20,6 +20,9 @@ ORG SkillIcon(BraveItemSkillID)
 ORG SkillIcon(MagicItemSkillID)
 #incbin "SkillIcons/ArcaneBlade.dmp"
 
+ORG SkillIcon(PhysicalTomeSkillID)
+#incbin "SkillIcons/Tomebreaker.dmp"
+
 ORG SkillIcon(RighteousnessAlexigantID)
 #incbin "SkillIcons/Aptitude.dmp"
 
@@ -31,6 +34,9 @@ ORG SkillIcon(ComradesInArmsDrestonID)
 
 ORG SkillIcon(ComradesInArmsWrestonID)
 #incbin "SkillIcons/Loyalty.dmp"
+
+ORG SkillIcon(InvestmentID)
+#incbin "SkillIcons/Despoil.dmp"
 
 /*
 ORG SkillIcon(AcrobatID)

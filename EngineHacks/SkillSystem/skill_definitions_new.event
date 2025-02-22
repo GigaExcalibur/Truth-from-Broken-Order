@@ -13,14 +13,19 @@
 // magic item
 #define MagicItemSkillID 5
 
+// physical tome
+#define PhysicalTomeSkillID 6
+
 // Righteousness: Galeforce on staff usage. 0 mov and +1 bowrange on 2nd turn.
-#define RighteousnessAlexigantID 6
+#define RighteousnessAlexigantID 7
 
 // 
-#define ExperiencedExampleID 7
+#define ExperiencedExampleID 8
 
 // Comrades in Arms: When Dreston and Wreston are adjacent, Dreston cannot be at WTD
-#define ComradesInArmsDrestonID 8
+#define ComradesInArmsDrestonID 9
 
 // Comrades in Arms: When Dreston and Wreston are adjacent, Wreston doubles WTA
-#define ComradesInArmsWrestonID 9
+#define ComradesInArmsWrestonID 10
+
+#define InvestmentID 11

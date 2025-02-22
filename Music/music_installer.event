@@ -98,7 +98,7 @@ SongTable(0x09, song09, MapMusicGroup)
 #undef	song09_exg
 #undef	song09_cmp
 }
-
+/*
 // hunteraurzo
 {
 SongTable(0x02, song09, MapMusicGroup)
@@ -111,6 +111,12 @@ SongTable(0x02, song09, MapMusicGroup)
 #undef	song09_tbs
 #undef	song09_exg
 #undef	song09_cmp
+}
+*/
+// Trikki Nikki
+{
+SongTable(0x34, song02AC, MapMusicGroup)
+#include "songs/TimeGear.event"
 }
 
 // hunteraurzo

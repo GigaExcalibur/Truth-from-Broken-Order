@@ -151,7 +151,7 @@
 #define BeneficRadi		0x85
 #define AngelicRadi		0x86
 
-// def boon
+// res boon
 #define ProsaicRule		0x8D
 #define BeneficRule		0x8E
 #define AngelicRule		0x8F
@@ -230,5 +230,55 @@
 #define Exhilaration	0x98	// again
 #define Debilitation	0x99	// -2 all
 
-// prfs (non-staves)
-#define Trismegistos	0xC9	// eunonina
+// as they come (free)
+#define Trismegistos	0xC9	// eunonina siege prf
+#define MooringKris		0xCA	// magic swords
+#define MoonlitKris		0xCB
+#define MidnightKris	0xCC
+#define EldritchBow		0xCD	// magic bow (cutscene jones)
+#define KillingEdge		0xCE	// third tier killers 
+#define KillingYue		0xCF
+#define BoldDirk		0xD0	// first tier braves
+#define BoldSelf		0xD1
+#define ClassicMarl		0xD2	// def boon anima
+#define MysticMarl		0xD3
+#define OrphicMarl		0xD4
+#define ClassicGaia		0xD5	// physical anima
+#define MysticGaia		0xD6
+#define OrphicGaia		0xD7
+#define ShortSpear		0xD8	// second tier 1-2 phys
+#define ShortAxe		0xD9
+
+// as they come (overwrite vanilla)
+
+// S ranks
+// #define SRankSword	0xE5
+// #define SRankLance	0xE6
+// #define SRankAxe		0xE7
+// #define SRankBow		0xE8
+// #define SRankStaff	0x8C	// vanilla latona
+// #define SRankAnima	0xE9
+// #define SRankLight	0xEA
+// #define SRankDark	0xEB
+
+#define EliteSword		0xEC
+#define EliteLance		0xED
+#define EliteAxe		0xEE
+#define EliteBow		0xEF
+#define HistoricFloe	0xF0
+#define HistoricRite	0xF1
+#define HistoricPall	0xF2
+
+#define Resurrection	0xF3	// staff
+#define Descent			0xF4	// dark
+#define Inundation		0xF5	// bow
+#define Sepulchre		0xF6	// axe
+#define Fulmination		0xF7	// lance
+#define Furor			0xF8	// anima
+#define Iconoclasm		0xF9	// lance
+#define Refulgence		0xFA	// light
+#define Umbra			0xFB	// dark
+#define Litany			0xFC	// light
+#define Anamorphoun		0xFD	// sword
+#define Eternity		0xFE	// anima
+// end at 0xfe because i don't trust item id 0xff

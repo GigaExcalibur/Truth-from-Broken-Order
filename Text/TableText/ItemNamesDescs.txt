@@ -1,5 +1,5 @@
 ## Test_Name
-Eldritch Bow[X]
+Mooring Kris[X]
 
 ## IronSword_Name
 Iron Sword[X]
@@ -560,17 +560,17 @@ to all stats.[X]
 Eunonina's winds of commerce.[X]
 
 ## SD_HeavyItem
-This weapon cannot perform[N]
-follow-up attacks at all.[X]
+Cannot double in combat.[X]
 
 ## SD_BraveItem
-This weapon doubles its[N]
-total number of strikes.[X]
+Doubles all wielder's strikes.[X]
 
 ## SD_KillerItem
-This weapon doubles user's[N]
-base critical hit rate.[X]
+Doubles wielder's base crit.[X]
 
 ## SD_MagicItem
-This weapon adds half of[N]
-user's Int to damage.[X]
+Uses Str + (Int/2), targets Res.[X]
+
+## SD_PhysicalTome
+Uses Int + (Str/2), targets Def.[X]
+

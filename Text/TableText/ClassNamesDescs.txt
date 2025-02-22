@@ -5,6 +5,14 @@ Default[X]
 Dragz forgot to write a faction-[N]
 specific class description here.[X]
 
+## Prosecutor_Name
+Prosecutor[X]
+
+## Prosecutor_Desc
+[OQ]...unflinching at the jurispotence's[N]
+side, possessed of unwavering[N]
+certainty their case was Truth...[CQ][X]
+
 ## Jurispotence_Name
 Jurispotence[X]
 
@@ -104,9 +112,6 @@ moment falling aside to purpose...[CQ][X]
 
 ## Ephemerality_Name
 Ephemerality[X]
-
-## Prosecutor_Name
-Prosecutor[X]
 
 ## CrownPrince_Name
 Crown Prince[X]

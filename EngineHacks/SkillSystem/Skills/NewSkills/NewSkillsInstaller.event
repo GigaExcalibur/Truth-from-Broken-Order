@@ -3,3 +3,5 @@
 #include "ExperiencedExample/ExperiencedExample.event"
 
 #include "ComradesInArms/ComradesInArms.event"
+
+#include "Investment/Investment.event"

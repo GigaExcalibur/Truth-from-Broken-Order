@@ -34,3 +34,5 @@
 #include "PrepsGuide/PrepScreenGuide.lyn.event" // Eebit
 
 #include "PortraitHeight/PortraitHeight.event" // wan
+
+#include "NewCalcs/NewCalcs.event" // me!

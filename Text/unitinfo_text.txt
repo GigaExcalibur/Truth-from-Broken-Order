@@ -22,6 +22,24 @@ Loran Harke[X]
 ## LoranInfo2
 31, 5'6[CQ], He/Him[X]
 
+## DrestonFullName
+Dreston LASTNAME[X]
+
+## DrestonInfo1
+24, 5'7[CQ], He/Him[X]
+
+## DrestonInfo2
+27, 5'7[CQ], He/Him[X]
+
+## WrestonFullName
+Wreston LASTNAME[X]
+
+## WrestonInfo1
+25, 5'6[CQ], She/Her[X]
+
+## WrestonInfo2
+28, 5'6[CQ], She/Her[X]
+
 ## EunoninaFullName
 Eunonina Middler[X]
 
@@ -30,3 +48,12 @@ Eunonina Middler[X]
 
 ## EunoninaInfo2
 22, 5'5[CQ], She/They[X]
+
+## FabriziaFullName
+Fabrizia Jaye[X]
+
+## FabriziaInfo1
+22, 5'2[CQ], She/Her[X]
+
+## FabriziaInfo2
+25, 5'2[CQ], She/Her[X]

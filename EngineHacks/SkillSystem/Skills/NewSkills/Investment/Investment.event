@@ -1,0 +1,5 @@
+ALIGN 4
+InvestmentID_Link:
+WORD InvestmentID
+
+#include "Investment.lyn.event"

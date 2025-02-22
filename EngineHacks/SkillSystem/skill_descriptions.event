@@ -11,12 +11,14 @@ SkillDescription(HeavyItemSkillID, SD_HeavyItem)
 SkillDescription(KillerItemSkillID, SD_KillerItem)
 SkillDescription(BraveItemSkillID, SD_BraveItem)
 SkillDescription(MagicItemSkillID, SD_MagicItem)
+SkillDescription(PhysicalTomeSkillID, SD_PhysicalTome)
 
 
 SkillDescription(RighteousnessAlexigantID, SD_Righteousness)
 SkillDescription(ExperiencedExampleID, SD_ExperiencedExample)
 SkillDescription(ComradesInArmsDrestonID, SD_ComradesInArms)
 SkillDescription(ComradesInArmsWrestonID, SD_ComradesInArms)
+SkillDescription(InvestmentID, SD_Investment)
 
 /*
 SkillDescription(AcrobatID,SD_Acrobat)

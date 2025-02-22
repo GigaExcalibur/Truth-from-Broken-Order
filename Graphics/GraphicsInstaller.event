@@ -6,9 +6,9 @@
 
 #include "ClassCards/ClassCardInstaller.event"
 
-#include "Palettes/Palette Setup.event"
+#include "Palettes/MasterPaletteInstaller.event"
 
-#include "Palettes/System/FactionMapPalettes.event"
+//#include "Palettes/System/FactionMapPalettes.event"
 
 // #include "BattleAnims/BattleAnimInstaller.event"
 

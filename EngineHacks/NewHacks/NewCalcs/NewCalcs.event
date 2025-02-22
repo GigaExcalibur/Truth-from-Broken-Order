@@ -1,0 +1,9 @@
+ALIGN 4
+MagicItemSkill_Link:
+WORD MagicItemSkillID
+
+ALIGN 4
+PhysicalTomeSkill_Link:
+WORD PhysicalTomeSkillID
+
+#include "NewCalcs.lyn.event"

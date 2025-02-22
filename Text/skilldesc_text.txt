@@ -1858,3 +1858,7 @@ adjacent units gain 10 exp.[X]
 Comrades In Arms: If Dreston and[N]
 Wreston are adjacent, he cannot[N]
 be at WTD and she doubles WTA.[X]
+
+## SD_Investment
+Investment: Gain 1 Crit every[N]
+2 of this unit's lifetime kills.[X]
