@@ -361,7 +361,7 @@ LanceAnim(FalcoknightLanceAnim)
 MagicAnim(FalcoknightMagicAnim)
 EndAnim
 
-// Wyvern Rider
+// Wyvern Rider (SamirPlayz, eCut, PrincessKilvas, Spud, Blue Druid, UltraFenix)
 ALIGN 4
 WyvernRiderAnims:
 AxeAnim(WyvernRiderAxeAnim)
@@ -369,22 +369,23 @@ HandAxeAnim(WyvernRiderHandAxeAnim)
 UnarmedAnim(WyvernRiderUnarmedAnim)
 EndAnim
 
-// Wyvern Lord
+// Wyvern Lord (Nuramon, RRSKAI)
 ALIGN 4
 WyvernLordAnims:
+LanceAnim(WyvernLordLanceAnim)
 AxeAnim(WyvernLordAxeAnim)
 HandAxeAnim(WyvernLordHandAxeAnim)
 UnarmedAnim(WyvernLordUnarmedAnim)
 EndAnim
 
-// Malig Knight
+// Malig Knight (Blue Druid, Alfred Kamon)
 ALIGN 4
 MaligKnightAnims:
 LanceAnim(MaligKnightLanceAnim)
 MagicAnim(MaligKnightMagicAnim)
 EndAnim
 
-// Bombardier
+// Bombardier (Ayr, Raspberry, EldritchAbomination, Pushwall)
 ALIGN 4
 BombardierAnims:
 LanceAnim(BombardierLanceAnim)
