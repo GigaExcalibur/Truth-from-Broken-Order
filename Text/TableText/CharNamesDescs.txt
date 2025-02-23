@@ -1,5 +1,5 @@
 ## TestChar_Name
-Desdemona[X]
+Recitatio[X]
 
 ## Alexigant_Name
 Alexigant[X]

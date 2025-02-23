@@ -1,26 +1,27 @@
 // Menu palettes
 PUSH
-// Option 1: lavender purple
+// Option 1: pink
 ORG 0x5B6BB4
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $5B $7B $3A $77 $96 $72 $D4 $75 $B3 $71 $92 $6D $71 $69 $50 $65 $2F $61
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $BE $73 $7E $6F $1F $67 $9B $3D $7A $39 $59 $35 $38 $31 $17 $2D $F6 $28
 ORG 0x5B6C34
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $5B $7B $3A $77 $96 $72 $54 $6A $33 $66 $12 $62 $F1 $5D $D0 $59 $AF $55
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $BE $73 $7E $6F $1F $67 $9B $3D $7A $39 $59 $35 $38 $31 $17 $2D $F6 $28
 
-// todo: gentle orange
-/*
+// Option 2: red
 ORG 0x5B6BD4
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FD $7B $DC $77 $99 $73 $56 $6B $12 $67 $AD $56 $8C $52 $6A $4E $49 $4A $28 $46 $07 $42
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $F5 $24 $D3 $20 $D2 $20 $B1 $1C $90 $18 $6F $14
 ORG 0x5B6C54
-BYTE $0E $52 $39 $67 $97 $46 $2C $15 $04 $00 $37 $63 $16 $5F $D3 $5A $90 $52 $4C $4E $27 $46 $06 $42 $C4 $39 $A3 $35 $82 $31 $41 $29
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $F5 $24 $D3 $20 $D2 $20 $B1 $1C $90 $18 $6F $14
 
-// Option 3: gold yellow (pandan)
-// todo: gentle green
+// Option 3: green
 ORG 0x5B6BF4
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DF $7B $BF $73 $7E $6B $3D $63 $FC $56 $B5 $12 $73 $0E $52 $0E $EF $09 $8C $09 $6B $09
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $98 $6B $99 $67 $0B $3A $EA $35 $C9 $31 $A8 $2D $87 $29 $66 $25 $45 $21
 ORG 0x5B6C74
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $DF $7B $BF $73 $7E $6B $3D $63 $FC $56 $10 $12 $CE $0D $AD $0D $8C $09 $29 $09 $C6 $08
-*/
-// Option 4: no idea
-// certainly not gray
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $98 $6B $99 $67 $0B $3A $EA $35 $C9 $31 $A8 $2D $87 $29 $66 $25 $45 $21
 
+// Option 4: purple (default)
+// wow dragz you have purple AND red menu options? how original
+ORG 0x5B6C14
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $36 $73 $6F $72 $AD $5D $6B $51 $4A $4D $29 $49 $08 $45 $E7 $40 $C6 $3C
+ORG 0x5B6C94
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $5B $7B $3A $77 $96 $72 $54 $6A $33 $66 $12 $62 $F1 $5D $D0 $59 $AF $55
 POP

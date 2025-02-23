@@ -298,7 +298,7 @@ total must weigh in their stead...[CQ][X]
 [OQ]...God help us if this increments...[CQ][X]
 
 ## DeploymentPrepName
-Deploy Units[X]
+Deploy[X]
 
 ## DeploymentPrepDesc
 [OQ]...easier to command an[N]
@@ -308,7 +308,7 @@ the rest would stay to[N]
 guard the encampment...[CQ][X]
 
 ## ArmamentsPrepName
-Equip Items[X]
+Equip[X]
 
 ## ArmamentsPrepDesc
 [OQ]...fastest way to turn[N]
@@ -318,7 +318,7 @@ a sharper blade or a[N]
 stronger healing staff...[CQ][X]
 
 ## GuidePrepName
-Check Notes[X]
+Documents[X]
 
 ## GuidePrepDesc
 [OQ]...kept careful records[N]
@@ -327,7 +327,7 @@ and persons necessary[N]
 to uncover the truth...[CQ][X]
 
 ## BaseConvoCommandName
-Visit Camp[X]
+Encampment[X]
 
 ## BaseConvoCommandDesc
 [OQ]...kept the officer[N]
@@ -356,7 +356,7 @@ encampment conversation system.[AN]
 Do not be alarmed.[A][X]
 
 ## ArrangementPrepName
-Surveil Field[X]
+To Field[X]
 
 ## ArrangementPrepDesc
 [OQ]...begun before any[N]
@@ -366,7 +366,7 @@ instant when one side[N]
 strategized better...[CQ][X]
 
 ## DocumentPrepName
-Save Record[X]
+Save[X]
 
 ## DocumentPrepDesc
 [OQ]...no stock in oral[N]
