@@ -12,6 +12,8 @@
 #undef HandAxe
 #undef Tomahawk
 #undef Swordreaver
+#undef KillingEdge
+#undef ShortSpear
 
 // swords
 // basic
@@ -54,11 +56,11 @@
 #define Javelin			0x16
 #define Spear			0x17
 
-// magic
-#define FervidPike		0x18
-#define FrigidPike		0x19
-#define ForkedPike		0x1A
-#define FlurryPike		0x1B
+// runic
+#define FervidPole		0x18
+#define FrigidPole		0x19
+#define ForkedPole		0x1A
+#define FlurryPole		0x1B
 
 // reaver
 #define Axereaver		0x1C
@@ -100,10 +102,10 @@
 #define AshLongbow		0x30
 #define OakLongbow		0x31
 
-// magic
-#define GleamingBow		0x32
-#define ShiningBow		0x33
-#define RadiantBow		0x34
+// runic
+#define GlintingYumi	0x32
+#define GlaringYumi		0x33
+#define GloriousYumi	0x34
 
 // brave
 #define BraveSelf		0x49
@@ -232,10 +234,10 @@
 
 // as they come (free)
 #define Trismegistos	0xC9	// eunonina siege prf
-#define MooringKris		0xCA	// magic swords
+#define MooringKris		0xCA	// runic swords
 #define MoonlitKris		0xCB
 #define MidnightKris	0xCC
-#define EldritchBow		0xCD	// magic bow (cutscene jones)
+#define EldritchBow		0xCD	// runic bow (cutscene jones)
 #define KillingEdge		0xCE	// third tier killers 
 #define KillingYue		0xCF
 #define BoldDirk		0xD0	// first tier braves
@@ -243,23 +245,38 @@
 #define ClassicMarl		0xD2	// def boon anima
 #define MysticMarl		0xD3
 #define OrphicMarl		0xD4
-#define ClassicGaia		0xD5	// physical anima
+#define ClassicGaia		0xD5	// runic anima
 #define MysticGaia		0xD6
 #define OrphicGaia		0xD7
 #define ShortSpear		0xD8	// second tier 1-2 phys
 #define ShortAxe		0xD9
+#define LettingPike		0xDA	// crit lances
+#define BleedinPike		0xDB
+#define KillingPike		0xDC
+#define BoldFlag		0xDD	// brave lances
+#define BraveFlag		0xDE
+#define ValiantFlag		0xDF
+#define BoldClub		0xE0	// brave axes
+#define BraveClub		0xE1
+#define ValiantClub		0xE2
+#define SpatialMaul		0xE3	// runic axes
+#define StellaryMaul	0xE4
 
 // as they come (overwrite vanilla)
+#define SublimeMaul		0x78
+#define LettingArc		0x87	// crit bows
+#define BleedinArc		0x8B
+#define KillingArc		0xA1
 
 // S ranks
 // #define SRankSword	0xE5
 // #define SRankLance	0xE6
 // #define SRankAxe		0xE7
 // #define SRankBow		0xE8
-// #define SRankStaff	0x8C	// vanilla latona
-// #define SRankAnima	0xE9
-// #define SRankLight	0xEA
-// #define SRankDark	0xEB
+// #define Regravitas	0x8C	// vanilla latona
+// #define Regiscalibur	0xE9
+// #define Regalizav	0xEA
+// #define Regoliath	0xEB
 
 #define EliteSword		0xEC
 #define EliteLance		0xED
@@ -282,3 +299,4 @@
 #define Anamorphoun		0xFD	// sword
 #define Eternity		0xFE	// anima
 // end at 0xfe because i don't trust item id 0xff
+// also fire emblem

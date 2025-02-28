@@ -36,3 +36,5 @@
 #include "PortraitHeight/PortraitHeight.event" // wan
 
 #include "NewCalcs/NewCalcs.event" // me!
+
+#include "OptionsASMCs/OptionsASMCs.event" // me!

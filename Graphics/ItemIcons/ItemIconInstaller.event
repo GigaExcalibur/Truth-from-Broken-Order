@@ -83,16 +83,16 @@ ORG ItemIconEntry(Javelin)
 ORG ItemIconEntry(Spear)
 #incbin "Lances/Spear.dmp"			// Ereshkigal
 
-ORG ItemIconEntry(FervidPike)
+ORG ItemIconEntry(FervidPole)
 #incbin "Lances/FervidPike.dmp"		// Ereshkigal
 
-ORG ItemIconEntry(FrigidPike)
+ORG ItemIconEntry(FrigidPole)
 #incbin "Lances/FrigidPike.dmp"		// Ereshkigal
 
-ORG ItemIconEntry(ForkedPike)
+ORG ItemIconEntry(ForkedPole)
 #incbin "Lances/ForkedPike.dmp"		// Ereshkigal
 
-ORG ItemIconEntry(FlurryPike)
+ORG ItemIconEntry(FlurryPole)
 #incbin "Lances/FlurryPike.dmp"		// Ereshkigal
 
 ORG ItemIconEntry(Axereaver)
@@ -169,13 +169,13 @@ ORG ItemIconEntry(BraveSelf)
 ORG ItemIconEntry(ValiantSelf)
 #incbin "Bows/ValiantSelf.dmp"		// Ereshkigal
 
-ORG ItemIconEntry(GleamingBow)
+ORG ItemIconEntry(GlintingYumi)
 #incbin "Bows/GleamingBow.dmp"		// Zarg
 
-ORG ItemIconEntry(ShiningBow)
+ORG ItemIconEntry(GlaringYumi)
 #incbin "Bows/ShiningBow.dmp"		// Zarg
 
-ORG ItemIconEntry(RadiantBow)
+ORG ItemIconEntry(GloriousYumi)
 #incbin "Bows/RadiantBow.dmp"		// Zarg
 
 // ANIMA!!! ANIMA!!!

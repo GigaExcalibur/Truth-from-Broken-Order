@@ -1,5 +1,5 @@
 ## Test_Name
-Mooring Kris[X]
+Regoliath[X]
 
 ## IronSword_Name
 Iron Sword[X]
@@ -148,14 +148,17 @@ Ash Longbow[X]
 ## OakLongbow_Name
 Oak Longbow[X]
 
-## GleamingBow_Name
-Gleaming Bow[X]
+## GlintingYumi_Name
+Glinting Yumi[X]
 
-## ShiningBow_Name
-Shining Bow[X]
+## GlaringYumi_Name
+Glaring Yumi[X]
 
-## RadiantBow_Name
-Radiant Bow[X]
+## GloriousYumi_Name
+Glorious Yumi[X]
+
+## BoldSelf_Name
+Bold Self[X]
 
 ## BraveSelf_Name
 Brave Self[X]
