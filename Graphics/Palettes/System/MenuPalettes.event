@@ -2,26 +2,30 @@
 PUSH
 // Option 1: pink
 ORG 0x5B6BB4
+PinkMenuPalette:
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $BE $73 $7E $6F $1F $67 $9B $3D $7A $39 $59 $35 $38 $31 $17 $2D $F6 $28
 ORG 0x5B6C34
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $BE $73 $7E $6F $1F $67 $9B $3D $7A $39 $59 $35 $38 $31 $17 $2D $F6 $28
 
 // Option 2: red
 ORG 0x5B6BD4
+RedMenuPalette:
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $F5 $24 $D3 $20 $D2 $20 $B1 $1C $90 $18 $6F $14
 ORG 0x5B6C54
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $9F $73 $5E $6B $1D $63 $BC $5A $F5 $24 $D3 $20 $D2 $20 $B1 $1C $90 $18 $6F $14
 
 // Option 3: green
 ORG 0x5B6BF4
+GreenMenuPalette:
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $98 $6B $99 $67 $0B $3A $EA $35 $C9 $31 $A8 $2D $87 $29 $66 $25 $45 $21
 ORG 0x5B6C74
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $98 $6B $99 $67 $0B $3A $EA $35 $C9 $31 $A8 $2D $87 $29 $66 $25 $45 $21
 
 // Option 4: purple (default)
 // wow dragz you have purple AND red menu options? how original
+PurpleMenuPalette:
 ORG 0x5B6C14
 BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $36 $73 $6F $72 $AD $5D $6B $51 $4A $4D $29 $49 $08 $45 $E7 $40 $C6 $3C
 ORG 0x5B6C94
-BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $5B $7B $3A $77 $96 $72 $54 $6A $33 $66 $12 $62 $F1 $5D $D0 $59 $AF $55
+BYTE $0E $52 $FF $7F $BE $5F $D2 $2D $AA $00 $FE $7B $DD $77 $36 $73 $6F $72 $AD $5D $6B $51 $4A $4D $29 $49 $08 $45 $E7 $40 $C6 $3C
 POP
