@@ -38,3 +38,5 @@
 #include "NewCalcs/NewCalcs.event" // me!
 
 #include "OptionsASMCs/OptionsASMCs.event" // me!
+
+#include "FactionPaletteStuff/MMBPalettes.lyn.event" // me!
