@@ -43,35 +43,29 @@ Trvl[X]
 #0x518 Dod_Name
 Dod[X]
 
-# 0x055C
-[OQ]...measure of combat is the volume[N]
-of blood spilled, weighted by the choice[N]
-of weapon and potency of defense...[CQ][X]
+# 0x055C Atk_RText
+[OQ]...sole measure of warfare is[N]
+the volume of enemy blood spilled...[CQ][X]
 
-# 0x055D
+# 0x055D Hit_RText
 [OQ]...only the dextrous succeed, focus[N]
-and skill guiding the sword-arm to its[N]
-target, as opposed to a wild tantrum...[CQ][X]
+and skill guiding sword-arm to target...[CQ][X]
 
-# 0x055E
-[OQ]...combat happens in rhythms and[N]
-cycles, the winning key found in doubling[N]
-your strikes and halving your foe's...[CQ][X]
+# 0x055E AS_RText
+[OQ]...in rhythms and cycles, speed[N]
+granting twice the normal strikes...[CQ][X]
 
-# 0x055F
-[OQ]...can exploit the smallest gaps in[N]
-a foe's defense, a single strike now[N]
-suddenly more deadly threefold...[CQ][X]
+# 0x055F Crit_RText
+[OQ]...smallest gaps in a foe's defense,[N]
+a single strike more deadly threefold...[CQ][X]
 
-# 0x0560
-[OQ]...let none equate mercurialness to[N]
-cowardice, for each attack dodged is[N]
-one survived, yet mayhap unreliable...[CQ][X]
+# 0x0560 Avo_RText
+[OQ]...despite unreliability, an attack[N]
+wholly dodged is one wholly survived...[CQ][X]
 
 #0x4E4 Dod_RText
-[OQ]...in times an opposing blow finds its[N]
-mark, one can only trust in good fortune[N]
-that the wound is not more grievous...[CQ][X]
+[OQ]...can only trust in good fortune a[N]
+landed strike is not more grievous...[CQ][X]
 
 # 0x0550
 [OQ]...great kindness to shelter a comrade,[N]
@@ -374,3 +368,27 @@ testimony. It is by this[N]
 written word which[N]
 confirms my actions[N]
 herein are Truth...[CQ][X]
+
+## RcvName
+Pt[X]
+
+## CalcName
+Calc[X]
+
+## AtkFormula
+Base Mt + Str/Int[X]
+
+## ASFormula
+Spd - (Wt - Bld)[X]
+
+## HitFormula
+Base Hit + (Dex * 2.5) + Lck[X]
+
+## AvoFormula
+Spd + (Lck * 2.5)[X]
+
+## CritFormula
+Base Crit + (Dex * 1.5)[X]
+
+## DodFormula
+Lck * 2[X]

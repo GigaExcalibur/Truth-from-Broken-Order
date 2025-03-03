@@ -1,7 +1,31 @@
 #define DivineTruthBuffAmount 3
 
 ALIGN 4
+RcvName_Link:
+WORD RcvName
+
+ALIGN 4
 DivineTruthBuffAmount_Link:
 WORD DivineTruthBuffAmount
 
+ALIGN 4
+DivineTruthSubtitleText_Link:
+WORD DivineTruthSubtitleText
+
+ALIGN 4
+DivineTruthID_Link:
+WORD DivineTruth
+
+ALIGN 4
+DivineTruthSelectInfo:
+POIN DivineTruthInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN DivineTruthTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+#include "StatDrawers.lyn.event"
 #include "DivineTruth.lyn.event"

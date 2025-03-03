@@ -24,7 +24,7 @@ ORG SkillIcon(PhysicalTomeSkillID)
 #incbin "SkillIcons/Tomebreaker.dmp"
 
 ORG SkillIcon(RighteousnessAlexigantID)
-#incbin "SkillIcons/Aptitude.dmp"
+#incbin "SkillIcons/Powerstaff.dmp"
 
 ORG SkillIcon(ExperiencedExampleID)
 #incbin "SkillIcons/Paragon.dmp"
@@ -37,6 +37,9 @@ ORG SkillIcon(ComradesInArmsWrestonID)
 
 ORG SkillIcon(InvestmentID)
 #incbin "SkillIcons/Despoil.dmp"
+
+ORG SkillIcon(DivineTruthSkillID)
+#incbin "SkillIcons/LiveToServe.dmp"
 
 /*
 ORG SkillIcon(AcrobatID)

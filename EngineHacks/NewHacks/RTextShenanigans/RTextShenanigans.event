@@ -1,0 +1,15 @@
+ALIGN 4
+CalcName_Link:
+WORD CalcName
+
+ALIGN 4
+FormulaRTextList:
+SHORT Atk_RText		AtkFormula
+SHORT AS_RText		ASFormula
+SHORT Hit_RText		HitFormula
+SHORT Avo_RText		AvoFormula
+SHORT Crit_RText	CritFormula
+SHORT Dod_RText		DodFormula
+SHORT 0 			0 // terminator
+
+#include "RTextShenanigans.lyn.event"

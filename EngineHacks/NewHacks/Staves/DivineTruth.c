@@ -66,6 +66,7 @@ long long DivineTruthStatBoost(u8 stat, struct Unit* unit) {
 void ExecDivineTruth(struct Proc* proc) {
 	//set attacker & the item to apply the effect of
 	BattleInitItemEffect(GetUnit(gActionData.subjectIndex),gActionData.itemSlotIndex);
+	
 	//set defender
 	BattleInitItemEffectTarget(GetUnit(gActionData.targetIndex));
 	
@@ -75,23 +76,35 @@ void ExecDivineTruth(struct Proc* proc) {
 	//perform the item effect & do battle anims
 	BattleApplyItemEffect(proc);
 	BeginBattleAnimations();
+	
+	return;
 }
 
 void AddUnitToTargetListIfNotDivine(struct Unit* unit) {
-	if (AreUnitsAllied(gSubjectUnit->index, unit->index)
-		&& !IsDivineTruthBitSet(unit)) {
-		AddTarget(unit->xPos, unit->yPos, unit->index, 0);
+	if (!(AreUnitsAllied(gSubjectUnit->index, unit->index))) {
+		return;
 	}
+	
+	if (IsDivineTruthBitSet(unit)) {
+		return;
+	}
+	
+	AddTarget(unit->xPos, unit->yPos, unit->index, 0);
+	return;
 }
 
-void MakeTargetListForDivineTruth(struct Unit* unit, int item) {
+void MakeTargetListForDivineTruth(struct Unit* unit) {
 	int x = unit->xPos;
-	int y = unit->yPos;
+    int y = unit->yPos;
+
 	gSubjectUnit = unit;
+
+	InitTargets(x, y);
+
+	Item_TURange(unit, AddUnitToTargetListIfNotDivine, DivineTruthID_Link);
 	
-	BmMapFill(gBmMapRange, 0);
-	MapAddInBoundedRange(x, y, GetItemMinRange(item), GetItemMaxRange(item));
-	
+	//BmMapFill(gBmMapRange, 0);
+	//MapAddInBoundedRange(x, y, GetItemMinRange(DivineTruthID_Link), GetItemMaxRange(DivineTruthID_Link));
 	ForEachUnitInRange(AddUnitToTargetListIfNotDivine);
 }
 
@@ -105,16 +118,43 @@ void DivineTruthUsabilityWrapper() {
 	");	
 }
 
-bool DivineTruthUsability(struct Unit* unit, u16 item) {
-	MakeTargetListForDivineTruth(unit, item);
+bool DivineTruthUsability(struct Unit* unit) {
+	MakeTargetListForDivineTruth(unit);
 	return GetSelectTargetCount() != 0;
 }
 
-void DivineTruthEffectWrapper() {
+void ExecDivineTruthWrapper() {
 	asm(" 	mov r0,r6; \
 			bl ExecDivineTruth; \
 			ldr r0,=#0x802FF77; \
 			bx r0; \
 	");
+
+}
+
+void DivineTruthTargeting(struct Unit* unit) {
+
+	MakeTargetListForDivineTruth(unit);
 	
+	BmMapFill(gBmMapMovement, -1);
+	
+	StartSubtitleHelp(
+		NewTargetSelection(&DivineTruthSelectInfo),
+		GetStringFromIndex(DivineTruthSubtitleText_Link));
+}
+
+void DivineTruthTargetingWrapper() {
+	asm("	mov r0, r5; \
+			mov r2, r4; \
+			bl DivineTruthTargeting; \
+			pop {r4-r5}; \
+			pop {r0}; \
+			bx r0; \
+	");
+}
+
+u8 DivineTruthTargetChange(ProcPtr proc, struct SelectTarget* target)
+{
+    ChangeActiveUnitFacing(target->x, target->y);
+    RefreshUnitAllChangeInfoWindow(GetUnit(target->uid));
 }

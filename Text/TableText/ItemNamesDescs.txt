@@ -501,59 +501,93 @@ The bog prevents follow-ups.[X]
 ## NullMagic_Desc
 Pierces half of foe's wards.[X]
 
+## HealInjuries_Desc
+A rudimentary curative staff.[X]
+
+## MendWounds_Desc
+A moderate curative staff.[X]
+
+## LongPhysick_Desc
+A far-reaching curative staff.[X]
+
+## FullRecover_Desc
+A complete curative staff.[X]
+
+## Fortification_Desc
+An almighty curative staff.[X]
+
+## Restoration_Desc
+A ailment-dispelling staff.[X]
+
+## SilenceWord_Desc
+A incantation-blocking staff.[X]
+
+## SlumberMind_Desc
+A drowsiness-inflicting staff.[X]
+
+## IncenseSoul_Desc
+A temperament-berserking staff.[X]
+
+## Ingression_Desc
+A famed ally-warping staff.[X]
+
+## Egression_Desc
+A famed ally-rescuing staff.[X]
+
 ## DivineTruth_Desc
-Alexigant[lock] Ally receives +3[N]
-to all stats for 1 turn.[X]
+Alexigant's ornamental staff.[X]
 
 ## DivineTruth_UseDesc
-Ally receives +3[N]
-to all stats.[X]
+Grant ally +3 to Str,[N]
+Int, Spd, Def, and Res.[X]
+
+## DivineTruthSubtitleText
+Select ally to grant clarity of Truth.[X]
 
 ## Acceleration_Desc
-Ally receives +4 Spd for 1 turn.[X]
+A speed-enhancing staff.[X]
 
 ## Acceleration_UseDesc
 Ally receives +4[N]
 to their Spd.[X]
 
 ## Manafication_Desc
-Ally receives +4 Int for 1 turn.[X]
+An intelligence-enhancing staff.[X]
 
 ## Manafication_UseDesc
 Ally receives +4[N]
 to their Int.[X]
 
 ## Invigoration_Desc
-Ally receives +4 Str for 1 turn.[X]
+A strength-enhancing staff.[X]
 
 ## Invigoration_UseDesc
 Ally receives +4[N]
 to their Str.[X]
 
 ## Amelioration_Desc
-Ally receives +4 Bld for 1 turn.[X]
+A build-enhancing staff.[X]
 
 ## Amelioration_UseDesc
 Ally receives +4[N]
 to their Bld.[X]
 
 ## Traipsation_Desc
-Ally receives +4 Mov for 1 turn.[X]
+A movement-enhancing staff.[X]
 
 ## Traipsation_UseDesc
 Ally receives +4[N]
 to their Mov.[X]
 
 ## Exhilaration_Desc
-Ally can take another action.[X]
+An action-refreshing staff.[X]
 
 ## Exhilaration_UseDesc
 Ally can take[N]
 another action.[X]
 
 ## Debilitation_Desc
-Enemy receives -2 to all[N]
-stats for 1 turn.[X]
+A debuff-inducing staff.[X]
 
 ## Debilitation_UseDesc
 Enemy receives -2[N]
@@ -563,17 +597,51 @@ to all stats.[X]
 Eunonina's winds of commerce.[X]
 
 ## SD_HeavyItem
-Cannot double in combat.[X]
+Heavy: Cannot double in combat.[X]
 
 ## SD_BraveItem
-Doubles all wielder's strikes.[X]
+Brave: Doubles all wielder's strikes.[X]
 
 ## SD_KillerItem
-Doubles wielder's base crit.[X]
+Killer: Doubles wielder's base crit.[X]
 
 ## SD_MagicItem
-Uses Str + (Int/2), targets Res.[X]
+Runic: Uses Str + (Int/2), targets Res.[X]
 
 ## SD_PhysicalTome
-Uses Int + (Str/2), targets Def.[X]
+Runic: Uses Int + (Str/2), targets Def.[X]
 
+## SD_DivineTruth
+Divine Truth: Buffs ally's Str, Int,[N]
+Spd, Def, and Res by item's Pt[N]
+until the next player phase.[X]
+
+## SD_Amelioration
+Amelioration: Buffs ally's Bld[N]
+by item's Pt until the next[N]
+player phase.[X]
+
+## SD_Acceleration
+Amelioration: Buffs ally's Spd[N]
+by item's Pt until the next[N]
+player phase.[X]
+
+## SD_Manafication
+Manafication: Buffs ally's Int[N]
+by item's Pt until the next[N]
+player phase.[X]
+
+## SD_Invigoration
+Invigoration: Buffs ally's Str[N]
+by item's Pt until the next[N]
+player phase.[X]
+
+## SD_Traipsation
+Traipsation: Buffs ally's Mov[N]
+by item's Pt until the next[N]
+player phase.[X]
+
+## SD_Debilitation
+Debilitation: Debuffs foe's Str, Int[N]
+Spd, Def, and Res by item's Pt[N]
+until the next player phase.[X]

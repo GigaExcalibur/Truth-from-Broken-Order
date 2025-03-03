@@ -29,3 +29,6 @@
 #define ComradesInArmsWrestonID 10
 
 #define InvestmentID 11
+
+// divine truth
+#define DivineTruthSkillID 12

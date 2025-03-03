@@ -12,6 +12,7 @@ SkillDescription(KillerItemSkillID, SD_KillerItem)
 SkillDescription(BraveItemSkillID, SD_BraveItem)
 SkillDescription(MagicItemSkillID, SD_MagicItem)
 SkillDescription(PhysicalTomeSkillID, SD_PhysicalTome)
+SkillDescription(DivineTruthSkillID, SD_DivineTruth)
 
 
 SkillDescription(RighteousnessAlexigantID, SD_Righteousness)

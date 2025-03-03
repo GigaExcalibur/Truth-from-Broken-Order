@@ -40,3 +40,5 @@
 #include "OptionsASMCs/OptionsASMCs.event" // me!
 
 #include "FactionPaletteStuff/MMBPalettes.lyn.event" // me!
+
+#include "RTextShenanigans/RTextShenanigans.event" // me!
