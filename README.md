@@ -77,7 +77,7 @@ All .png files are found at [the project's class card foldier](https://github.co
 To lower filesize, only the generated Animation Assembler `.event`s are kept within this buildfile. Any battle animations not listed were made by Intelligent Systems.
 | Class			| Artist(s)			| Link to Original 	|
 | --- 			| ---				| --- 			|
-| .				| .					| .				|
+| Prosecutor	| - Ltranc (base animation)<br> - Nuramon (Marksman hat)<br> - Leo_Link (Trickster hat)					| [Sniper Reskin (F)](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Reskin%5D%20%5BF%5D%20Adventurer%20by%20ltranc) |
 
 ## Technical Assets
 | Hack/Patch Name		| Creator(s)		| Link |
