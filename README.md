@@ -17,27 +17,22 @@
 | [Svestri](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Svestri.png)	| SmokeyGuy77		| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Smokeyguy77/Smokeyguy77_SmokedCDXX.png) |
 | [Eclarro](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Eclarro.png)	| RandomWizard		| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/All%20EDGE%20Entries%20(ALL%20F2E)/RandomWizard%20-%20Smugmeister%5BF2E%5D.png) |
 
-## What is this?
+### Class Cards
+| Class				| Artist(s)			| Link |
+| ---			| ---	 			| ---			|
+| .				| .					| .				|
 
-This is a fully-functional system for implementing modern FE skills into Fire
-Emblem 8.
+### Item Icons
+| Artist(s)		| Contribution(s) |
+| ---			| ---				|
+| .				| .					|
 
-This repository is intended to be installed via Event Assembler. Other methods
-of installation, such as FEBuilderGBA, are not officially supported.
+### Map Sprites
+| Class				| Artist(s)			| Link |
+| ---			| ---	 			| ---			|
+| .				| .					| .				|
 
-
-
-## Contributing
-
-We accept and review pull requests! If you don't know what that is, see [this guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)!
-
-## Credits
-
-See `CREDITS.md` for a more detailed list.
-
-Special thanks go to:
-  - Circleseverywhere, for creating and releasing the original system.
-  - Crazycolorz5, for debuffs, freeze and Dragon's Veins.
-  - Primefusion, for the test map.
-  - Kirb, for implementing the Str/Mag split into FE8 based off Tequila's original FE7 version.
-
+### Battle Animations
+| Class |		| Artist(s)			| Link |
+| --- 			| ---				| --- |
+| .				| .					| .				|
