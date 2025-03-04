@@ -5,7 +5,7 @@ If I used an asset of yours in this hack and did not credit you, please inform m
 
 ## Portraits
 
-Almost every F2U portrait was recolored by me. Any portrait not listed was made by Intelligent Systems.
+Almost every F2U portrait was recolored by me. Any portraits not listed were made by Intelligent Systems.
 | Character 		| Artist(s) 		| Link to Original (if F2U/F2E)	|
 | ---			| ---	 			| ---			|
 | [Alexigant](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Alexigant.png)	| Garytop			| [Garytop's Display Cabinet](https://feuniverse.us/t/garytops-display-cabinet/16303) |
@@ -20,8 +20,9 @@ Almost every F2U portrait was recolored by me. Any portrait not listed was made 
 
 ## Class Cards
 
-All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/ClassCards/stuff) and the [repository class card section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Class%20Cards). Any class card not listed was made by Intelligent Systems.
+All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/ClassCards/stuff) and the [repository class card section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Class%20Cards). Any class cards not listed were made by Intelligent Systems.
 | Class				| Artist(s)			|
+| ---				| ---				|
 | Myrmidon			| SamirPlayz		|
 | Mercenary (F)		| Rasdel			|
 | Mercenary (M)		| Uncredited		|
@@ -60,17 +61,21 @@ All .png files are found at [the project's class card foldier](https://github.co
 | Novistador (None)	| Flasuban			|
 
 ## Item Icons
-| Artist(s)		| Contribution(s) |
+
+| Artist(s)		| Contribution(s) 	|
 | ---			| ---				|
 | .				| .					|
 
 ## Map Sprites
-| Class			| Artist(s)			| Link 			|
-| ---			| ---	 			| ---			|
-| .				| .					| .				|
+All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/MapSprites) and the [repository map sprite section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Map%20Sprites). Any item icons not listed were made by Intelligent Systems.
+| Class			| Artist(s)			|
+| ---			| ---	 			|
+| .				| .					|
 
 ## Battle Animations
-| Class			| Artist(s)			| Link 			|
+
+To lower filesize, only the generated Animation Assembler `.event`s are kept within this buildfile. Any battle animations not listed were made by Intelligent Systems.
+| Class			| Artist(s)			| Link to Original 	|
 | --- 			| ---				| --- 			|
 | .				| .					| .				|
 
