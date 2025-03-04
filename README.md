@@ -1,14 +1,15 @@
 
 # Credits
 
-## Graphics
+If I used an asset of yours in this hack and did not credit you, please inform me and I will add you immediately. Also If I credited you under an incorrect or outdated name, please inform me as well and I will correct it.
 
-### Portraits
+## Portraits
 
-| Character 		| Artist(s) 		| Link (if F2U/F2E)	|
+Almost every F2U portrait was recolored by me. Any portrait not listed was made by Intelligent Systems.
+| Character 		| Artist(s) 		| Link to Original (if F2U/F2E)	|
 | ---			| ---	 			| ---			|
 | [Alexigant](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Alexigant.png)	| Garytop			| [Garytop's Display Cabinet](https://feuniverse.us/t/garytops-display-cabinet/16303) |
-| [Loran](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Loran.png)		| HyperGammaSpacess | [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/main/Portrait%20Repository/Non-FE%20Properties/Unsorted/Promare%2C%20Lio%20Fotia%20%7BHyperGammaSpaces%7D.png) |
+| [Loran](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Loran.png)		| HyperGammaSpaces | [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/main/Portrait%20Repository/Non-FE%20Properties/Unsorted/Promare%2C%20Lio%20Fotia%20%7BHyperGammaSpaces%7D.png) |
 | [Dreston](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Dreston.png)	| Kyrads			| [Kyrads' Sprite Stuff](https://feuniverse.us/t/kyrads-sprite-stuff/12772) |
 | [Wreston](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Wreston.png)	| ZarG				| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Zarg/Zarg_4%20%5BF2E%5D.png) |
 | [Yarik](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Yarik.png)		| MexicanCactus2911	| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Mexicancactus2911/%7BMexicancactus2911%7D%20%5BF2E%5D%20OC%20Richter.png) |
@@ -17,22 +18,63 @@
 | [Svestri](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Svestri.png)	| SmokeyGuy77		| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/Smokeyguy77/Smokeyguy77_SmokedCDXX.png) |
 | [Eclarro](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/Graphics/Mugs/Mug-Preprocessor-master/Eclarro.png)	| RandomWizard		| [Ultimate Graphics Repository](https://github.com/Klokinator/FE-Repo/blob/ac6b3a76756ae506136f35166b17e1aa111baf7c/Portrait%20Repository/Spriting%20Community%20OC's%20(Grouped%20by%20Artist)/All%20EDGE%20Entries%20(ALL%20F2E)/RandomWizard%20-%20Smugmeister%5BF2E%5D.png) |
 
-### Class Cards
-| Class				| Artist(s)			| Link |
-| ---			| ---	 			| ---			|
-| .				| .					| .				|
+## Class Cards
 
-### Item Icons
+All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/ClassCards/stuff) and the [repository class card section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Class%20Cards). Any class card not listed was made by Intelligent Systems.
+| Class				| Artist(s)			|
+| Myrmidon			| SamirPlayz		|
+| Mercenary (F)		| Rasdel			|
+| Mercenary (M)		| Uncredited		|
+| Hero (F+M)		| SamirPlayz, RobertFPY |
+| Soldier			| Flasuban			|
+| Halberdier		| TheBlindArcher	|
+| Fighter			| Flasuban			|
+| Warrior			| Rasdel, JeyTheCount |
+| Archer (F+M)		| Der				|
+| Sniper (M)		| RobertFPY			|
+| Sniper (F)		| Flasuban, L95		|
+| Thief				| ZoramineFae		|
+| Knight			| Team SALVAGED		|
+| General			| Topazlight, SamirPlayz |
+| Juggernaut		| Huichelaar, Der, Seal, Mobile21 |
+| Mage				| Topazlight, Leif 	|
+| Sage (F)			| L95, HyperGammaSpaces |
+| Sibyl				| HyperGammaSpaces
+| Shaman (F)		| RobertFPY
+| Druid	(F)			| L95				|
+| Blademaiden		| Nuramon			|
+| Priest			| Flasuban			|
+| War Monk			| Der, Author_Pendragon |
+| Bishop			| Permafrost		|
+| Cavs/Paladins		| RobertFPY, Flasuban, Team SALVAGED |
+| Ranger			| RobertFPY			|
+| Mage Knight		| L95				|
+| Valkyrie			| Der				|
+| Pegasus/Falco		| Flasuban			|
+| Wyvern Rider		| Flasuban			|
+| Malig Knight		| Pikmin			|
+| Bombardier		| EldritchAbomination, N426, Jj09 |
+| Dark Knight		| EldritchAbomination |
+| Deserter			| Team SALVAGED		|
+| Basara			| Jj09, Der, Spud	|
+| Novistador (None)	| Flasuban			|
+
+## Item Icons
 | Artist(s)		| Contribution(s) |
 | ---			| ---				|
 | .				| .					|
 
-### Map Sprites
+## Map Sprites
 | Class			| Artist(s)			| Link 			|
 | ---			| ---	 			| ---			|
 | .				| .					| .				|
 
-### Battle Animations
+## Battle Animations
 | Class			| Artist(s)			| Link 			|
 | --- 			| ---				| --- 			|
 | .				| .					| .				|
+
+## Technical Assets
+| Hack/Patch Name		| Creator(s)		| Link |
+| ---					| ---				| ---	|
+| The Skill System		| Various, check adjoining credits | [SkillsysCredits.md](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/SkillsysCredits.md) |
