@@ -20,7 +20,7 @@ Almost every F2U portrait was recolored by me. Any portraits not listed were mad
 
 ## Class Cards
 
-All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/ClassCards/stuff) and the [repository class card section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Class%20Cards). Any class cards not listed were made by Intelligent Systems.
+All .png files are found at [the project's class card folder](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/ClassCards/stuff) and the [repository class card section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Class%20Cards). Any class cards not listed were made by Intelligent Systems.
 | Class				| Artist(s)			|
 | ---				| ---				|
 | Myrmidon			| SamirPlayz		|
@@ -67,7 +67,7 @@ All .png files are found at [the project's class card foldier](https://github.co
 | .				| .					|
 
 ## Map Sprites
-All .png files are found at [the project's class card foldier](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/MapSprites) and the [repository map sprite section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Map%20Sprites). Any item icons not listed were made by Intelligent Systems.
+All .png files are found at [the project's map sprite folder](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/MapSprites) and the [repository map sprite section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Map%20Sprites). Any map sprites not listed were made by Intelligent Systems.
 | Class			| Artist(s)			|
 | ---			| ---	 			|
 | .				| .					|
@@ -77,7 +77,8 @@ All .png files are found at [the project's class card foldier](https://github.co
 To lower filesize, only the generated Animation Assembler `.event`s are kept within this buildfile. Any battle animations not listed were made by Intelligent Systems.
 | Class			| Artist(s)			| Link to Original 	|
 | --- 			| ---				| --- 			|
-| Prosecutor	| - Ltranc (base animation)<br> - Nuramon (Marksman hat)<br> - Leo_Link (Trickster hat)					| [Sniper Reskin (F)](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Reskin%5D%20%5BF%5D%20Adventurer%20by%20ltranc) |
+| Prosecutor	| - Ltranc (base animation)<br> - Nuramon (Marksman hat)<br> - Leo_Link (Trickster hat)	| [Sniper Reskin (F) Adventurer](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Reskin%5D%20%5BF%5D%20Adventurer%20by%20ltranc) |
+| Jurispotence	| - Nuramon (base animation)<br> - VelvetKitsune (black arrow variant) | [Sniper-Variant (F) Marksman](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Variant%5D%20%5BF%5D%20Marksman%20by%20Nuramon) |
 
 ## Technical Assets
 | Hack/Patch Name		| Creator(s)		| Link |
