@@ -28,11 +28,11 @@
 | .				| .					|
 
 ### Map Sprites
-| Class				| Artist(s)			| Link |
+| Class			| Artist(s)			| Link 			|
 | ---			| ---	 			| ---			|
 | .				| .					| .				|
 
 ### Battle Animations
-| Class |		| Artist(s)			| Link |
-| --- 			| ---				| --- |
+| Class			| Artist(s)			| Link 			|
+| --- 			| ---				| --- 			|
 | .				| .					| .				|
