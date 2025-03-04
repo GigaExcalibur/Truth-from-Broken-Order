@@ -70,7 +70,46 @@ All .png files are found at [the project's class card folder](https://github.com
 All .png files are found at [the project's map sprite folder](https://github.com/GigaExcalibur/Truth-from-Broken-Order/tree/main/Graphics/MapSprites) and the [repository map sprite section](https://github.com/Klokinator/FE-Repo/tree/ac6b3a76756ae506136f35166b17e1aa111baf7c/Map%20Sprites). Any map sprites not listed were made by Intelligent Systems.
 | Class			| Artist(s)			|
 | ---			| ---	 			|
-| .				| .					|
+| Prosecutor/Jurispotence | ArcherBias	|
+| Myrmidon/Swordmaster	| CelestiaHeart |
+| Hero (F+M)			| Nuramon		|
+| Soldier				| Feier, Flasuban, Quinnabon |
+| Halberdier			| TheBlindArcher	|
+| Pirate/Berserker		| CelestiaHeart	|
+| Fighter				| L95			|
+| Warrior				| CelestiaHeart	|
+| Archer (F+M)			| Der, Topazlight	|
+| Sniper (F+M)			| ArcherBias	|
+| Thief/Rogue			| CelestiaHeart	|
+| Knight				| Team SALVAGED	|
+| General				| Nuramon		|
+| Juggernaut			| SD9K			|
+| Mage					| Flasuban		|
+| Sage (F)				| Unknown		|
+| Monk					| Teraspark		|
+| Sibyl					| Smug_Mug, Unknown	|
+| Shaman (M)			| Ash3wl, L95	|
+| Druid (M)				| Stormblight	|
+| Blademaiden			| Nuramon		|
+| Priest				| Flasuban		|
+| War Monk				| Der, Author_Pendragon	|
+| Bishop				| Permafrost	|
+| Cavalier (F+M)		| Team SALVAGED	|
+| Paladin (F)			| Flasuban, Tordo45 |
+| Paladin (M)			| Pikmin		|
+| Great Knight			| Pikmin, L95, Der |
+| Ranger				| CelestiaHeart |
+| Mage Knight			| CelestiaHeart |
+| Valkyrie				| CelestiaHeart	|
+| Pegasus/Falco			| CelestiaHeart	|
+| Wyvern Rider			| Unknown		|
+| Wyvern Lord			| SHYUTERz		|
+| Malig Knight			| MeatOfJustice	|
+| Bombardier			| N426			|
+| Dark Knight			| Pikmin, Nuramon, Der |
+| Deserter				| Team SALVAGED	|
+| Basara				| Jj09			|
+| Novistador			| ArcherBias, Ryn |
 
 ## Battle Animations
 
@@ -80,7 +119,7 @@ To lower filesize, only the generated Animation Assembler `.event`s are kept wit
 | Prosecutor	| - Ltranc (base animation)<br> - Nuramon (Marksman hat)<br> - Leo_Link (Trickster hat)	| [Sniper Reskin (F) - Adventurer](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Reskin%5D%20%5BF%5D%20Adventurer%20by%20ltranc) |
 | Jurispotence	| - Nuramon (base animation)<br> - VelvetKitsune (black arrow variant) | [Sniper Variant (F) - Marksman](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Bow)%20Snipers%20and%20Ballistae/%5BSniper-Variant%5D%20%5BF%5D%20Marksman%20by%20Nuramon) |
 | Myrmidon		| - Leo_Link |	[Myrmidon Reskin (M) - Leo_Link's Alt](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Myrms%20and%20Swordmasters/%5BMyrmidon-Reskin%5D%20%5BM%5D%20Leo_Link's%20Alt) |
-| Swordmaster	| - Greentea (base animation)<br> - RobertFPY, Ltranc (script) | [Swordmaster Reskin (M) - Stefan](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Myrms%20and%20Swordmasters/%5BSwordmaster-Variant%5D%20%5BM%5D%20Stefan%20by%20Greentea) |
+| Swordmaster	| - Greentea (base animation)<br> - RobertFPY, Ltranc (scripting) | [Swordmaster Reskin (M) - Stefan](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Myrms%20and%20Swordmasters/%5BSwordmaster-Variant%5D%20%5BM%5D%20Stefan%20by%20Greentea) |
 | Mercenary (F+M) | - Team SALVAGED (male animations)<br> - JeyTheCount (female variant)<br> - Pushwall (minor fixes and axe animations) | [Mercenary Variant (F) - SALVAGED](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BMercenary-Variant%5D%20%5BF%5D%20Mercenary%20by%20SALVAGED)<br>[Mercenary Variant (M) - SALVAGED](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BMercenary-Variant%5D%20%5BM%5D%20Mercenary%20by%20SALVAGED%20%2BAxe) |
 | Hero (F)		| - Nuramon, Flasuban (base animation)<br> - Sax-Marine, Ltranc (spinning handaxe) | [Hero Variant (F) - Armored + Short Hair](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BHero-Variant%5D%20%5BF%5D%20Armored%20%2BShort%20Hair%20by%20Nuramon) |
 | Hero (M)		| - Nuramon (base animation)<br> - Sax-Marine (spinning handaxe) | [Hero Variant (M) - Armored](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BHero-Variant%5D%20%5BM%5D%20Armored%20by%20Nuramon) |

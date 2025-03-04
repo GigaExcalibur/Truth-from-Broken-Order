@@ -110,11 +110,26 @@ Assassin[X]
 minded objective, all else in the[N]
 moment falling aside to purpose...[CQ][X]
 
-## Ephemerality_Name
-Ephemerality[X]
+## RoyalScion_Name
+Royal Scion[X]
 
-## CrownPrince_Name
-Crown Prince[X]
+## Archmagister_Name
+Archmagister[X]
+
+## Chiefmarshal_Name
+Chiefmarshal[X]
+
+## FirstForeman_Name
+1st Foreman[X]
+
+## LowSpeaker_Name
+Low Speaker[X]
+
+## Talekeeper_Name
+Talekeeper[X]
+
+## Attorney_Name
+Attorney[X]
 
 ## HighGremory_Name
 High Gremory[X]
@@ -122,11 +137,3 @@ High Gremory[X]
 ## VioletKnight_Name
 Violet Knight[X]
 
-## Archmagister_Name
-Archmagister[X]
-
-## Grandmarshal_Name
-Chiefmarshal[X]
-
-## SoleDelegate_Name
-Delegate[X]

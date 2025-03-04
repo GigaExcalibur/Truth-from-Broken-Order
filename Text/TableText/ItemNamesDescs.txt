@@ -353,7 +353,7 @@ Silence Word[X]
 Slumber Mind[X]
 
 ## IncenseSoul_Name
-Incense Soul[X]
+Agitate Soul[X]
 
 ## Ingression_Name
 Ingression[X]
@@ -403,43 +403,43 @@ Trismegistos[X]
 
 
 ## IronWeapon_Desc
-A commonplace weapon.[X]
+An ordinary weapon.[X]
 
 ## SlimWeapon_Desc
-A precise weapon.[X]
+A reliable weapon.[X]
 
 ## FineWeapon_Desc
-A sharpened weapon.[X]
+A precision weapon.[X]
 
 ## GiltWeapon_Desc
 A masterwork weapon.[X]
 
 ## IronHeavy_Desc
-A heavy weapon.[X]
+A large weapon.[X]
 
 ## SlimHeavy_Desc
-A hulking weapon.[X]
+An unwieldy weapon.[X]
 
 ## FineHeavy_Desc
-A colossal weapon.[X]
+A hulking weapon.[X]
 
 ## GiltHeavy_Desc
-A titanic weapon.[X]
+A colossal weapon.[X]
 
 ## KillerWeapon_Desc
-Threatens critical hits.[X]
+A sharpened weapon.[X]
 
 ## BraveWeapon_Desc
-Emboldens consecutive strikes.[X]
+A brazening weapon.[X]
 
 ## RangedWeapon_Desc
-Returns when thrown.[X]
+A self-returning weapon.[X]
 
 ## MagicWeapon_Desc
-Point infused with magic.[X]
+A runically-infused weapon.[X]
 
 ## ReaverWeapon_Desc
-Evaginates weapon triangle.[X]
+A bewildering weapon.[X]
 
 ## FirBow_Desc
 A limply-strung bow.[X]
@@ -463,22 +463,22 @@ An advanced spell.[X]
 An incredible spell.[X]
 
 ## GulfMagic_Desc
-Halves foe's Int for 1 turn.[X]
+An intelligence-diminishing spell.[X]
 
 ## JoltMagic_Desc
-Halves foe's Mov for 1 turn.[X]
+A movement-diminishing spell.[X]
 
 ## BoltMagic_Desc
-Lightning never strikes twice.[X]
+A far-reaching spell.[X]
 
 ## WindMagic_Desc
-Zephyrs grant a Spd boon.[X]
+A speed-bolstering spell.[X]
 
 ## RuleMagic_Desc
-Edicts grant a Def boon.[X]
+A defense-bolstering spell.[X]
 
 ## FallMagic_Desc
-Halves foe's Dex/Lck for 1 turn.[X]
+A dexterity/luck-diminishing spell.[X]
 
 ## ProsaicHoly_Desc
 An unstable spell.[X]
@@ -490,16 +490,16 @@ An explosive spell.[X]
 An overwhelming spell.[X]
 
 ## LifeMagic_Desc
-Siphons foe's vitality.[X]
+A vitality-siphoning spell.[X]
 
 ## AcidMagic_Desc
-Halves foe's Str for 1 turn.[X]
+A strength-diminishing spell.[X]
 
 ## MireMagic_Desc
 The bog prevents follow-ups.[X]
 
 ## NullMagic_Desc
-Pierces half of foe's wards.[X]
+A resistance-piercing spell.[X]
 
 ## HealInjuries_Desc
 A rudimentary curative staff.[X]
