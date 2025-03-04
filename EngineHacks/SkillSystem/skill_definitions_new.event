@@ -30,5 +30,13 @@
 
 #define InvestmentID 11
 
-// divine truth
+// staves
 #define DivineTruthSkillID 12
+#define AmeliorationSkillID 13
+#define AccelerationSkillID 14
+#define ManaficationSkillID 15
+#define InvigorationSkillID 16
+#define TraipsationSkillID 17
+#define DebilitationSkillID 18
+#define CurativeSkillID 19
+#define DispellingSkillID 20

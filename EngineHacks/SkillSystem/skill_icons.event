@@ -24,7 +24,7 @@ ORG SkillIcon(PhysicalTomeSkillID)
 #incbin "SkillIcons/Tomebreaker.dmp"
 
 ORG SkillIcon(RighteousnessAlexigantID)
-#incbin "SkillIcons/Powerstaff.dmp"
+#incbin "SkillIcons/StaffSavant.dmp"
 
 ORG SkillIcon(ExperiencedExampleID)
 #incbin "SkillIcons/Paragon.dmp"
@@ -39,7 +39,31 @@ ORG SkillIcon(InvestmentID)
 #incbin "SkillIcons/Despoil.dmp"
 
 ORG SkillIcon(DivineTruthSkillID)
-#incbin "SkillIcons/LiveToServe.dmp"
+#incbin "SkillIcons/RallySpectrum.dmp"
+
+ORG SkillIcon(AmeliorationSkillID)
+#incbin "SkillIcons/RallyDef.dmp"
+
+ORG SkillIcon(AccelerationSkillID)
+#incbin "SkillIcons/RallySpd.dmp"
+
+ORG SkillIcon(ManaficationSkillID)
+#incbin "SkillIcons/RallyMag.dmp"
+
+ORG SkillIcon(InvigorationSkillID)
+#incbin "SkillIcons/RallyStr.dmp"
+
+ORG SkillIcon(TraipsationSkillID)
+#incbin "SkillIcons/RallyMov.dmp"
+
+ORG SkillIcon(DebilitationSkillID)
+#incbin "SkillIcons/SealStr.dmp"
+
+ORG SkillIcon(CurativeSkillID)
+#incbin "SkillIcons/Relief.dmp"
+
+ORG SkillIcon(DispellingSkillID)
+#incbin "SkillIcons/Boon.dmp"
 
 /*
 ORG SkillIcon(AcrobatID)

@@ -157,7 +157,16 @@ VigorDanceBitOffset_Link:
 WORD MiscOffset+4 
 DivineTruthBitOffset_Link:
 WORD MiscOffset+5
-
+AmeliorationBitOffset_Link:
+WORD MiscOffset+6
+TraipsationBitOffset_Link:
+WORD MiscOffset+7
+ManaficationBitOffset_Link:
+WORD MiscOffset+8
+InvigorationBitOffset_Link:
+WORD MiscOffset+9
+AccelerationBitOffset_Link:
+WORD MiscOffset+10
 
 ALIGN 4 
 RalliesNumberOfBits_Link:

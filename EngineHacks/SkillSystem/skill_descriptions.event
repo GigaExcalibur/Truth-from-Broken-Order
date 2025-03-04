@@ -12,7 +12,17 @@ SkillDescription(KillerItemSkillID, SD_KillerItem)
 SkillDescription(BraveItemSkillID, SD_BraveItem)
 SkillDescription(MagicItemSkillID, SD_MagicItem)
 SkillDescription(PhysicalTomeSkillID, SD_PhysicalTome)
+
+// staves
 SkillDescription(DivineTruthSkillID, SD_DivineTruth)
+SkillDescription(AmeliorationSkillID, SD_Amelioration)
+SkillDescription(AccelerationSkillID, SD_Acceleration)
+SkillDescription(ManaficationSkillID, SD_Manafication)
+SkillDescription(InvigorationSkillID, SD_Invigoration)
+SkillDescription(TraipsationSkillID, SD_Traipsation)
+SkillDescription(DebilitationSkillID, SD_Debilitation)
+SkillDescription(CurativeSkillID, SD_Curative)
+SkillDescription(DispellingSkillID, SD_Dispelling)
 
 
 SkillDescription(RighteousnessAlexigantID, SD_Righteousness)

@@ -551,12 +551,18 @@ A speed-enhancing staff.[X]
 Ally receives +4[N]
 to their Spd.[X]
 
+## AccelerationSubtitleText
+Select ally to accelerate.[X]
+
 ## Manafication_Desc
 An intelligence-enhancing staff.[X]
 
 ## Manafication_UseDesc
 Ally receives +4[N]
 to their Int.[X]
+
+## ManaficationSubtitleText
+Select ally to manaficate.[X]
 
 ## Invigoration_Desc
 A strength-enhancing staff.[X]
@@ -565,12 +571,18 @@ A strength-enhancing staff.[X]
 Ally receives +4[N]
 to their Str.[X]
 
+## InvigorationSubtitleText
+Select ally to invigorate.[X]
+
 ## Amelioration_Desc
 A build-enhancing staff.[X]
 
 ## Amelioration_UseDesc
 Ally receives +4[N]
 to their Bld.[X]
+
+## AmeliorationSubtitleText
+Select ally to ameliorate.[X]
 
 ## Traipsation_Desc
 A movement-enhancing staff.[X]
@@ -579,12 +591,18 @@ A movement-enhancing staff.[X]
 Ally receives +4[N]
 to their Mov.[X]
 
+## TraipsationSubtitleText
+Select ally to traipsate.[X]
+
 ## Exhilaration_Desc
 An action-refreshing staff.[X]
 
 ## Exhilaration_UseDesc
 Ally can take[N]
 another action.[X]
+
+## ExhilarationSubtitleText
+Select ally to exhilarate.[X]
 
 ## Debilitation_Desc
 A debuff-inducing staff.[X]
@@ -645,3 +663,11 @@ player phase.[X]
 Debilitation: Debuffs foe's Str, Int[N]
 Spd, Def, and Res by item's Pt[N]
 until the next player phase.[X]
+
+## SD_Curative
+Curative: Heals an ally[N]
+for Pt + (Int/2) HP.[X]
+
+## SD_Dispelling
+Dispelling: Clears all[N]
+of an ally's debuffs.[X]

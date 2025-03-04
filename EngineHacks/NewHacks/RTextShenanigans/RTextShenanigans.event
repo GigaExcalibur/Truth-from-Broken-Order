@@ -1,4 +1,8 @@
 ALIGN 4
+RcvName_Link:
+WORD RcvName
+
+ALIGN 4
 CalcName_Link:
 WORD CalcName
 

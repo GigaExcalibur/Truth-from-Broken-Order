@@ -1,9 +1,11 @@
 #define DivineTruthBuffAmount 3
+#define AmeliorationBuffAmount 4
+#define TraipsationBuffAmount 4
+#define ManaficationBuffAmount 4
+#define InvigorationBuffAmount 4
+#define AccelerationBuffAmount 4
 
-ALIGN 4
-RcvName_Link:
-WORD RcvName
-
+// divine truth
 ALIGN 4
 DivineTruthBuffAmount_Link:
 WORD DivineTruthBuffAmount
@@ -27,5 +29,151 @@ POIN 0x29550|1 //GenericStaffSelection_OnSelect
 POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
 WORD 0
 
+// amelioration
+ALIGN 4
+AmeliorationBuffAmount_Link:
+WORD AmeliorationBuffAmount
+
+ALIGN 4
+AmeliorationSubtitleText_Link:
+WORD AmeliorationSubtitleText
+
+ALIGN 4
+AmeliorationID_Link:
+WORD Amelioration
+
+ALIGN 4
+AmeliorationSelectInfo:
+POIN AmeliorationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN AmeliorationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+// traipsation
+ALIGN 4
+TraipsationBuffAmount_Link:
+WORD TraipsationBuffAmount
+
+ALIGN 4
+TraipsationSubtitleText_Link:
+WORD TraipsationSubtitleText
+
+ALIGN 4
+TraipsationID_Link:
+WORD Traipsation
+
+ALIGN 4
+TraipsationSelectInfo:
+POIN TraipsationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN TraipsationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+// manafication
+ALIGN 4
+ManaficationBuffAmount_Link:
+WORD ManaficationBuffAmount
+
+ALIGN 4
+ManaficationSubtitleText_Link:
+WORD ManaficationSubtitleText
+
+ALIGN 4
+ManaficationID_Link:
+WORD Manafication
+
+ALIGN 4
+ManaficationSelectInfo:
+POIN ManaficationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN ManaficationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+// invigoration
+ALIGN 4
+InvigorationBuffAmount_Link:
+WORD InvigorationBuffAmount
+
+ALIGN 4
+InvigorationSubtitleText_Link:
+WORD InvigorationSubtitleText
+
+ALIGN 4
+InvigorationID_Link:
+WORD Invigoration
+
+ALIGN 4
+InvigorationSelectInfo:
+POIN InvigorationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN InvigorationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+// acceleration
+ALIGN 4
+AccelerationBuffAmount_Link:
+WORD AccelerationBuffAmount
+
+ALIGN 4
+AccelerationSubtitleText_Link:
+WORD AccelerationSubtitleText
+
+ALIGN 4
+AccelerationID_Link:
+WORD Acceleration
+
+ALIGN 4
+AccelerationSelectInfo:
+POIN AccelerationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN AccelerationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+// exhilaration
+ALIGN 4
+ExhilarationSubtitleText_Link:
+WORD ExhilarationSubtitleText
+
+ALIGN 4
+ExhilarationID_Link:
+WORD Exhilaration
+
+ALIGN 4
+ExhilarationSelectInfo:
+POIN ExhilarationInitSelect|1 // no idea what this does
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN ExhilarationTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
 #include "StatDrawers.lyn.event"
 #include "DivineTruth.lyn.event"
+#include "Amelioration.lyn.event"
+#include "Traipsation.lyn.event"
+#include "Manafication.lyn.event"
+#include "Invigoration.lyn.event"
+#include "Acceleration.lyn.event"
+#include "Exhilaration.lyn.event"

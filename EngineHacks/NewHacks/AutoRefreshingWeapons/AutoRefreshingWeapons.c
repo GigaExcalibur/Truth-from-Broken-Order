@@ -37,6 +37,9 @@ u16 GetItemAfterUse(int item) {
 		if(DoesItemRefreshDurability(item)) {
 			item = GetItemIndex(item);
 		}
+		else {
+			item = 0;
+		}
 	}
 
     return item; // return used item
