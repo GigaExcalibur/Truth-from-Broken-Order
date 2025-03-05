@@ -125,6 +125,12 @@ To lower filesize, only the generated Animation Assembler `.event`s are kept wit
 | Hero (M)		| - Nuramon (base animation)<br> - Sax-Marine (spinning handaxe) | [Hero Variant (M) - Armored](https://github.com/Klokinator/FE-Repo/tree/main/Battle%20Animations/Infantry%20-%20(Swd)%20Mercenaries%20and%20Heroes/%5BHero-Variant%5D%20%5BM%5D%20Armored%20by%20Nuramon) |
 
 ## Technical Assets
+
+Any hacks not listed here were made by me.
 | Hack/Patch Name		| Creator(s)		| Link (if applicable) |
 | ---					| ---				| ---	|
 | The Skill System		| [Various, check adjoining credits](https://github.com/GigaExcalibur/Truth-from-Broken-Order/blob/main/SkillsysCredits.md) | [The Skill System](https://github.com/FireEmblemUniverse/SkillSystem_FE8) |
+| Modular Minimug Box	| - Zane (underlying structure)<br> - Catball (base format for Parrhesia and Lumi's [Dream of Five](https://feuniverse.us/t/fe8-complete-fe-dream-of-five-definitive-edition/21043))<br> - Contro (white number palette) | [Modular Minimug Box 2018: It's here!](https://feuniverse.us/t/fe8-modular-minimug-box-2018-its-here/4235) |
+| Convoy Expansion		| - Cam (save/load functions, inline hex edits) | [FE8 Archipelago Basepatch](https://github.com/CT075/fe8-archipelago/tree/main/src/convoy200) |
+| Stat Screen Blink		| - Nat | [Stan's ASM Stuff](https://feuniverse.us/t/fe8u-stans-asm-stuff/2376) |
+| Set Unit Status		| - 7743 (original version)<br> - Ditto (C rewrite) | Native FEBuilder patch |
