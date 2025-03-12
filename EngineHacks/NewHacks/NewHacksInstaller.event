@@ -4,6 +4,8 @@
 
 #include "ExpandedConvoy/ExpandedConvoy.event" // cam
 
+//#include "ClasslockedWeaponRanks/ClasslockedWeaponRanks.event" // me!
+
 #include "AutoRefreshingWeapons/AutoRefreshingWeapons.event"
 //#include "DrawItemName/DrawItemNameInstaller.event" // me!
 
@@ -42,3 +44,4 @@
 #include "FactionPaletteStuff/MMBPalettes.lyn.event" // me!
 
 #include "RTextShenanigans/RTextShenanigans.event" // me!
+

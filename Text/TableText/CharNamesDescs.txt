@@ -91,10 +91,16 @@ Xifersyn[X]
 ## Eclarro_Name
 Eclarro[X]
 
+## Portsman_Name
+Portsman[X]
+
+## Portsman_Desc
+[OQ]...seen all manner of illegality[N]
+cross the port, letting it pass[N]
+so long as hands were greased...[CQ][X]
+
 ## Intruder_Name
-Intruder[X]
-
-
+Malcontent[X]
 
 ## Nightbane_Name
 Nightbane[X]

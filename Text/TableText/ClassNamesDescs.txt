@@ -1,9 +1,9 @@
 ## Default_Name
-Default[X]
+I forgot[X]
 
 ## Default_Desc
-Dragz forgot to write a faction-[N]
-specific class description here.[X]
+Read [OQ]The Traitor Baru Cormorant[CQ][N]
+by Seth Dickinson.[X]
 
 ## Prosecutor_Name
 Prosecutor[X]
@@ -25,7 +25,8 @@ some manner of divine messenger...[CQ][X]
 Guardsman[X]
 
 ## Guardsman_Desc
-Guardsman Desc[X]
+[OQ]...[N]
+...[CQ][X]
 
 ## Secretary_Name
 Secretary[X]
