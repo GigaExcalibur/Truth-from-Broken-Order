@@ -41,6 +41,13 @@ LoranMugLabel:
 #incbin "Loran_minimug.dmp"
 
 ALIGN 4
+MarisMugLabel:
+#incbin "Maris_mug.dmp"
+#incbin "Maris_frames.dmp"
+#incbin "Maris_palette.dmp"
+#incbin "Maris_minimug.dmp"
+
+ALIGN 4
 SvestriMugLabel:
 #incbin "Svestri_mug.dmp"
 #incbin "Svestri_frames.dmp"

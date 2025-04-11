@@ -171,6 +171,14 @@ ENUN
 SVAL s1 0x8 // window color option
 SVAL s2 0x3 // ourple
 ASMC SetGameOptionASMC|1
+SVAL s1 0x8 // stat
+SVAL s2 Alexigant // unit
+SVAL s3 19 // value
+ASMC SetUnitStats|1
+SVAL s1 0x9 // stat
+SVAL s2 Alexigant // unit
+SVAL s3 99 // value
+ASMC SetUnitStats|1
 // FADI 10
 // MOVE 0 Carlyle [7,10]
 // ENUN

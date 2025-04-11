@@ -23,7 +23,7 @@ endif
 
 # Additional tools
 
-export PNG2DMP := $(realpath .)/Tools/EventAssembler/Tools/Png2Dmp$(EXE)
+export PNG2DMP := $(realpath .)/Tools/Png2Dmp$(EXE)
 export EADEP   := $(realpath .)/Tools/ea-dep$(EXE)
 export LYN     := $(realpath .)/Tools/lyn$(EXE)
 

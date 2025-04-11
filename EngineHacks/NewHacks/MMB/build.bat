@@ -5,7 +5,7 @@ SET startDir=C:\devkitPro\devkitARM\bin\
 SET as="%startDir%arm-none-eabi-as"
 
 SET lyn=%~dp0Tools\lyn
-SET png2dmp=%~dp0Tools\EventAssembler\Tools\Png2Dmp
+SET png2dmp=%~dp0Tools\Png2Dmp
 
 cd %~dp0Internal
 

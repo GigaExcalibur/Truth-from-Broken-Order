@@ -38,3 +38,5 @@ newSetMugEntry(FabriziaMug, FabriziaMugLabel, 3, 6, 3, 4)
 newSetMugEntry(SvestriMug, SvestriMugLabel, 3, 6, 3, 4)
 newSetMugEntry(LoranMug, LoranMugLabel, 3, 5, 3, 3)
 newSetMugEntry(EclarroMug, EclarroMugLabel, 3, 4, 3, 2)
+
+newSetMugEntry(AlexigantMug, MarisMugLabel, 3, 5, 3, 3)
