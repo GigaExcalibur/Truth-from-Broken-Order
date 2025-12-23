@@ -1,14 +1,12 @@
 #include "ItemIcons/ItemIconInstaller.event"
 
-#include "MapSprites/Installer.event"
+//#include "MapSprites/Installer.event"
 
 #include "Mugs/MugsInstaller.event"
 
-#include "ClassCards/ClassCardInstaller.event"
+//#include "ClassCards/ClassCardInstaller.event"
 
-#include "Palettes/MasterPaletteInstaller.event"
-
-//#include "Palettes/System/FactionMapPalettes.event"
+//#include "Palettes/MasterPaletteInstaller.event"
 
 // #include "BattleAnims/BattleAnimInstaller.event"
 

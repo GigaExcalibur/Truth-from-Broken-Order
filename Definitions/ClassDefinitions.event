@@ -1,0 +1,75 @@
+// melee infantry
+#define Myrmidon			0x01
+#define Swordmaster			0x02
+#define Mercenary			0x03
+#define DreadFighter		0x04
+#define Soldier				0x05
+#define Halberdier			0x06
+#define Deserter			0x07
+#define Basara				0x08
+#define Pirate				0x09
+#define Berserker			0x0A
+#define Fighter				0x0B
+#define Warrior				0x0C
+#define Archer				0x0D
+#define Sniper				0x0E
+#define Thief				0x0F
+#define Assassin			0x10
+
+// armors
+#define Knight				0x11
+#define General				0x12
+#define MageArmor			0x13
+#define Baron				0x14
+#define BowArmor			0x15
+#define Cannoneer			0x16
+
+// magi
+#define Mage				0x17
+#define Sage				0x18
+#define Tactician			0x19
+#define Grandmaster			0x1A
+#define Monk				0x1B
+#define Sibyl				0x1C
+#define Ponderer			0x1D
+#define Philosopher			0x1E
+#define Shaman				0x1F
+#define Druid				0x20
+#define Arcanist			0x21
+#define Witch				0x22
+#define Priest				0x23
+#define Bishop				0x24
+#define Cleric				0x25
+#define WarCleric			0x26
+
+// cavalry
+#define Cavalier			0x27
+#define Paladin				0x28
+#define Spellstrider		0x29
+#define Spellblitzer		0x2A
+#define Scout				0x2B
+#define Ranger				0x2C
+#define Troubadour			0x2D
+#define Valkyrie			0x2E
+
+// flying
+#define PegasusKnight		0x2F
+#define Falcoknight			0x30
+#define WyvernRider			0x31
+#define WyvernLord			0x32
+#define JuniorWyvernist		0x33
+#define SeniorWyvernist		0x35 // GRAHHHHHHHHHHHHHHHHHHHHHHHHHh fuck gorgon eggs
+
+// special
+#define Prosecutor			0x3F // skip other suspect classes
+#define Jurispotence		0x40
+#define Attorney			0x41
+#define AceAttorney			0x42
+#define Accountant			0x43
+#define PrimeAgonist		0x44
+#define HighGremory			0x45
+#define VioletKnight		0x46
+#define Bard				0x48 // skip recruit
+#define Bombardier			0x49
+#define RoyalScion			0x4A
+#define UtopicVision		0x4B

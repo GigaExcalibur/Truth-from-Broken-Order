@@ -417,5 +417,10 @@ ORG ItemIconEntry(Debilitation)
 ORG ItemIconEntry(Trismegistos)
 #incbin "ItemsPrfs/Trismegistos.dmp"	// Ereshkigal
 
+//
+ORG ItemIconEntry(AeroInGreen)
+#incbin "Anima/ClassicFire.dmp"			// Ereshkigal
 
+ORG ItemIconEntry(HistoricFloe)			// Ereshkigal
+#incbin "Anima/HistoricFloe.dmp"
 POP

@@ -17,16 +17,6 @@
 	//Graphics before tables for portrait/animation definitions
 	#include "Graphics/GraphicsInstaller.event"
 	MESSAGE Used non-anim graphics space ends at currentOffset
-	
-	PUSH
-	ORG 0xC0B030
-	MESSAGE Jumping to vanilla battle anim data at currentOffset to overwrite
-	
-	//Battle anims separately cause they're MASSIVE
-	#include "Graphics/BattleAnims/BattleAnimInstaller.event"
-	MESSAGE Used battle animation space ends at currentOffset
-	
-	//POP comes midway through the battle anim file dw dw
 
     //CSV tables
     #include "Tables/TableInstaller.event"

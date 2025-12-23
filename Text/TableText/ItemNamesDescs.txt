@@ -1,5 +1,5 @@
 ## Test_Name
-Regoliath[X]
+Water in Blue[X]
 
 ## IronSword_Name
 Iron Sword[X]
@@ -400,6 +400,16 @@ Debilitation[X]
 ## Trismegistos_Name
 Trismegistos[X]
 
+## FireInRed_Name
+Fire in Red[X]
+
+## WaterInBlue_Name
+Water in Blue[X]
+
+## AeroInGreen_Name
+Aero in Green[X]
+
+
 
 
 ## IronWeapon_Desc
@@ -613,6 +623,12 @@ to all stats.[X]
 
 ## Trismegistos_Desc
 Eunonina's winds of commerce.[X]
+
+## FireInRed_Desc
+Jeanaire's polychromatic spell.[X]
+
+## Pictomancer_Name
+Pictomancer[X]
 
 ## SD_HeavyItem
 Heavy: Cannot double in combat.[X]

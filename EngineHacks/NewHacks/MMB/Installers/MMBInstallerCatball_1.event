@@ -29,16 +29,6 @@ ORG 0x08D0AC
 POIN MMBHpBarImage
 POP
 
-// mmb menu option palettes
-PUSH
-ORG 0x08C2EC
-POIN PurpleMenuPalette
-ORG 0x08C2F4
-POIN RedMenuPalette
-ORG 0x08C2FC
-POIN GreenMenuPalette
-POP
-
 ALIGN 4
 MMBHpBarImage:
 #incbin "hpbarss.dmp"

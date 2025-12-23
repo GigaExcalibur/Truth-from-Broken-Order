@@ -11,22 +11,7 @@ MSS_leftpage:
 leftpage_start
 
 draw_character_name_at 4,10
-@draw_class_name_at 1,13
-
-  ldr     r0, [r7, #0xC]    @load unit's pointer
-  blh     FactionClassNameGetter
-  blh     String_GetFromIndex
-  mov     r2, r7
-  add     r2, #0x20
-  ldr     r1, =(0x20*2*13)+(2*1) @#0x342
-  add     r1, r8
-  str     r4, [sp]
-  str     r0, [sp, #4]
-  mov     r0, r2
-  mov     r2, #0
-  mov     r3, #0
-  blh     DrawTextInline
-
+draw_class_name_at 1,13
 
 @draw_left_affinity_icon_at 9,10
 

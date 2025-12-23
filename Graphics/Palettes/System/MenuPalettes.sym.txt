@@ -1,4 +1,0 @@
-PinkMenuPalette=$5B6BB4
-RedMenuPalette=$5B6BD4
-GreenMenuPalette=$5B6BF4
-PurpleMenuPalette=$5B6C94

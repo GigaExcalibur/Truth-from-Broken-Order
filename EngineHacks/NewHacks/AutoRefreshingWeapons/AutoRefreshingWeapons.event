@@ -34,6 +34,7 @@ RefreshingDurabilityList:
 BYTE DivineTruth
 BYTE IronSword
 BYTE ClassicFire
+BYTE AeroInGreen
 BYTE 0 // terminator
 
 // don't touch anything below here
@@ -61,5 +62,13 @@ WORD EQUIP_BROKEN_WEAPONS
 ALIGN 4
 EQUIP_BROKEN_MAGIC_Link:
 WORD EQUIP_BROKEN_MAGIC
+
+ALIGN 4
+WaterInBlueName_Link:
+WORD WaterInBlue_Name
+
+ALIGN 4
+AeroInGreenName_Link:
+WORD AeroInGreen_Name
 
 #include "AutoRefreshingWeapons.lyn.event"

@@ -588,8 +588,9 @@ Dazzle: Opponents cannot[N]
 counterattack this unit.[X]
 
 ## SD_TriAdept
-Triangle Adept: Doubles weapon[N]
-triangle effects for this unit.[X]
+Aetherhues: Weapon's stats change[N]
+depending on the remainder of its[N]
+current durability divided by 3.[X]
 
 ## SD_Supply
 Supply: This unit has[N]

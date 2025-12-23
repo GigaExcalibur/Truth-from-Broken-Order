@@ -7,6 +7,8 @@ extern bool EQUIP_BROKEN_MAGIC_Link;
 extern u8 ConvoySize_Link;
 extern u16 BrokenWeaponName_Link;
 extern u16 BrokenWeaponDesc_Link;
+extern u16 WaterInBlueName_Link;
+extern u16 AeroInGreenName_Link;
 
 // hoo boy
 bool DoesItemRefreshDurability(int item) {
@@ -119,31 +121,76 @@ void RefreshItemsASMC(struct Proc* proc) {
 }
 
 int GetItemMight(int item) {
-	if(GetItemUses(item) <= 0 && IsBrokenWeaponEquippable(item)) {
-		return BrokenWeaponTable[GetItemType(item)][0];
+	if(GetItemIndex(item) == 0xAA) {
+		if(GetItemUses(item) % 3 == 2) {
+			return 12;
+		}
+		else if(GetItemUses(item) % 3 == 1) {
+			return 16;
+		}
 	}
-    return GetItemData(ITEM_INDEX(item))->might;
+    return GetItemData(GetItemIndex(item))->might;
 }
 
 int GetItemHit(int item) {
-	if(GetItemUses(item) <= 0 && IsBrokenWeaponEquippable(item)) {
-		return BrokenWeaponTable[GetItemType(item)][1];
+	if(GetItemIndex(item) == 0xAA) {
+		if(GetItemUses(item) % 3 == 2) {
+			return 80;
+		}
+		else if(GetItemUses(item) % 3 == 1) {
+			return 95;
+		}
 	}
-    return GetItemData(ITEM_INDEX(item))->hit;
+    return GetItemData(GetItemIndex(item))->hit;
 }
 
 int GetItemWeight(int item) {
 	if(GetItemUses(item) <= 0 && IsBrokenWeaponEquippable(item)) {
 		return BrokenWeaponTable[GetItemType(item)][2];
 	}
-    return GetItemData(ITEM_INDEX(item))->weight;
+    return GetItemData(GetItemIndex(item))->weight;
 }
 
 int GetItemCrit(int item) {
 	if(GetItemUses(item) <= 0 && IsBrokenWeaponEquippable(item)) {
 		return BrokenWeaponTable[GetItemType(item)][3];
 	}
-    return GetItemData(ITEM_INDEX(item))->crit;
+    return GetItemData(GetItemIndex(item))->crit;
+}
+
+char* GetItemName(int item) {
+    char* result;
+
+    result = GetStringFromIndex(GetItemData(GetItemIndex(item))->nameTextId);
+	
+	if(GetItemIndex(item) == 0xAA) {
+		if(GetItemUses(item) % 3 == 2) {
+			result = GetStringFromIndex(WaterInBlueName_Link);
+		}
+		else if(GetItemUses(item) % 3 == 1) {
+			result = GetStringFromIndex(AeroInGreenName_Link);
+		}
+	}
+	
+    result = StrInsertTact();
+
+    return result;
+}
+
+int GetItemIconId(int item) {
+    if (!item)
+        return -1;
+	
+	if(GetItemIndex(item) == 0xAA) {
+		if(GetItemUses(item) % 3 == 2) {
+			return 0xF0; // historic floe item icon
+		}
+		else if(GetItemUses(item) % 3 == 1) {
+			return 0x46; // orphic wind item icon
+		}
+	}
+
+    return GetItemData(GetItemIndex(item))->iconId;
 }
 
 // let's fucking do this baby
@@ -210,7 +257,7 @@ void DrawItemStatScreenLine(struct Text* text, int item, int nameColor, u16* map
     PutText(text, mapOut + 2);
 
     DrawIcon(mapOut, GetItemIconId(item), 0x4000);
-	DrawIcon(mapOut + 13, 0x100|(GetItemData(ITEM_INDEX(item))->skillId), 0x4000);
+	DrawIcon(mapOut + 13, 0x100|(GetItemData(GetItemIndex(item))->skillId), 0x4000);
 }
 
 void RefreshUnitInventoryInfoWindow(struct Unit* unit) {

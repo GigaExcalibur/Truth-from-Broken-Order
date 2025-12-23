@@ -65,6 +65,9 @@ ORG SkillIcon(CurativeSkillID)
 ORG SkillIcon(DispellingSkillID)
 #incbin "SkillIcons/Boon.dmp"
 
+ORG SkillIcon(TriAdeptID)
+#incbin "SkillIcons/TriAdept.dmp"
+
 /*
 ORG SkillIcon(AcrobatID)
 #incbin "SkillIcons/Acrobat.dmp"

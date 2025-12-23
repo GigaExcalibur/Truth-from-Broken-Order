@@ -1,24 +1,16 @@
 // player units
 // prologue
-#define Alexigant 	0x01 // prosecutor (bow/staff)
-#define Dreston		0x02 // guardsman (lance)
-#define Wreston		0x03 // guardsman (lance)
-#define Yarik		0x04 // secretary (sword)
-#define Eunonina	0x05 // accountant (anima)
-#define Loran		0x06 // attorney (sword/light)
-#define Fabrizia	0x07 // efficiencier (sword/lance)
-#define Svestri		0x08 // bailiff (axe)
+#define Alexigant		0x01 // prosecutor 	-> jurispotence
+#define Loran			0x02 // attorney 	-> ace attorney
+#define Eunonina		0x03 // accountant 	-> agonist
+#define Dreston			0x04 // soldier		-> halberdier
+#define Wreston			0x05 // soldier		-> halberdier
+#define Svestri			0x06 // fighter		-> warrior
 
-// chapter one
-#define Cilvianne	0x09 // dispatcher (lance)
-#define Hollaje		0x0A // sir ______ (sword/axe)
-#define Vanlino		0x0B // pointman (sword)
-#define Morguan		0x0C // backwatcher (axe/staff)
-#define Xifersyn	0x0D // host (axe/dark)
-
-// chapter two
-
-// enemy units
+// non-player units
 // prologue
-#define Eclarro		0x46; #define Intruder Eclarro
-#define Shrouded	0x47
+#define Docksman		0x07
+#define Militiaman		0x08
+#define Germonha		0x09
+#define FabriziaBoss	0x0A
+#define Eclarro			0x0B

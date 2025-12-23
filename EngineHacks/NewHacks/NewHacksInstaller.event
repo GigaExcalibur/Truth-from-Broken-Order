@@ -11,8 +11,6 @@
 
 #include "StatScreenBlink/SSBlink.event" // nat
 
-#include "FactionNames/FactionNames.event" // me!
-
 #include "SetUnitStatus/SetUnitStatus.event" // ditto
 
 #include "WRankBonuses/WRankBonuses.event" // me!
@@ -41,7 +39,6 @@
 
 #include "OptionsASMCs/OptionsASMCs.event" // me!
 
-#include "FactionPaletteStuff/MMBPalettes.lyn.event" // me!
-
 #include "RTextShenanigans/RTextShenanigans.event" // me!
 
+// #include "SystemPalettes/SystemPalettes.event" // me!

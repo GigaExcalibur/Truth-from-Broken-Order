@@ -30,6 +30,7 @@ SkillDescription(ExperiencedExampleID, SD_ExperiencedExample)
 SkillDescription(ComradesInArmsDrestonID, SD_ComradesInArms)
 SkillDescription(ComradesInArmsWrestonID, SD_ComradesInArms)
 SkillDescription(InvestmentID, SD_Investment)
+SkillDescription(TriAdeptID, SD_TriAdept)
 
 /*
 SkillDescription(AcrobatID,SD_Acrobat)

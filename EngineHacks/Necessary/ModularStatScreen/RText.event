@@ -103,7 +103,7 @@
     RMenu(0,ST_Class,0,ST_Luck,0x18,0x50,0x0,NameDescGetter)
 
   ST_Class:
-    RMenu(ST_Name,ST_Level,0,ST_Res,0x6,0x68,0x6E8,FactionClassDescGetter)
+    RMenu(ST_Name,ST_Level,0,ST_Res,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level:
     RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
@@ -192,72 +192,62 @@
 
  #ifdef PRESS_SELECT_TO_VIEW_GROWTHS
     PersonalDataRText:
-    RMenu(0,ST_Skills,0,0,0x76,0x4,PersonalDataDesc1)
+    RMenu(0,ST_Str,0,0,0x76,0x4,PersonalDataDesc1)
   #else
     PersonalDataRText:
-    RMenu(0,ST_Skills,0,0,0x76,0x4,PersonalDataDesc2)
+    RMenu(0,ST_Str,0,0,0x76,0x4,PersonalDataDesc2)
   #endif
 
+
   ST_Name:
-    RMenu(0,ST_Class,0,ST_Mag,0x18,0x50,0x0,NameDescGetter)
+    RMenu(0,ST_Class,0,ST_Luck,0x18,0x50,0x0,NameDescGetter)
 
   ST_Class:
-    RMenu(ST_Name,ST_Level,0,ST_Skl,0x6,0x68,0x6E8,FactionClassDescGetter)
+    RMenu(ST_Name,ST_Level,0,ST_Def,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level:
     RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
 
   ST_Exp:
-    RMenu(ST_Class,ST_HP,ST_Level,ST_Spd,0x26,0x78,0x543)
+    RMenu(ST_Class,ST_HP,ST_Level,ST_Res,0x26,0x78,0x543)
 
   ST_HP:
-    RMenu(ST_Level,0,0,ST_Luck,0x6,0x88,0x544)
-	
+    RMenu(ST_Level,0,0,ST_Mov,0x6,0x88,0x544)
 
-    ST_Skills:
-    RMenu(PersonalDataRText,ST_Cond,ST_Name,ST_Skill1,0x66,0x18,SS_SkillsRText)
-	
-  ST_Skill1:
-    RMenu(PersonalDataRText,ST_Cond,ST_Skills,ST_Talk,0x7A,0x18,0,RTextLoop,SkillDescGetter)
-	
-  ST_Talk:
-    RMenu(PersonalDataRText,ST_Trv,ST_Skill1,0,0xA6,0x18,SS_TalkRText)
-	
-  ST_Cond:
-    RMenu(ST_Skills,ST_Str,ST_Name,ST_Trv,0x66,0x28,0x552,StatusDescGetter)
-	
- ST_Trv:
-	RMenu(ST_Talk, ST_Def, ST_Cond, 0, 0xA6, 0x28, 0x550)
-	
+
+
   ST_Str:
-    RMenu(ST_Cond,ST_Mag,ST_Name,ST_Def,0x66,0x40,0x546)
-	
-  ST_Def:
-    RMenu(ST_Trv,ST_Res,ST_Str,0,0xA6,0x40, 0x54b)
+    RMenu(PersonalDataRText,ST_Mag,ST_Name,ST_Con,0x66,0x18,0x546)
 
   ST_Mag:
-    RMenu(ST_Str,ST_Skl,ST_Name,ST_Res,0x66,0x50,0x547)
-	
-  ST_Res:
-    RMenu(ST_Def,ST_Mov,ST_Mag,0,0xA6,0x50,0x54c)
+    RMenu(ST_Str,ST_Skl,ST_Name,ST_Aid,0x66,0x28,0x547)
 
   ST_Skl:
-    RMenu(ST_Mag,ST_Spd,ST_Class,ST_Mov,0x66,0x60,0x548)
-	
-  ST_Mov:
-    RMenu(ST_Res,ST_Con,ST_Skl,0,0xA6,0x60,0x54d,MovHPDescGetter)
+    RMenu(ST_Mag,ST_Spd,ST_Name,ST_Cond,0x66,0x38,0x548)
 
   ST_Spd:
-    RMenu(ST_Skl,ST_Luck,ST_Exp,ST_Con,0x66,0x70,0x549)
-	
-  ST_Con:
-    RMenu(ST_Mov,ST_Aid,ST_Spd,0,0xA6,0x70,0x54e)	
+    RMenu(ST_Skl,ST_Luck,ST_Name,ST_Affin,0x66,0x48,0x549)
 
   ST_Luck:
-    RMenu(ST_Spd,0,ST_HP,ST_Aid,0x66,0x80,0x54a)
+    RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,0x66,0x58,0x54a)
+
+  ST_Def:
+    RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,0x66,0x68,0x54b)
+
+  ST_Res:
+    RMenu(ST_Def,ST_Mov,ST_Exp,ST_Skill1,0x66,0x78,0x54c)
+
+  ST_Mov:
+    RMenu(ST_Res,ST_Con,ST_Exp,ST_Skill1,0x66,0x88,0x54d,MovHPDescGetter)
+
+  ST_Con:
+    RMenu(PersonalDataRText,ST_Aid,ST_Str,0,0xA6,0x18,0x54e)
 
   ST_Aid:
-    RMenu(ST_Con,0,ST_Luck,0,0xa6,0x80,0x54F)
+    RMenu(ST_Con,ST_Cond,ST_Mag,0,0xa6,0x28,0x54F)
+
+  ST_Cond:
+    RMenu(ST_Aid,ST_Affin,ST_Skl,0,0xa6,0x38,0x552,StatusDescGetter)
 
   ST_Affin:
     #ifdef LEADERSHIP_STARS
@@ -268,6 +258,15 @@
 
   ST_AffinDesc:
     RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xbe,0x48,AffinityDescLooper,AffinityDescGetter)
+
+  ST_Talk:
+    RMenu(ST_Affin,ST_Skills,ST_Luck,0,0xA6,0x58,SS_TalkRText)
+
+  ST_Skills:
+    RMenu(ST_Talk,ST_Skill1,ST_Def,0,0xA6,0x68,SS_SkillsRText)
+
+  ST_Skill1:
+    RMenu(ST_Skills,ST_Skill4,ST_Res,ST_Skill2,0xa6,0x78,0,RTextLoop,SkillDescGetter)
 
   ST_Skill2:
     RMenu(ST_Skills,ST_Skill5,ST_Skill1,ST_Skill3,0xbe,0x78,1,RTextLoop,SkillDescGetter+4)
@@ -283,6 +282,7 @@
 
   ST_Skill6:
     RMenu(ST_Skill3,0,ST_Skill5,0,0xd6,0x88,5,RTextLoop,SkillDescGetter+20)
+
  
   
 #endif // USE_STRMAG_SPLIT
@@ -300,16 +300,16 @@
   RMenu(0,ST_Inventory2,ST_Name2,ST_InventorySkill1,0x68,0x18,0,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory2: 
-  RMenu(ST_Inventory1,ST_Inventory3,ST_Name2,ST_InventorySkill2,0x68,0x28,1,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory1,ST_Inventory3,ST_Name2,0,0x68,0x28,1,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory3: 
-  RMenu(ST_Inventory2,ST_Inventory4,ST_Name2,ST_InventorySkill3,0x68,0x38,2,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory2,ST_Inventory4,ST_Name2,0,0x68,0x38,2,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory4: 
-  RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,ST_InventorySkill4,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory3,ST_Inventory5,ST_Name2,0,0x68,0x48,3,ItemDescLooper,ItemDescGetter)
 
   ST_Inventory5: 
-  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_InventorySkill5,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
+  RMenu(ST_Inventory4,ST_Atk,ST_Name2,ST_Rng,0x68,0x58,4,ItemDescLooper,ItemDescGetter)
   
   ST_InventorySkill1: 
   RMenu(0,ST_InventorySkill2,ST_Inventory1,0,0xD0,0x18,0,ItemSkillDescLooper,ItemSkillDescGetter)
@@ -324,27 +324,8 @@
   RMenu(ST_InventorySkill3,ST_InventorySkill5,ST_Inventory4,0,0xD0,0x48,3,ItemSkillDescLooper,ItemSkillDescGetter)
 
   ST_InventorySkill5: 
-  RMenu(ST_InventorySkill4,ST_AS,ST_Inventory5,0,0xD0,0x58,4,ItemSkillDescLooper,ItemSkillDescGetter)
-  
-  ST_Atk:
-  RMenu(ST_Inventory5, ST_Hit, ST_Class2, ST_AS, 0x68, 0x68, 0x55C)
-  
-  ST_Hit:
-  RMenu(ST_Atk, ST_Crit, ST_Exp2, ST_Avo, 0x68, 0x78, 0x55D)
-  
-  ST_Crit:
-  RMenu(ST_Hit, 0, ST_HP2, ST_CritAvo, 0x68, 0x88, 0x55F)
-  
-  ST_AS:
-  RMenu(ST_InventorySkill5, ST_Avo, ST_Atk, 0, 0xAE, 0x68, 0x55E)
-  
-  ST_Avo:
-  RMenu(ST_AS, ST_CritAvo, ST_Hit, 0, 0xAE, 0x78, 0x560)
-  
-  ST_CritAvo:
-  RMenu(ST_Avo, 0, ST_Crit, 0, 0xAE, 0x88, 0x4E4)
-  
-/*
+  RMenu(ST_InventorySkill4,ST_Atk,ST_Inventory5,0,0xD0,0x58,4,ItemSkillDescLooper,ItemSkillDescGetter)
+
   ST_Atk: 
   RMenu(ST_Inventory5,ST_Hit,ST_Exp2,ST_Crit,0x76,0x78,0x55C)
 
@@ -359,22 +340,22 @@
 
   ST_Avo: 
   RMenu(ST_Crit,0,ST_Hit,0,0xAE,0x88,0x560)
-*/
+
   
   ST_Name2: 
   RMenu(0,ST_Class2,0,ST_Inventory4,0x18,0x50,0,NameDescGetter)
 
   ST_Class2: 
-  RMenu(ST_Name2,ST_Level2,0,ST_Atk,0x6,0x68,0x6E8,FactionClassDescGetter)
+  RMenu(ST_Name2,ST_Level2,0,ST_Atk,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level2: 
   RMenu(ST_Class2,ST_HP2,0,ST_Exp2,0x6,0x78,0x542)
 
   ST_Exp2: 
-  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Hit,0x26,0x78,0x543)
+  RMenu(ST_Class2,ST_HP2,ST_Level2,ST_Atk,0x26,0x78,0x543)
 
   ST_HP2: 
-  RMenu(ST_Level2,0,0,ST_Crit,0x6,0x88,0x544)
+  RMenu(ST_Level2,0,0,ST_Hit,0x6,0x88,0x544)
 
 
 
@@ -386,40 +367,6 @@
 
 #ifndef ONLY_SHOW_USED_RANKS
 
-ST_SwordRank:
-RMenu(0, ST_LanceRank, ST_Name3, ST_AxeRank, 0x68, 0x18, 0x561)
-
-ST_LanceRank:
-RMenu(ST_SwordRank, ST_AnimaRank, ST_Name3, ST_BowRank, 0x68, 0x28, 0x562)
-
-ST_AxeRank:
-RMenu(0, ST_BowRank, ST_SwordRank, 0, 0xA8, 0x18, 0x563)
-
-ST_BowRank:
-RMenu(ST_AxeRank, ST_DarkRank, ST_LanceRank, 0, 0xA8, 0x28, 0x564)
-
-ST_AnimaRank:
-RMenu(ST_LanceRank, ST_LightRank, ST_Name3, ST_DarkRank, 0x68, 0x38, 0x565)
-
-ST_LightRank:
-RMenu(ST_AnimaRank, ST_Battles, ST_Name3, ST_StaffRank, 0x68, 0x48, 0x566)
-
-ST_DarkRank:
-RMenu(ST_BowRank, ST_StaffRank, ST_AnimaRank, 0, 0xA8, 0x38, 0x567)
-
-ST_StaffRank:
-RMenu(ST_DarkRank, ST_Losses, ST_LightRank, 0, 0xA8, 0x48, 0x568)
-
-ST_Battles:
-RMenu(ST_LightRank, 0, ST_Name3, ST_Wins, 0x80, 0x58, Battles_RText)
-
-ST_Wins:
-RMenu(ST_LightRank, 0, ST_Battles, ST_Losses, 0xA0, 0x58, Wins_RText)
-
-ST_Losses:
-RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
-
-/*
   ST_WRank1:
   RMenu(0,ST_WRank2,ST_Name3,ST_WRank3,0x68,0x18,0,WRankGetter)
 
@@ -431,7 +378,6 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
 
   ST_WRank4:
   RMenu(ST_WRank3,ST_Supports,ST_WRank2,0,0xA8,0x28,3,WRankGetter)
-  */
 
 #else // ONLY_SHOW_USED_RANKS
 
@@ -450,23 +396,23 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
 #endif // ONLY_SHOW_USED_RANKS
 
   ST_Supports:
-  RMenu_Cond(ST_LightRank,ST_Name3,ST_Name3,0,0x80,0x40,0x569,SupportsConditional) 
+  RMenu_Cond(ST_WRank2,ST_Name3,ST_Name3,0,0x80,0x40,0x569,SupportsConditional) 
 
 
   ST_Name3:
-  RMenu(0,ST_Class3,0,ST_LightRank,0x18,0x50,0,NameDescGetter)
+  RMenu(0,ST_Class3,0,ST_Supports,0x18,0x50,0,NameDescGetter)
 
   ST_Class3:
-  RMenu(ST_Name3,ST_Level3,0,ST_LightRank,0x6,0x68,0x6E8,FactionClassDescGetter)
+  RMenu(ST_Name3,ST_Level3,0,ST_Supports,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level3:
   RMenu(ST_Class3,ST_HP3,0,ST_Exp3,0x6,0x78,0x542)
 
   ST_Exp3:
-  RMenu(ST_Class3,ST_HP3,ST_Level3,ST_LightRank,0x26,0x78,0x543)
+  RMenu(ST_Class3,ST_HP3,ST_Level3,ST_Supports,0x26,0x78,0x543)
 
   ST_HP3:
-  RMenu(ST_Level3,0,0,ST_LightRank,0x6,0x88,0x544)
+  RMenu(ST_Level3,0,0,ST_Supports,0x6,0x88,0x544)
 
 
 /*  === PAGE 4 ===  */
@@ -482,9 +428,9 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
 
   ST_Class4:
 	#ifdef GAIDEN_MAGIC
-	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,FactionClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,ClassDescGetter)
 	#else
-	  RMenu(ST_Name4,ST_Level4,0,0,0x6,0x68,0x6E8,FactionClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,0,0x6,0x68,0x6E8,ClassDescGetter)
 	#endif
 
   ST_Level4:
@@ -533,9 +479,9 @@ RMenu(ST_StaffRank, 0, ST_Wins, 0, 0xC0, 0x58, Losses_RText)
     
   ST_Class4:
 	#ifdef GAIDEN_MAGIC
-	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,FactionClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Spell1,0x6,0x68,0x6E8,ClassDescGetter)
 	#else
-	  RMenu(ST_Name4,ST_Level4,0,ST_Donate,0x6,0x68,0x6E8,FactionClassDescGetter)
+	  RMenu(ST_Name4,ST_Level4,0,ST_Donate,0x6,0x68,0x6E8,ClassDescGetter)
 	#endif
 
   ST_Level4:

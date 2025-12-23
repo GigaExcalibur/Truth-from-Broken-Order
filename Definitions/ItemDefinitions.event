@@ -267,6 +267,9 @@
 #define LettingArc		0x87	// crit bows
 #define BleedinArc		0x8B
 #define KillingArc		0xA1
+#define GustyNail		0x90
+#define AeroInGreen		0xAA
+
 
 // S ranks
 // #define SRankSword	0xE5
